@@ -33,11 +33,16 @@ jobs:
         run: |
           python scripts/build_country_headlines.py
 
+      - name: Copy to docs for GitHub Pages
+        run: |
+          mkdir -p docs
+          cp public/country_headlines.json docs/country_headlines.json
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/country_headlines.json
+          git add public/country_headlines.json docs/country_headlines.json
           git diff --cached --quiet || git commit -m "chore: update country_headlines.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git pull --rebase origin main
           git push origin main
