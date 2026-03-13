@@ -8,6 +8,8 @@ Logic:
 - Pulls from 30 major RSS feeds (UK, USA, Canada)
 - 7-day rolling window ending at runtime
 - For each country, scans all articles for mentions using name + synonym matching
+- Title-primary matching: article must mention the country in its TITLE to qualify,
+  OR have a strong match (multiple terms / full country name) in the title+summary
 - Ranks by importance keyword density + source diversity + recency
 - Outputs top 3 unique headlines per country
 
@@ -156,52 +158,200 @@ COUNTRIES = [
     {"country": "Ukraine",       "iso2": "UA"},
 ]
 
-# Synonyms used to match articles to a country
-COUNTRY_TERMS: Dict[str, List[str]] = {
-    "RU": ["russia", "russian", "kremlin", "moscow", "putin"],
-    "IN": ["india", "indian", "modi", "new delhi", "delhi"],
-    "PK": ["pakistan", "pakistani", "islamabad", "karachi"],
-    "CN": ["china", "chinese", "beijing", "xi jinping", "ccp", "shanghai"],
-    "GB": ["united kingdom", "britain", "british", "london", "england", "scotland", "wales"],
-    "DE": ["germany", "german", "berlin", "bundeswehr"],
-    "AE": ["uae", "united arab emirates", "dubai", "abu dhabi", "emirati"],
-    "SA": ["saudi arabia", "saudi", "riyadh", "mbs", "bin salman"],
-    "IL": ["israel", "israeli", "idf", "jerusalem", "tel aviv", "netanyahu"],
-    "PS": ["palestine", "palestinian", "gaza", "west bank", "hamas", "ramallah"],
-    "MX": ["mexico", "mexican", "mexico city"],
-    "BR": ["brazil", "brazilian", "brasilia", "lula"],
-    "CA": ["canada", "canadian", "ottawa", "trudeau", "toronto"],
-    "NG": ["nigeria", "nigerian", "abuja", "lagos"],
-    "JP": ["japan", "japanese", "tokyo"],
-    "IR": ["iran", "iranian", "tehran", "khamenei", "irgc"],
-    "SY": ["syria", "syrian", "damascus", "aleppo"],
-    "FR": ["france", "french", "paris", "macron"],
-    "TR": ["turkey", "turkish", "ankara", "erdogan"],
-    "VE": ["venezuela", "venezuelan", "caracas", "maduro"],
-    "VN": ["vietnam", "vietnamese", "hanoi"],
-    "TW": ["taiwan", "taiwanese", "taipei"],
-    "KR": ["south korea", "south korean", "seoul"],
-    "KP": ["north korea", "north korean", "pyongyang", "kim jong"],
-    "ID": ["indonesia", "indonesian", "jakarta"],
-    "MM": ["myanmar", "burmese", "burma", "naypyidaw"],
-    "AM": ["armenia", "armenian", "yerevan"],
-    "AZ": ["azerbaijan", "azerbaijani", "baku"],
-    "MA": ["morocco", "moroccan", "rabat"],
-    "SO": ["somalia", "somali", "mogadishu"],
-    "YE": ["yemen", "yemeni", "sanaa", "houthi", "houthis"],
-    "LY": ["libya", "libyan", "tripoli", "benghazi"],
-    "EG": ["egypt", "egyptian", "cairo", "sisi"],
-    "DZ": ["algeria", "algerian", "algiers"],
-    "AR": ["argentina", "argentine", "argentinian", "buenos aires", "milei"],
-    "CL": ["chile", "chilean", "santiago"],
-    "PE": ["peru", "peruvian", "lima"],
-    "CU": ["cuba", "cuban", "havana"],
-    "CO": ["colombia", "colombian", "bogota", "petro"],
-    "PA": ["panama", "panamanian", "panama canal"],
-    "SV": ["el salvador", "salvadoran", "san salvador", "bukele"],
-    "DK": ["denmark", "danish", "copenhagen"],
-    "SD": ["sudan", "sudanese", "khartoum"],
-    "UA": ["ukraine", "ukrainian", "kyiv", "kiev", "zelenskyy", "zelensky"],
+# ── Country terms: (strong_terms, weak_terms)
+#
+# STRONG terms: match if found ANYWHERE in title (alone is enough to qualify)
+# WEAK terms  : match only if found in title AND at least one other weak/strong
+#               term also appears — prevents single-word false positives
+#
+# Rule applied in article_mentions_country():
+#   - If ANY strong term appears in the title → MATCH
+#   - If ANY strong term appears in the summary (not title) + also in title with
+#     a weak term → MATCH
+#   - A weak-only title hit with no corroborating term → NO MATCH
+#
+# Keep strong terms specific (full country names, capitals, leaders).
+# Keep weak terms as adjectives/demonyms that need context.
+# ─────────────────────────────────────────────────────────────
+COUNTRY_TERMS: Dict[str, Tuple[List[str], List[str]]] = {
+    # iso2: ([strong_terms], [weak_terms])
+    "RU": (
+        ["russia", "kremlin", "moscow", "putin"],
+        ["russian"],
+    ),
+    "IN": (
+        ["india", "new delhi", "modi"],
+        ["indian"],
+    ),
+    "PK": (
+        ["pakistan", "islamabad", "karachi"],
+        ["pakistani"],
+    ),
+    "CN": (
+        ["china", "beijing", "xi jinping", "shanghai", "chinese communist"],
+        ["chinese", "ccp"],
+    ),
+    "GB": (
+        ["united kingdom", "britain", "london", "england", "scotland", "wales",
+         "westminster", "downing street"],
+        ["british", "uk"],
+    ),
+    "DE": (
+        ["germany", "berlin", "bundeswehr", "bundestag"],
+        ["german"],
+    ),
+    "AE": (
+        ["united arab emirates", "dubai", "abu dhabi"],
+        ["uae", "emirati"],
+    ),
+    "SA": (
+        ["saudi arabia", "riyadh", "bin salman"],
+        ["saudi", "mbs"],
+    ),
+    "IL": (
+        ["israel", "idf", "jerusalem", "tel aviv", "netanyahu"],
+        ["israeli"],
+    ),
+    "PS": (
+        ["palestine", "gaza", "west bank", "ramallah", "hamas"],
+        ["palestinian"],
+    ),
+    "MX": (
+        ["mexico", "mexico city"],
+        ["mexican"],
+    ),
+    "BR": (
+        ["brazil", "brasilia", "lula"],
+        ["brazilian"],
+    ),
+    "CA": (
+        ["canada", "ottawa", "toronto", "trudeau"],
+        ["canadian"],
+    ),
+    "NG": (
+        ["nigeria", "abuja", "lagos"],
+        ["nigerian"],
+    ),
+    "JP": (
+        ["japan", "tokyo"],
+        ["japanese"],
+    ),
+    "IR": (
+        ["iran", "tehran", "khamenei", "irgc"],
+        ["iranian"],
+    ),
+    "SY": (
+        ["syria", "damascus", "aleppo"],
+        ["syrian"],
+    ),
+    "FR": (
+        ["france", "paris", "macron", "élysée", "elysee"],
+        ["french"],
+    ),
+    "TR": (
+        ["turkey", "ankara", "erdogan"],
+        ["turkish"],
+    ),
+    "VE": (
+        ["venezuela", "caracas", "maduro"],
+        ["venezuelan"],
+    ),
+    "VN": (
+        ["vietnam", "hanoi", "ho chi minh"],
+        ["vietnamese"],
+    ),
+    "TW": (
+        ["taiwan", "taipei"],
+        ["taiwanese"],
+    ),
+    "KR": (
+        ["south korea", "seoul"],
+        ["south korean"],
+    ),
+    "KP": (
+        ["north korea", "pyongyang", "kim jong"],
+        ["north korean"],
+    ),
+    "ID": (
+        ["indonesia", "jakarta"],
+        ["indonesian"],
+    ),
+    "MM": (
+        ["myanmar", "naypyidaw", "burma"],
+        ["burmese"],
+    ),
+    "AM": (
+        ["armenia", "yerevan"],
+        ["armenian"],
+    ),
+    "AZ": (
+        ["azerbaijan", "baku"],
+        ["azerbaijani"],
+    ),
+    "MA": (
+        ["morocco", "rabat"],
+        ["moroccan"],
+    ),
+    "SO": (
+        ["somalia", "mogadishu", "somaliland"],
+        ["somali"],
+    ),
+    "YE": (
+        ["yemen", "sanaa", "houthis", "houthi"],
+        ["yemeni"],
+    ),
+    "LY": (
+        ["libya", "tripoli", "benghazi"],
+        ["libyan"],
+    ),
+    "EG": (
+        ["egypt", "cairo", "sisi"],
+        ["egyptian"],
+    ),
+    "DZ": (
+        ["algeria", "algiers"],
+        ["algerian"],
+    ),
+    "AR": (
+        ["argentina", "buenos aires", "milei"],
+        ["argentine", "argentinian"],
+    ),
+    "CL": (
+        ["chile", "santiago"],
+        ["chilean"],
+    ),
+    "PE": (
+        ["peru"],
+        ["peruvian"],
+    ),
+    "CU": (
+        ["cuba", "havana"],
+        ["cuban"],
+    ),
+    "CO": (
+        ["colombia", "bogota", "petro"],
+        ["colombian"],
+    ),
+    "PA": (
+        ["panama", "panama canal"],
+        ["panamanian"],
+    ),
+    "SV": (
+        ["el salvador", "san salvador", "bukele"],
+        ["salvadoran"],
+    ),
+    "DK": (
+        ["denmark", "copenhagen"],
+        ["danish"],
+    ),
+    "SD": (
+        ["sudan", "khartoum"],
+        ["sudanese"],
+    ),
+    "UA": (
+        ["ukraine", "kyiv", "kiev", "zelenskyy", "zelensky"],
+        ["ukrainian"],
+    ),
 }
 
 # Importance signals for ranking
@@ -321,10 +471,60 @@ def importance_score(title: str) -> int:
     return sum(1 for h in IMPORTANCE_HINTS if h in t)
 
 
+def _term_in_text(term: str, text: str) -> bool:
+    """
+    Whole-word / whole-phrase boundary check so that e.g. "iran" doesn't
+    match inside "tirane" or "uk" doesn't match inside "truck".
+    """
+    # Escape for regex, then wrap with word boundaries.
+    # For multi-word phrases the boundaries are on the outer edges only.
+    pattern = r"(?<![a-z])" + re.escape(term) + r"(?![a-z])"
+    return bool(re.search(pattern, text))
+
+
 def article_mentions_country(title: str, summary: str, iso2: str) -> bool:
-    """Return True if the article text mentions any synonym for this country."""
-    text = _norm(f"{title} {summary}")
-    return any(term in text for term in COUNTRY_TERMS.get(iso2, []))
+    """
+    Returns True only when the article is genuinely about this country.
+
+    Matching rules (in priority order):
+    1. A STRONG term appears in the TITLE                     → MATCH
+    2. A STRONG term appears in the SUMMARY **and** at least
+       one strong or weak term also appears in the TITLE       → MATCH
+       (prevents pure-summary leakage from unrelated articles)
+    3. A WEAK term appears in the TITLE **and** a second
+       strong term also appears anywhere in title+summary      → MATCH
+    4. Anything else                                           → NO MATCH
+    """
+    if iso2 not in COUNTRY_TERMS:
+        return False
+
+    strong_terms, weak_terms = COUNTRY_TERMS[iso2]
+    norm_title   = _norm(title)
+    norm_summary = _norm(summary)
+
+    # Rule 1: strong hit in title
+    for t in strong_terms:
+        if _term_in_text(t, norm_title):
+            return True
+
+    # Rule 2: strong hit in summary + corroboration in title
+    summary_strong_hit = any(_term_in_text(t, norm_summary) for t in strong_terms)
+    if summary_strong_hit:
+        title_any_hit = (
+            any(_term_in_text(t, norm_title) for t in strong_terms) or
+            any(_term_in_text(t, norm_title) for t in weak_terms)
+        )
+        if title_any_hit:
+            return True
+
+    # Rule 3: weak hit in title + a strong term somewhere in the full text
+    title_weak_hit = any(_term_in_text(t, norm_title) for t in weak_terms)
+    if title_weak_hit:
+        full_text = norm_title + " " + norm_summary
+        if any(_term_in_text(t, full_text) for t in strong_terms):
+            return True
+
+    return False
 
 
 # ─────────────────────────── RSS FETCHING ─────────────────────
