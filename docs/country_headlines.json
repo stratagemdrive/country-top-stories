@@ -4,12 +4,6 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Trump's U-turn on Russian oil sanctions is a major coup for Putin",
-        "url": "https://news.sky.com/story/trumps-u-turn-on-russian-oil-sanctions-is-a-major-coup-for-putin-13519069",
-        "source": "Sky News",
-        "publishedAt": "2026-03-13T09:19:00Z"
-      },
-      {
         "title": "Russia sentences 19 people for deadly concert hall attack that killed 149 people",
         "url": "https://www.cbc.ca/news/world/russia-sentencing-moscow-concert-hall-attacks-9.7125322?cmp=rss",
         "source": "CBC News World",
@@ -19,10 +13,16 @@
         "title": "Ukraine-Russia war latest: Zelensky slams Trump decision to drop Putin oil sanctions as bad for peace",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-drones-map-b2937686.html",
         "source": "The Independent",
-        "publishedAt": "2026-03-13T13:55:23Z"
+        "publishedAt": "2026-03-14T02:48:14Z"
+      },
+      {
+        "title": "U.S. eases Russian oil sanctions as Iran war sends prices spiking",
+        "url": "https://www.nbcnews.com/world/russia/trump-eases-russian-oil-sanctions-iran-war-prices-ukraine-europe-rcna263310",
+        "source": "NBC News",
+        "publishedAt": "2026-03-13T11:19:11Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "India",
@@ -35,24 +35,30 @@
         "publishedAt": "2026-03-11T19:45:31Z"
       },
       {
+        "title": "In photos: Tracing India's history through its chairs",
+        "url": "https://www.bbc.com/news/articles/cx2lvyd609xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-14T00:13:02Z"
+      },
+      {
         "title": "'No-one will hire women' - India's top court rejects menstrual leave petition",
         "url": "https://www.bbc.com/news/articles/c0436qkegdqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "publishedAt": "2026-03-13T11:47:09Z"
-      },
-      {
-        "title": "India were preordained to win T20 World Cup and they did not disappoint",
-        "url": "https://www.telegraph.co.uk/cricket/2026/03/08/t20-world-cup-final-live-india-vs-new-zealand-score-latest",
-        "source": "The Telegraph",
-        "publishedAt": "2026-03-08T20:02:42Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Pakistan",
     "iso2": "PK",
     "headlines": [
+      {
+        "title": "Pakistan launches deadly airstrikes in Afghanistan as hostilities continue",
+        "url": "https://www.cbc.ca/news/world/afghanistan-deadly-strikes-pakistan-9.7127102?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-03-13T14:29:46Z"
+      },
       {
         "title": "Afghanistan accuses Pakistan of targeting homes in airstrikes that kill at least 4 civilians",
         "url": "https://abcnews.com/International/wireStory/afghanistan-accuses-pakistan-targeting-homes-airstrikes-kill-4-131028580",
@@ -64,40 +70,34 @@
         "url": "https://www.bloomberg.com/news/articles/2026-03-13/afghanistan-says-pakistan-strike-on-kabul-leaves-four-dead",
         "source": "Bloomberg",
         "publishedAt": "2026-03-13T02:57:31Z"
-      },
-      {
-        "title": "Afghanistan accuses Pakistan of airstrikes on homes in Kabul and Kandahar as fighting enters third week",
-        "url": "https://abcnews.com/International/wireStory/afghanistan-accuses-pakistan-airstrikes-homes-kabul-kandahar-fighting-131028397",
-        "source": "ABC News",
-        "publishedAt": "2026-03-13T06:41:31Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
       {
-        "title": "Serbia Buys Chinese Missiles as Vucic Warns of Threats",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-13/serbia-buys-chinese-supersonic-missiles-as-vucic-alleges-threats",
+        "title": "Amid Iran War, Trump Administration Turns Toward Beijing Summit",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-03-13/amid-iran-war-trump-administration-turns-toward-beijing-summit",
         "source": "Bloomberg",
-        "publishedAt": "2026-03-13T08:13:32Z"
+        "publishedAt": "2026-03-13T20:43:24Z"
       },
       {
-        "title": "Australia edge North Korea to set up China or Taiwan Asian Cup semifinal",
-        "url": "https://www.aljazeera.com/sports/2026/3/13/australia-edge-north-korea-to-set-up-china-or-taiwan-asian-cup-semifinal?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T14:20:17Z"
+        "title": "U.S. Treasury Secretary will meet China's vice premier in Paris ahead of Trump's visit to Beijing",
+        "url": "https://www.pbs.org/newshour/world/u-s-treasury-secretary-will-meet-chinas-vice-premier-in-paris-ahead-of-trumps-visit-to-beijing",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-03-13T16:57:58Z"
       },
       {
-        "title": "Greer Says US Seeks Stability in China Ties Ahead of Paris Talks",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-13/greer-says-us-seeks-stability-in-china-ties-ahead-of-paris-talks",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-13T12:44:12Z"
+        "title": "Apple cuts China App Store commission fees after government pressure",
+        "url": "https://www.theguardian.com/technology/2026/mar/13/apple-china-app-store",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-13T16:37:13Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "United Kingdom",
@@ -110,76 +110,82 @@
         "publishedAt": "2026-03-12T08:51:42Z"
       },
       {
-        "title": "UK calls for allies to keep pressure on Russia after US eases oil sanctions",
-        "url": "https://www.standard.co.uk/news/politics/yvette-cooper-russia-keir-starmer-john-healey-moscow-b1274773.html",
+        "title": "Illegal delivery riders arrested in dawn raid on London caravan park",
+        "url": "https://www.standard.co.uk/news/politics/illegal-delivery-riders-arrested-bromley-home-office-raid-london-b1274830.html",
         "source": "Evening Standard",
-        "publishedAt": "2026-03-13T13:29:03Z"
+        "publishedAt": "2026-03-13T18:47:17Z"
       },
       {
-        "title": "'Peasants revolt' secures victory after decade-long London allotments battle",
-        "url": "https://www.standard.co.uk/news/london/peasants-revolt-victory-allotments-hounslow-syon-house-duke-northumberland-b1274747.html",
+        "title": "Al Quds protest in London explained - timings, locations and controversy",
+        "url": "https://www.standard.co.uk/news/london/al-quds-demonstration-london-iran-b1273284.html",
         "source": "Evening Standard",
-        "publishedAt": "2026-03-13T13:28:11Z"
+        "publishedAt": "2026-03-13T15:03:01Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Germany",
     "iso2": "DE",
     "headlines": [
       {
-        "title": "Germany Says US Wrong to Ease Oil Sanctions Against Russia",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-13/germany-concerned-russian-oil-sales-will-help-fund-putin-s-war",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-13T09:40:37Z"
-      },
-      {
-        "title": "Everything is a political weapon since Trump’s re-election, says Germany’s ex-economy minister",
-        "url": "https://www.theguardian.com/world/2026/mar/13/everything-is-a-political-weapon-since-trumps-re-election-says-germanys-ex-economy-minister",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-13T06:00:41Z"
+        "title": "German museum celebrates famed Japanese artist Kusama in vast new exhibit",
+        "url": "https://abcnews.com/International/wireStory/german-museum-celebrates-famed-japanese-artist-kusama-vast-131039873",
+        "source": "ABC News",
+        "publishedAt": "2026-03-13T15:32:09Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "UAE",
     "iso2": "AE",
     "headlines": [
       {
-        "title": "Dubai under attack: Building in UAE city's financial centre hit by 'kamakaze drone' debris as war rages",
-        "url": "https://www.standard.co.uk/news/world/dubai-drone-attack-financial-centre-uae-iran-war-b1274743.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-03-13T11:28:35Z"
-      },
-      {
-        "title": "British tourist arrested in Dubai for ‘filming Iranian missiles while on holiday’",
-        "url": "https://www.independent.co.uk/news/world/middle-east/dubai-missiles-iran-footage-arrest-british-b2937082.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-12T15:48:31Z"
-      },
-      {
         "title": "'Refugee' Luisa Zissman swaps 'Dubai war bunker' to hunker down and dodge missiles in her £8million ten bedroom UK country pile",
         "url": "https://www.dailymail.co.uk/news/article-15636821/Refugee-Luisa-Zissman-swaps-Dubai-war-bunker-hunker-dodge-missiles-8million-ten-bedroom-UK-country-pile.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
         "source": "Daily Mail World",
         "publishedAt": "2026-03-12T08:51:42Z"
+      },
+      {
+        "title": "Ghost town Dubai: Empty sun loungers stretch to horizon as Iran holds the world to ransom, drones hit financial hub - and war sends airfares soaring",
+        "url": "https://www.dailymail.co.uk/news/article-15642511/Deserted-Dubai-Sun-loungers-beaches-pools-sit-Emirates-exodus-continues-expats-vow-leave-never-return-wake-Iran-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "Daily Mail World",
+        "publishedAt": "2026-03-13T14:59:09Z"
+      },
+      {
+        "title": "Tommy Fleetwood speaks of 'relief' as family return from Dubai amid conflict",
+        "url": "https://www.standard.co.uk/news/uk/tommy-fleetwood-relief-family-return-dubai-conflict-b1274769.html",
+        "source": "Evening Standard",
+        "publishedAt": "2026-03-13T13:32:07Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Saudi Arabia",
     "iso2": "SA",
     "headlines": [
       {
-        "title": "Two killed in Oman by drones, several also fired at Saudi Arabia",
-        "url": "https://www.aljazeera.com/news/2026/3/13/two-killed-in-oman-by-drones-several-also-fired-at-saudi-arabia?traffic_source=rss",
+        "title": "Bahrain and Saudi F1 races set to be cancelled due to Middle East conflict",
+        "url": "https://www.aljazeera.com/sports/2026/3/13/bahrain-and-saudi-f1-races-set-to-be-cancelled-due-to-middle-east-conflict?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T08:21:12Z"
+        "publishedAt": "2026-03-13T18:06:34Z"
+      },
+      {
+        "title": "Bahrain & Saudi Arabia Grands Prix to be cancelled",
+        "url": "https://www.bbc.com/sport/formula1/articles/c875vw1lwjzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-13T17:12:12Z"
+      },
+      {
+        "title": "Formula 1 races in Bahrain and Saudi Arabia to be cancelled",
+        "url": "https://news.sky.com/story/formula-1-races-in-bahrain-and-saudi-arabia-set-to-be-cancelled-13519291",
+        "source": "Sky News",
+        "publishedAt": "2026-03-13T16:01:00Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Israel",
@@ -192,44 +198,44 @@
         "publishedAt": "2026-03-11T02:20:26Z"
       },
       {
-        "title": "Explosion rocks state-organized rally in Tehran after Israeli warning",
-        "url": "https://www.pbs.org/newshour/world/explosion-rocks-state-organized-rally-in-tehran-after-israeli-warning",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-03-13T14:38:34Z"
+        "title": "‘An existential battle’: Hezbollah says it’s ready for long fight as Israel warns Lebanon to disarm terrorist group",
+        "url": "https://nationalpost.com/news/world/israel-middle-east/hezbollah-israel-lebanon-battle",
+        "source": "National Post",
+        "publishedAt": "2026-03-13T23:32:15Z"
       },
       {
-        "title": "Man in Michigan synagogue attack lost family members in Israeli airstrike in Lebanon, official says",
-        "url": "https://www.cbc.ca/news/canada/windsor/michigan-synagogue-attack-lost-family-members-israeli-airstrike-9.7127297?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-03-13T14:12:13Z"
+        "title": "Iranian missile strike in central Israel sets building ablaze",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/iranian-missile-strike-in-central-israel-sets-building-ablaze?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-13T20:04:14Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "What’s happened in Gaza and the West Bank since the start of the Iran war?",
-        "url": "https://www.aljazeera.com/news/2026/3/13/whats-happened-in-gaza-and-the-west-bank-since-the-start-of-the-iran-war?traffic_source=rss",
+        "title": "Israel destroys bridge in Lebanon and threatens Gaza-scale devastation",
+        "url": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T12:50:04Z"
+        "publishedAt": "2026-03-13T17:54:21Z"
       },
       {
-        "title": "From Gaza to LA, hopes rise as The Voice of Hind Rajab heads to the Oscars",
-        "url": "https://www.aljazeera.com/features/2026/3/13/from-gaza-to-la-hopes-rise-as-the-voice-of-hind-rajab-heads-to-the-oscars?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T13:18:05Z"
+        "title": "Dozens of MPs call for formal apology over Britain's actions during Palestine administration",
+        "url": "https://news.sky.com/story/dozens-of-mps-call-for-formal-apology-over-britains-actions-during-palestine-administration-13519230",
+        "source": "Sky News",
+        "publishedAt": "2026-03-13T17:05:00Z"
       },
       {
-        "title": "Destroy, displace, dismantle: Israel’s Gaza doctrine comes to Lebanon",
-        "url": "https://www.aljazeera.com/opinions/2026/3/13/destroy-displace-dismantle-israels-gaza-doctrine-comes-to-lebanon?traffic_source=rss",
+        "title": "Thousands march worldwide in solidarity with Palestine, Iran on al-Quds Day",
+        "url": "https://www.aljazeera.com/gallery/2026/3/13/thousands-march-worldwide-in-solidarity-with-palestine-iran-on-al-quds-day?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T13:12:29Z"
+        "publishedAt": "2026-03-13T15:26:20Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Mexico",
@@ -239,35 +245,35 @@
         "title": "14 million doses of fentanyl seized from secret drug lab in Mexico",
         "url": "https://www.cbsnews.com/news/mexico-seizes-fentanyl-14-million-doses-secret-drug-lab",
         "source": "CBS News",
-        "publishedAt": "2026-03-13T10:59:04Z"
-      },
-      {
-        "title": "Mexico's president promises 'Plan B' after congressional defeat of electoral reforms",
-        "url": "https://abcnews.com/International/wireStory/mexicos-president-promises-plan-after-congressional-defeat-electoral-131007573",
-        "source": "ABC News",
-        "publishedAt": "2026-03-12T17:23:43Z"
+        "publishedAt": "2026-03-13T14:54:25Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Brazil",
     "iso2": "BR",
     "headlines": [
       {
-        "title": "Brazil Top Court Debates Release of Banco Master’s Ex-CEO With Plea Deal at Stake",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-13/brazil-top-court-debates-release-of-banco-master-ex-ceo-with-plea-deal-at-stake",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-13T14:00:47Z"
+        "title": "Brazil blocks visit of Trump official to see jailed Bolsonaro",
+        "url": "https://www.ft.com/content/21200555-302e-417d-976e-7cf4ae21876d",
+        "source": "Financial Times",
+        "publishedAt": "2026-03-14T00:14:16Z"
       },
       {
-        "title": "Quit fossil fuels to stem deadly floods in Brazil’s coffee heartland, say scientists",
-        "url": "https://www.theguardian.com/world/2026/mar/12/quit-fossil-fuels-to-stem-deadly-floods-in-brazils-coffee-heartland-say-scientists",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-12T03:01:06Z"
+        "title": "Brazil pulls visa of Trump adviser who asked to visit Bolsonaro in prison",
+        "url": "https://www.aljazeera.com/news/2026/3/13/brazil-pulls-visa-of-trump-adviser-who-asked-to-visit-bolsonaro-in-prison?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-13T18:10:41Z"
+      },
+      {
+        "title": "Brazil’s ex-President Bolsonaro is in intensive care with pneumonia, hospital says",
+        "url": "https://abcnews.com/International/wireStory/brazils-president-bolsonaro-intensive-care-pneumonia-hospital-131044612",
+        "source": "ABC News",
+        "publishedAt": "2026-03-13T17:14:58Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Canada",
@@ -292,13 +298,13 @@
         "publishedAt": "2026-03-12T20:54:16Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Nigeria",
     "iso2": "NG",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Japan",
@@ -311,19 +317,19 @@
         "publishedAt": "2026-03-13T10:23:05Z"
       },
       {
-        "title": "Huge pipe emerges from the ground in Japanese city",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/huge-pipe-emerges-from-the-ground-in-japanese-city?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T14:03:54Z"
+        "title": "13ft pipe shoots out of Japanese highway in Osaka city centre",
+        "url": "https://www.independent.co.uk/tv/news/japan-highway-pipe-osaka-video-b2937894.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-13T14:41:38Z"
       },
       {
-        "title": "My husband and I are empty nesters, celebrating our 25th anniversary. A trip to Japan was exactly what we needed to reconnect.",
-        "url": "https://www.businessinsider.com/empty-nesters-rekindled-relationship-travel-japan-2026-3",
-        "source": "Business Insider",
-        "publishedAt": "2026-03-13T11:07:01Z"
+        "title": "Giant underground pipe mysteriously rises over 30 feet in Japan",
+        "url": "https://www.cbsnews.com/news/giant-pipe-mysteriously-rises-30-feet-japan",
+        "source": "CBS News",
+        "publishedAt": "2026-03-12T15:06:35Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Iran",
@@ -348,55 +354,43 @@
         "publishedAt": "2026-03-09T18:13:51Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "France",
     "iso2": "FR",
     "headlines": [
       {
-        "title": "France returns sacred 'talking drum' looted during colonial rule to Ivory Coast",
-        "url": "https://www.bbc.com/news/articles/cvg3yv2e9p1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-03-13T14:46:22Z"
+        "title": "French soldier killed and six injured in ‘unacceptable’ Iraq drone attack, Macron says",
+        "url": "https://www.independent.co.uk/news/world/middle-east/macron-french-soldier-killed-iraq-drone-attack-b2937960.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-13T14:56:00Z"
       },
       {
-        "title": "France returns sacred talking drum looted from Côte d’Ivoire over 100 years ago",
-        "url": "https://www.theguardian.com/world/2026/mar/13/france-returns-sacred-djidji-ayokwe-talking-drum-looted-from-cote-divoire",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-13T13:06:53Z"
+        "title": "Outrage in France after 19th century chateau converted into ‘eyesore’ council flats",
+        "url": "https://www.independent.co.uk/news/world/europe/france-chateau-conversion-council-flats-b2938134.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-13T17:31:24Z"
       },
       {
-        "title": "France and Italy open talks with Iran in hope of securing safe Hormuz passage",
-        "url": "https://www.ft.com/content/96b8e0a4-9ecb-4e07-a96d-7debcfe3bfa6",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-13T12:44:47Z"
+        "title": "U.S. Treasury Secretary will meet China's vice premier in Paris ahead of Trump's visit to Beijing",
+        "url": "https://www.pbs.org/newshour/world/u-s-treasury-secretary-will-meet-chinas-vice-premier-in-paris-ahead-of-trumps-visit-to-beijing",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-03-13T16:57:58Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
     "headlines": [
-      {
-        "title": "NATO Intercepts Iranian Missile in Turkish Airspace",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-13/nato-intercepts-third-iranian-missile-in-turkish-airspace",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-13T10:00:07Z"
-      },
-      {
-        "title": "A dietitian's favorite quick, high-protein recipes, including the turkey skillet she makes every week",
-        "url": "https://www.businessinsider.com/high-protein-recipes-from-dietitian-2026-3",
-        "source": "Business Insider",
-        "publishedAt": "2026-03-13T09:55:01Z"
-      },
       {
         "title": "A 5.5 quake jolts central Turkey, sending residents into the cold streets",
         "url": "https://abcnews.com/International/wireStory/55-quake-jolts-central-turkey-sending-residents-cold-131025641",
@@ -404,12 +398,18 @@
         "publishedAt": "2026-03-13T04:23:03Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Venezuela",
     "iso2": "VE",
     "headlines": [
+      {
+        "title": "Venezuela Officials in Talks to Send Detained Maduro Ally to US",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-13/venezuela-officials-in-talks-to-send-detained-maduro-ally-to-us",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-13T23:05:16Z"
+      },
       {
         "title": "U.S. pressure on Venezuela hasn't eased, even as world's attention turns to Iran",
         "url": "https://www.cbc.ca/news/world/venezuela-us-influence-trump-9.7122944?cmp=rss",
@@ -417,30 +417,18 @@
         "publishedAt": "2026-03-13T08:00:00Z"
       },
       {
-        "title": "Venezuela and Colombia abruptly cancel planned presidents’ meeting, citing 'force majeure'",
-        "url": "https://abcnews.com/International/wireStory/venezuela-colombia-abruptly-cancel-planned-presidents-meeting-citing-131021365",
-        "source": "ABC News",
-        "publishedAt": "2026-03-13T07:03:17Z"
-      },
-      {
-        "title": "Venezuela's Machado calls Trump a 'fundamental ally' despite US support for Delcy Rodríguez",
-        "url": "https://abcnews.com/International/wireStory/venezuelas-machado-calls-trump-fundamental-ally-despite-us-131017729",
-        "source": "ABC News",
-        "publishedAt": "2026-03-12T21:19:53Z"
+        "title": "‘We have a totally different country’: Venezuelan youth leader optimistic for change",
+        "url": "https://www.telegraph.co.uk/global-health/terror-and-security/venezuelan-youth-leader-optimistic-for-change",
+        "source": "The Telegraph",
+        "publishedAt": "2026-03-10T06:00:00Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
     "headlines": [
-      {
-        "title": "I'm 77, and I discovered my love for running while serving in Vietnam. Now I work out 7 days a week.",
-        "url": "https://www.businessinsider.com/senior-athlete-plant-based-diet-bikepacking-2026-3",
-        "source": "Business Insider",
-        "publishedAt": "2026-03-13T14:43:51Z"
-      },
       {
         "title": "Vietnam urges work from home amid fuel supply, price crunch in Mideast",
         "url": "https://www.foxnews.com/world/vietnam-urges-work-from-home-amid-fuel-supply-price-crunch-mideast",
@@ -448,38 +436,26 @@
         "publishedAt": "2026-03-10T12:37:04Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Taiwan",
     "iso2": "TW",
     "headlines": [
       {
-        "title": "Australia edge North Korea to set up China or Taiwan Asian Cup semifinal",
-        "url": "https://www.aljazeera.com/sports/2026/3/13/australia-edge-north-korea-to-set-up-china-or-taiwan-asian-cup-semifinal?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T14:20:17Z"
-      },
-      {
         "title": "Trump could approve new $14bn US weapons for Taiwan amid China’s disapproval",
         "url": "https://www.independent.co.uk/news/world/asia/taiwan-china-trump-us-weapons-b2937900.html",
         "source": "The Independent",
         "publishedAt": "2026-03-13T10:52:27Z"
-      },
-      {
-        "title": "China coach tells players to stay ‘calm’ in Taiwan clash at Asian Cup",
-        "url": "https://www.aljazeera.com/sports/2026/3/13/china-coach-tells-players-to-stay-calm-in-taiwan-clash-at-asian-cup?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T08:45:49Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "South Korea",
     "iso2": "KR",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "North Korea",
@@ -490,27 +466,15 @@
         "url": "https://www.cbsnews.com/news/north-korea-us-sanctions-remote-workers-weapons-program",
         "source": "CBS News",
         "publishedAt": "2026-03-12T14:30:07Z"
-      },
-      {
-        "title": "Australia edge North Korea to set up China or Taiwan Asian Cup semifinal",
-        "url": "https://www.aljazeera.com/sports/2026/3/13/australia-edge-north-korea-to-set-up-china-or-taiwan-asian-cup-semifinal?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-13T14:20:17Z"
-      },
-      {
-        "title": "Images show Kim Jong Un and daughter firing guns at shooting range",
-        "url": "https://www.cbsnews.com/news/north-korea-kim-jong-un-daughter-shoot-pistols-images",
-        "source": "CBS News",
-        "publishedAt": "2026-03-12T12:09:54Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Indonesia",
     "iso2": "ID",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Myanmar",
@@ -523,61 +487,61 @@
         "publishedAt": "2026-03-13T11:11:35Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Libya",
     "iso2": "LY",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Egypt",
     "iso2": "EG",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Argentina",
     "iso2": "AR",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Chile",
@@ -590,18 +554,24 @@
         "publishedAt": "2026-03-13T06:42:52Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Cuba",
     "iso2": "CU",
     "headlines": [
+      {
+        "title": "Democratic senators file war powers resolution to check Trump on Cuba",
+        "url": "https://www.pbs.org/newshour/politics/democratic-senators-file-war-powers-resolution-to-check-trump-on-cuba",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-03-13T17:27:32Z"
+      },
       {
         "title": "Democratic senators file war powers resolution to try to restrain Trump on Cuba",
         "url": "https://www.cbsnews.com/news/cuba-democratic-senators-war-powers-resolution-trump",
@@ -609,55 +579,55 @@
         "publishedAt": "2026-03-13T12:06:05Z"
       },
       {
-        "title": "Cuba says it will release 51 prisoners in the coming days",
+        "title": "Cuba confirms negotiations with US as country faces effects of oil blockade",
         "url": "https://www.bbc.com/news/articles/cwy8zv9gp0go?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "publishedAt": "2026-03-13T14:17:06Z"
-      },
-      {
-        "title": "Cuban president confirms talks with Trump aides",
-        "url": "https://thehill.com/policy/international/5782718-us-cuba-cooperation-bilateral-issues",
-        "source": "The Hill",
-        "publishedAt": "2026-03-13T14:03:42Z"
+        "publishedAt": "2026-03-13T22:00:38Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Colombia",
     "iso2": "CO",
-    "headlines": [
-      {
-        "title": "Venezuela and Colombia abruptly cancel planned presidents’ meeting, citing 'force majeure'",
-        "url": "https://abcnews.com/International/wireStory/venezuela-colombia-abruptly-cancel-planned-presidents-meeting-citing-131021365",
-        "source": "ABC News",
-        "publishedAt": "2026-03-13T07:03:17Z"
-      }
-    ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
-    "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "headlines": [
+      {
+        "title": "Salvadoran athletes make history in Milan after being shot by gang members",
+        "url": "https://www.nbcnews.com/now/video/salvadoran-athletes-make-history-in-milan-after-being-shot-by-gang-members-259282501737",
+        "source": "NBC News",
+        "publishedAt": "2026-03-13T21:21:29Z"
+      }
+    ],
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
     "headlines": [],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Sudan",
     "iso2": "SD",
     "headlines": [
+      {
+        "title": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts",
+        "url": "https://www.aljazeera.com/news/2026/3/13/drone-attack-on-market-in-sudan-kills-11-as-air-war-civilian-toll-mounts?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-13T20:50:49Z"
+      },
       {
         "title": "At least 17 killed after drone strikes school in Sudan",
         "url": "https://www.theguardian.com/world/2026/mar/11/at-least-17-killed-after-drone-strikes-school-in-sudan",
@@ -669,15 +639,9 @@
         "url": "https://www.telegraph.co.uk/global-health/terror-and-security/asylum-crackdown-leaves-sudan-scholarship-hopefuls-in-limbo",
         "source": "The Telegraph",
         "publishedAt": "2026-03-09T17:40:48Z"
-      },
-      {
-        "title": "Museums looted of priceless artifacts as Sudan counts the cost of a deadly conflict",
-        "url": "https://www.nbcnews.com/world/africa/museums-looted-priceless-artifacts-sudan-counts-cost-deadly-conflict-rcna260473",
-        "source": "NBC News",
-        "publishedAt": "2026-03-08T16:00:41Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   },
   {
     "country": "Ukraine",
@@ -687,21 +651,21 @@
         "title": "Ukraine-Russia war latest: Zelensky slams Trump decision to drop Putin oil sanctions as bad for peace",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-drones-map-b2937686.html",
         "source": "The Independent",
-        "publishedAt": "2026-03-13T13:55:23Z"
+        "publishedAt": "2026-03-14T02:48:14Z"
       },
       {
-        "title": "Why Trump's war with Iran will help fund Russia's assault on Ukraine",
-        "url": "https://news.sky.com/story/why-russia-is-a-winner-in-the-iran-war-13518710",
-        "source": "Sky News",
-        "publishedAt": "2026-03-13T00:01:00Z"
+        "title": "Ukraine and allies fear easing Russian sanctions will prolong war",
+        "url": "https://www.bbc.com/news/articles/c1d6l67122wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-13T16:12:27Z"
       },
       {
-        "title": "Ukraine awaits U.S. sign-off on drone production deal, Zelenskyy says",
-        "url": "https://www.pbs.org/newshour/world/ukraine-awaits-u-s-sign-off-on-drone-production-deal-zelenskyy-says",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-03-12T14:38:13Z"
+        "title": "Ukrainian President Zelenskyy concerned as U.S. suspends Russia sanctions",
+        "url": "https://www.npr.org/2026/03/13/nx-s1-5746678/ukrainian-president-zelenskyy-concerned-as-u-s-suspends-russia-sanctions",
+        "source": "NPR World",
+        "publishedAt": "2026-03-13T20:42:51Z"
       }
     ],
-    "lastUpdated": "2026-03-13T14:49:53.609713Z"
+    "lastUpdated": "2026-03-14T05:02:49.312748Z"
   }
 ]
