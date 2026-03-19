@@ -4,44 +4,50 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Ukraine-Russia war latest: Kyiv advances inside ‘kill zone’ areas as world distracted by Middle East crisis",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-starmer-zelensky-b2940705.html",
+        "title": "Kremlin Loyalist Turns on Putin as Russians Start to Tire of War",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/kremlin-loyalist-turns-on-putin-as-russians-start-to-tire-of-war",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-19T13:10:14Z"
+      },
+      {
+        "title": "Ukraine-Russia war latest: Kremlin delivers update on peace talks as war rages in Iran",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-peace-deal-b2941523.html",
         "source": "The Independent",
-        "publishedAt": "2026-03-19T02:59:04Z"
+        "publishedAt": "2026-03-19T11:50:56Z"
       },
       {
         "title": "How Russia is benefitting from \"America's war of choice in Iran\"",
         "url": "https://www.cbsnews.com/news/iran-war-us-oil-sanctions-how-russia-is-benefitting",
         "source": "CBS News",
         "publishedAt": "2026-03-18T17:32:53Z"
-      },
-      {
-        "title": "Russia ships fuel to Cuba using 'spoofing' tactic challenging Trump embargo: reports",
-        "url": "https://www.foxnews.com/world/russia-ships-fuel-cuba-using-spoofing-tactic-challenging-trump-embargo-reports",
-        "source": "Fox News World",
-        "publishedAt": "2026-03-18T21:27:02Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "India",
     "iso2": "IN",
     "headlines": [
       {
-        "title": "India Sends Warships Near Gulf of Oman to Escort Fuel Ships",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/india-sends-warships-near-gulf-of-oman-to-escort-its-fuel-ships",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-18T11:55:23Z"
+        "title": "American and six Ukrainians arrested in India for ‘training Myanmar groups in drone warfare’",
+        "url": "https://www.independent.co.uk/asia/india/ukraine-citizen-arrested-india-myanmar-drones-b2941558.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T09:04:29Z"
       },
       {
-        "title": "India's young are more educated than ever. So why are so many jobless?",
-        "url": "https://www.bbc.com/news/articles/c17841zez8wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-03-19T00:02:04Z"
+        "title": "Ukraine Lodges Protests Over India’s Detention of Its Citizens",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/ukraine-lodges-protests-over-india-s-detention-of-its-citizens",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-19T11:57:28Z"
+      },
+      {
+        "title": "‘Waiting for days’: India feels impact of gas supply chain disruption amid Iran conflict",
+        "url": "https://www.theguardian.com/world/2026/mar/19/india-liquefied-petroleum-gas-lpg-supply-chain-disruption-iran-conflict",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-19T06:00:01Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Pakistan",
@@ -54,24 +60,30 @@
         "publishedAt": "2026-03-18T16:40:30Z"
       },
       {
+        "title": "As Pakistan and Afghanistan declare truce, civilians in Kabul count the cost of war",
+        "url": "https://www.npr.org/2026/03/19/g-s1-114417/as-pakistan-and-afghanistan-declare-truce-civilians-in-kabul-count-the-cost-of-war",
+        "source": "NPR World",
+        "publishedAt": "2026-03-19T12:11:54Z"
+      },
+      {
         "title": "Pakistan hopes steep cost of airstrikes on Taliban targets will protect against terror attacks",
         "url": "https://www.theguardian.com/world/2026/mar/18/pakistan-hopes-cost-airstrikes-taliban-protect-terror-attacks",
         "source": "The Guardian",
         "publishedAt": "2026-03-18T00:30:17Z"
-      },
-      {
-        "title": "Afghanistan says 400 killed in strike by Pakistan on Kabul hospital",
-        "url": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-17T05:22:22Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
+      {
+        "title": "China's Hubei province arrests 7, shuts websites in fentanyl crackdown",
+        "url": "https://abcnews.com/International/wireStory/chinas-hubei-province-arrests-7-shuts-websites-fentanyl-131211001",
+        "source": "ABC News",
+        "publishedAt": "2026-03-19T10:38:49Z"
+      },
       {
         "title": "The Iran war is causing a global energy crisis - can China withstand it?",
         "url": "https://www.bbc.com/news/articles/cyv9lzn0816o?at_medium=RSS&at_campaign=rss",
@@ -79,66 +91,67 @@
         "publishedAt": "2026-03-18T23:31:03Z"
       },
       {
-        "title": "Apple supplier Murata starts US-China rare earths decoupling",
-        "url": "https://www.ft.com/content/42252fe0-008d-48e1-912e-b925a382c70e",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-19T05:00:07Z"
-      },
-      {
-        "title": "Looking for leverage: China keeps close eye on US politics after summit delay",
-        "url": "https://www.theguardian.com/us-news/2026/mar/18/looking-for-leverage-china-keeps-close-eye-on-us-politics-after-summit-delay",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-18T15:25:18Z"
+        "title": "US waters down assessment of China’s threat to Taiwan ahead of Trump-Xi summit",
+        "url": "https://www.independent.co.uk/asia/china/china-invasion-taiwan-us-intelligence-trump-xi-b2941718.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T12:45:42Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "United Kingdom",
     "iso2": "GB",
     "headlines": [
       {
-        "title": "Three arrested in County Lines drug crackdown in north London",
-        "url": "https://www.standard.co.uk/news/crime/county-lines-arrests-camden-islington-metropolitan-police-b1275515.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-03-18T18:53:18Z"
+        "title": "Bank of England expected to raise UK interest rates twice this year to fight inflation shock from Middle East crisis – business live",
+        "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-19T14:20:58Z"
       },
       {
-        "title": "Britain to buy more missiles for its forces in Middle East amid ‘indiscriminate attacks’ from Iran",
-        "url": "https://www.independent.co.uk/news/uk/politics/britain-missiles-middle-east-forces-iran-war-b2941190.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-18T18:00:14Z"
+        "title": "Badenoch offers new explanation for Tory attack on Muslim event, saying party objecting to gender segregation – UK politics live",
+        "url": "https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-19T14:07:23Z"
       },
       {
-        "title": "Trump sails into battle with Lloyd’s of London",
-        "url": "https://www.ft.com/content/f95d211f-eab2-40ba-91b0-fbbd57f468d6",
+        "title": "Gilts sell off after Bank of England warns of inflation risks",
+        "url": "https://www.ft.com/content/c0a967b6-19d0-4e50-9a8e-8ae510d43d08",
         "source": "Financial Times",
-        "publishedAt": "2026-03-19T05:00:17Z"
+        "publishedAt": "2026-03-19T13:51:22Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Germany",
     "iso2": "DE",
-    "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [
+      {
+        "title": "Germany Weighs Windfall Tax as Iran War Drives Fuel Price Surge",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/germany-weighs-windfall-tax-as-iran-war-drives-fuel-price-surge",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-19T13:16:51Z"
+      }
+    ],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "UAE",
     "iso2": "AE",
     "headlines": [
       {
-        "title": "The expats left with 'unsellable' Dubai homes: One British TV influencer faces making loss on his £1.5m mansion as property prices collapse due to war",
-        "url": "https://www.dailymail.co.uk/news/article-15656915/British-influencer-left-unsellable-Dubai-home-investing-hundreds-thousands-pounds-citys-property-prices-tumble-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-        "source": "Daily Mail World",
-        "publishedAt": "2026-03-18T13:39:02Z"
+        "title": "Dubai tourism reels from Iranian missiles",
+        "url": "https://www.ft.com/content/1133792e-97d0-4e6a-bfef-56d5f9ab93f2",
+        "source": "Financial Times",
+        "publishedAt": "2026-03-19T14:30:39Z"
       },
       {
-        "title": "European tourist is detained in Dubai 'and has not been seen since' for posting photograph of hotel on fire when war started",
-        "url": "https://www.dailymail.co.uk/news/article-15656665/Tourist-father-arrested-Dubai-posting-war-video-people-ordered-social-media.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "title": "'The Gulf's worst nightmare': Anti-Trump fury within UAE after tycoon unleashed on US President for 'dragging region into war'",
+        "url": "https://www.dailymail.co.uk/news/article-15660477/UAE-tycoon-tones-criticism-US-days-deleting-furious-anti-Trump-tweets.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
         "source": "Daily Mail World",
-        "publishedAt": "2026-03-18T11:36:22Z"
+        "publishedAt": "2026-03-19T11:47:28Z"
       },
       {
         "title": "Cathay Pacific suspends flights to and from Dubai until end of April – as it happened",
@@ -147,36 +160,36 @@
         "publishedAt": "2026-03-19T03:43:15Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Saudi Arabia",
     "iso2": "SA",
     "headlines": [
       {
-        "title": "Iran war live: Qatar, Saudi energy sites attacked; Riyadh says trust gone",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone?traffic_source=rss",
+        "title": "What did Arab and Muslim ministers discuss in Riyadh meeting on Iran?",
+        "url": "https://www.aljazeera.com/news/2026/3/19/what-did-arab-and-muslim-ministers-discuss-in-riyadh-meeting-on-iran?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-03-19T00:30:00Z"
+        "publishedAt": "2026-03-19T11:38:41Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
-        "title": "‘A dangerous escalation’: Iran, Israel trade strikes on energy facilities in worsening war",
-        "url": "https://nationalpost.com/news/iran-israel-trade-strikes-on-energy-facilities",
-        "source": "National Post",
-        "publishedAt": "2026-03-19T02:59:12Z"
+        "title": "Why Israel’s attack on the South Pars gas field in Iran is such a major escalation",
+        "url": "https://www.independent.co.uk/news/world/middle-east/iran-south-pars-gas-fields-oil-trump-b2941585.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T11:33:45Z"
       },
       {
-        "title": "Israel attacks Iran’s major gas field in new escalation",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-attacks-irans-major-gas-field-in-new-escalation?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-18T19:38:33Z"
+        "title": "Israel and Iran attack gas facilities in a major escalation that rattles markets",
+        "url": "https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks",
+        "source": "NPR World",
+        "publishedAt": "2026-03-19T08:16:52Z"
       },
       {
         "title": "Fiery aftermath of Iran missile strike near Tel Aviv caught on video after 2 killed",
@@ -185,42 +198,42 @@
         "publishedAt": "2026-03-18T12:26:11Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "Three Palestinian women killed during Iranian missile attack in West Bank",
-        "url": "https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-19T03:58:49Z"
-      },
-      {
-        "title": "Three women killed in occupied West Bank missile attack",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/three-women-killed-in-occupied-west-bank-missile-attack?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-19T02:19:28Z"
+        "title": "Three Palestinian women killed during Iranian missile attack",
+        "url": "https://www.bbc.com/news/articles/c0ljl23plpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-19T12:32:38Z"
       },
       {
         "title": "Last detainee from Trump’s 2025 Gaza war protest crackdown freed after a year",
         "url": "https://www.cbc.ca/radio/asithappens/palestinian-protest-detainee-freed-9.7133713?cmp=rss",
         "source": "CBC News World",
         "publishedAt": "2026-03-18T22:41:10Z"
+      },
+      {
+        "title": "Hamas reasserts control in Gaza as Iran war dominates regional attention and global focus",
+        "url": "https://www.foxnews.com/world/hamas-reasserts-control-gaza-iran-war-dominates-regional-attention-global-focus",
+        "source": "Fox News World",
+        "publishedAt": "2026-03-16T22:00:39Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Mexico",
     "iso2": "MX",
     "headlines": [
       {
-        "title": "Leader of Ecuador-based criminal group Los Lobos arrested in Mexico City",
-        "url": "https://www.aljazeera.com/news/2026/3/18/leader-of-ecuadorean-criminal-group-los-lobos-apprehended-in-mexico-city?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-18T21:55:30Z"
+        "title": "Fugitive wanted in killing of Ecuadorian candidate arrested in Mexico",
+        "url": "https://www.cbsnews.com/news/fugitive-wanted-assassination-ecuador-presidential-candidate-arrested-mexico",
+        "source": "CBS News",
+        "publishedAt": "2026-03-19T11:40:30Z"
       },
       {
         "title": "Mexico arrests suspect wanted in the 2023 killing of Ecuadorian candidate and sends him to Colombia",
@@ -229,30 +242,18 @@
         "publishedAt": "2026-03-18T20:13:22Z"
       },
       {
-        "title": "Ahead of the FIFA World Cup, pickup soccer games in Mexico's streets are all the rage",
-        "url": "https://www.nbcnews.com/sports/soccer/ahead-fifa-world-cup-pickup-soccer-games-mexicos-streets-are-rage-rcna262960",
-        "source": "NBC News",
-        "publishedAt": "2026-03-18T19:44:47Z"
+        "title": "Spain's king welcomes Mexico's World Cup invite after 'abuse' comments",
+        "url": "https://www.bbc.com/news/articles/cvglew9p891o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-19T14:00:19Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Brazil",
     "iso2": "BR",
     "headlines": [
-      {
-        "title": "Brazil Sends Food, Medicine to Cuba as Crisis Deepens",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/brazil-sends-food-medicine-to-cuba-as-crisis-deepens",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-18T22:10:37Z"
-      },
-      {
-        "title": "US Snubbed by Lula Government at Critical Minerals Summit",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/us-snubbed-by-lula-government-at-brazil-critical-minerals-summit",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-18T11:10:47Z"
-      },
       {
         "title": "‘These connections are overlooked’: how British companies profited from slavery in Brazil long after abolition",
         "url": "https://www.theguardian.com/world/2026/mar/17/connections-overlooked-how-british-companies-profited-slavery-brazil-after-abolition",
@@ -260,7 +261,7 @@
         "publishedAt": "2026-03-17T11:00:44Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Canada",
@@ -273,19 +274,19 @@
         "publishedAt": "2026-03-18T18:38:09Z"
       },
       {
-        "title": "Could Canada join the EU? French foreign minister says ‘maybe’",
-        "url": "https://globalnews.ca/news/11736645/canada-eu-jean-noel-barrot",
+        "title": "U.S. beats Canada in latest world happiness rankings",
+        "url": "https://globalnews.ca/news/11737516/canada-25th-place-global-happiness-rankings",
         "source": "Global News",
-        "publishedAt": "2026-03-18T19:39:54Z"
+        "publishedAt": "2026-03-19T14:25:11Z"
       },
       {
-        "title": "Global Affairs Canada eyes taking ‘more risks’ in uncertain world: document",
-        "url": "https://globalnews.ca/news/11736135/global-affairs-more-risk-uncertain-climate",
-        "source": "Global News",
-        "publishedAt": "2026-03-18T19:38:25Z"
+        "title": "Canada Replaces Army’s 35-Year-Old Rifles in Defense Spending Spree",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/canada-replaces-army-s-35-year-old-rifles-in-deal-worth-at-least-224-million",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-19T12:30:00Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Nigeria",
@@ -298,35 +299,35 @@
         "publishedAt": "2026-03-17T11:28:01Z"
       },
       {
+        "title": "Aid deals with religious element risk ‘fanning flames’ of division, senior Nigerian minister says",
+        "url": "https://www.independent.co.uk/news/world/africa/trump-uk-aid-nigeria-us-b2941462.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T13:44:32Z"
+      },
+      {
         "title": "Deadly blasts at market and hospital raise fears of renewed Boko Haram insurgency in Nigeria",
         "url": "https://www.foxnews.com/world/deadly-blasts-market-hospital-raise-fears-renewed-boko-haram-insurgency-nigeria",
         "source": "Fox News World",
         "publishedAt": "2026-03-17T22:13:08Z"
-      },
-      {
-        "title": "Gunmen kill at least 15 in attacks on 2 villages in northwestern Nigeria, authorities say",
-        "url": "https://abcnews.com/International/wireStory/gunmen-kill-15-attacks-2-villages-northwestern-nigeria-131156366",
-        "source": "ABC News",
-        "publishedAt": "2026-03-17T17:42:56Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Japan",
     "iso2": "JP",
     "headlines": [
       {
-        "title": "Bank of Japan postpones rate rise after Middle East war erupts",
-        "url": "https://www.ft.com/content/3d404845-88db-46d3-877c-e4c4221223c2",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-19T03:57:43Z"
+        "title": "Japan PM to hold 'difficult' talks with Trump as Iran conflict looms large",
+        "url": "https://www.bbc.com/news/articles/cde4e2xyelpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-19T10:30:42Z"
       },
       {
-        "title": "Japan rebels over $6bn fee for SoftBank under US trade deal",
-        "url": "https://www.ft.com/content/372a2da8-cc0e-4d39-8f0a-24670ed6a445",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-19T01:00:02Z"
+        "title": "Japan's prime minister visits the White House under shadow of Iran war",
+        "url": "https://www.npr.org/2026/03/19/g-s1-114405/japan-takaichi-visit-white-house",
+        "source": "NPR World",
+        "publishedAt": "2026-03-19T10:24:19Z"
       },
       {
         "title": "Japan's leader heads to Washington for a visit complicated by the Iran war fallout",
@@ -335,49 +336,43 @@
         "publishedAt": "2026-03-18T20:13:31Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Iran",
     "iso2": "IR",
     "headlines": [
       {
-        "title": "‘A dangerous escalation’: Iran, Israel trade strikes on energy facilities in worsening war",
-        "url": "https://nationalpost.com/news/iran-israel-trade-strikes-on-energy-facilities",
-        "source": "National Post",
-        "publishedAt": "2026-03-19T02:59:12Z"
+        "title": "War escalates, energy prices spike after Israeli strike on Iran gas field",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-israel-strike-south-pars-gas-field-trump-threat-oil-gas-prices",
+        "source": "CBS News",
+        "publishedAt": "2026-03-19T14:40:29Z"
       },
       {
-        "title": "Qatar condemns 'brazen' Iran missile attack as conflict rages on",
-        "url": "https://www.standard.co.uk/news/world/qatar-condemns-iran-missile-attack-middle-east-conflict-b1275523.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-03-18T21:20:10Z"
+        "title": "Why Israel’s attack on the South Pars gas field in Iran is such a major escalation",
+        "url": "https://www.independent.co.uk/news/world/middle-east/iran-south-pars-gas-fields-oil-trump-b2941585.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T11:33:45Z"
       },
       {
-        "title": "U.S. eases Venezuela oil sanctions amid Iran war energy crisis",
-        "url": "https://globalnews.ca/news/11736695/us-eases-venezuela-oil-sanctions-iran-war",
-        "source": "Global News",
-        "publishedAt": "2026-03-18T19:57:02Z"
+        "title": "Israel and Iran attack gas facilities in a major escalation that rattles markets",
+        "url": "https://www.npr.org/2026/03/19/nx-s1-5753520/iran-israel-gas-field-attacks",
+        "source": "NPR World",
+        "publishedAt": "2026-03-19T08:16:52Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "France",
     "iso2": "FR",
     "headlines": [
-      {
-        "title": "Macron calls for moratorium on striking energy, water infrastructure in Iran conflict",
-        "url": "https://thehill.com/policy/international/5790854-macron-calls-for-strike-moratorium",
-        "source": "The Hill",
-        "publishedAt": "2026-03-19T00:27:59Z"
-      },
       {
         "title": "Macron names next nuclear-powered aircraft carrier 'France Libre' as a symbol of independence",
         "url": "https://abcnews.com/International/wireStory/macron-names-nuclear-powered-aircraft-carrier-france-libre-131190142",
@@ -385,19 +380,38 @@
         "publishedAt": "2026-03-18T17:56:08Z"
       },
       {
-        "title": "France’s far right makes gains in first-round municipal elections",
-        "url": "https://abcnews.com/International/wireStory/frances-makes-gains-round-municipal-elections-major-cities-131143522",
-        "source": "ABC News",
-        "publishedAt": "2026-03-17T12:11:55Z"
+        "title": "Lily Collins in Paris: insider guide to the French capital",
+        "url": "https://www.standard.co.uk/lifestyle/travel/lily-collins-guide-to-paris-b1275441.html",
+        "source": "Evening Standard",
+        "publishedAt": "2026-03-19T14:10:22Z"
+      },
+      {
+        "title": "‘One in, one out’ asylum seekers sent to France return to UK in lorries",
+        "url": "https://www.theguardian.com/uk-news/2026/mar/19/one-in-one-out-asylum-seekers-france-uk-lorries",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-19T14:00:53Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
-    "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [
+      {
+        "title": "Family pursues truth in mysterious Turkish lift death",
+        "url": "https://www.standard.co.uk/news/world/family-truth-turkish-lift-death-b1275563.html",
+        "source": "Evening Standard",
+        "publishedAt": "2026-03-19T13:51:36Z"
+      },
+      {
+        "title": "Turkey reassures Brits tourism is 'proceeding as normal' - with every hotel 'operating as planned'",
+        "url": "https://www.dailymail.co.uk/travel/article-15660885/Turkey-reassures-Brits-tourism-hotel-proceeding-normal.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "Daily Mail World",
+        "publishedAt": "2026-03-19T13:21:04Z"
+      }
+    ],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Venezuela",
@@ -422,26 +436,32 @@
         "publishedAt": "2026-03-18T20:47:13Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Taiwan",
     "iso2": "TW",
     "headlines": [
       {
-        "title": "US Intelligence Agencies Soften Outlook on China’s Plans for Taiwan",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/us-intel-agencies-soften-outlook-on-china-s-plans-for-taiwan",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-18T18:15:54Z"
+        "title": "US waters down assessment of China’s threat to Taiwan ahead of Trump-Xi summit",
+        "url": "https://www.independent.co.uk/asia/china/china-invasion-taiwan-us-intelligence-trump-xi-b2941718.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T12:45:42Z"
+      },
+      {
+        "title": "China not planning to invade Taiwan in 2027, US says",
+        "url": "https://news.sky.com/story/china-not-planning-to-invade-taiwan-in-2027-us-intelligence-agencies-say-13521682",
+        "source": "Sky News",
+        "publishedAt": "2026-03-19T10:17:00Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "South Korea",
@@ -454,132 +474,118 @@
         "publishedAt": "2026-03-18T23:59:57Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "North Korea",
     "iso2": "KP",
     "headlines": [
       {
-        "title": "He was a perfect hire — until a U.S. company exposed him as a North Korean plant",
-        "url": "https://www.nbcnews.com/investigations/north-korea-it-worker-scheme-nisos-fbi-rcna245025",
-        "source": "NBC News",
-        "publishedAt": "2026-03-15T11:22:55Z"
+        "title": "Rare photos show life inside North Korea's top-secret military",
+        "url": "https://www.businessinsider.com/rare-pictures-of-north-korea-military-2016-4",
+        "source": "Business Insider",
+        "publishedAt": "2026-03-19T13:24:01Z"
+      },
+      {
+        "title": "North Korea qualifies for the Women's World Cup for the first time since 2011",
+        "url": "https://www.cbc.ca/sports/soccer/north-korea-womens-soccer-world-cup-qualifier-asian-cup-9.7134398?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-03-19T12:26:52Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Indonesia",
     "iso2": "ID",
-    "headlines": [
-      {
-        "title": "A new U.S. trade deal with Indonesia secures fossil fuels and access to critical minerals",
-        "url": "https://abcnews.com/International/wireStory/new-us-trade-deal-indonesia-secures-fossil-fuels-131173522",
-        "source": "ABC News",
-        "publishedAt": "2026-03-18T07:10:16Z"
-      },
-      {
-        "title": "Indonesia faces fuel fears as half its population travels for Eid",
-        "url": "https://www.ft.com/content/628f8749-f7ec-4bf1-8856-e0d72c8bab4a",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-19T01:34:48Z"
-      }
-    ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Myanmar",
     "iso2": "MM",
-    "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [
+      {
+        "title": "American and six Ukrainians arrested in India for ‘training Myanmar groups in drone warfare’",
+        "url": "https://www.independent.co.uk/asia/india/ukraine-citizen-arrested-india-myanmar-drones-b2941558.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-19T09:04:29Z"
+      }
+    ],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [
       {
-        "title": "Celebrations in Morocco but devastation in Senegal after Africa Cup of Nations decision",
-        "url": "https://www.bbc.com/news/articles/crm8mem74mko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-03-18T15:48:41Z"
+        "title": "Morocco says stripping Senegal of AFCON win ‘upholds rights and integrity’",
+        "url": "https://www.aljazeera.com/sports/2026/3/19/morocco-says-striping-senegal-of-afcon-title-upholds-rules?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-19T12:56:59Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Libya",
     "iso2": "LY",
-    "headlines": [
-      {
-        "title": "Damaged Russian tanker carrying natural gas floats into Libyan waters",
-        "url": "https://www.theguardian.com/environment/2026/mar/18/damaged-russian-tanker-carrying-natural-gas-floats-into-libyan-waters",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-18T18:51:03Z"
-      }
-    ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Egypt",
     "iso2": "EG",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Argentina",
     "iso2": "AR",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Chile",
     "iso2": "CL",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
-    "headlines": [
-      {
-        "title": "Peru’s prime minister resigns ahead of congressional confirmation vote",
-        "url": "https://abcnews.com/International/wireStory/perus-prime-minister-resigns-ahead-congressional-confirmation-vote-131165359",
-        "source": "ABC News",
-        "publishedAt": "2026-03-17T22:15:49Z"
-      }
-    ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Cuba",
@@ -592,19 +598,19 @@
         "publishedAt": "2026-03-18T22:30:29Z"
       },
       {
-        "title": "Brazil Sends Food, Medicine to Cuba as Crisis Deepens",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/brazil-sends-food-medicine-to-cuba-as-crisis-deepens",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-18T22:10:37Z"
-      },
-      {
         "title": "As Trump floats \"taking Cuba,\" island's president warns of \"resistance\"",
         "url": "https://www.cbsnews.com/news/as-trump-floats-taking-cuba-islands-president-warns-any-aggression-will-be-met-with-impregnable-resistance",
         "source": "CBS News",
         "publishedAt": "2026-03-18T02:50:35Z"
+      },
+      {
+        "title": "Trump’s threats to ‘take’ Cuba signal rising US pressure as island grapples with power crisis",
+        "url": "https://www.theguardian.com/world/2026/mar/17/trumps-explicit-threats-spark-fear-and-loathing-for-struggling-cubans",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-17T19:18:50Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Colombia",
@@ -621,77 +627,77 @@
         "url": "https://www.theguardian.com/world/2026/mar/17/colombian-president-ecuador-bodies",
         "source": "The Guardian",
         "publishedAt": "2026-03-17T18:51:24Z"
-      },
-      {
-        "title": "Ecuador's president rejects allegations that his government is bombing targets inside Colombia",
-        "url": "https://abcnews.com/International/wireStory/ecuadors-president-rejects-allegations-government-bombing-targets-inside-131152124",
-        "source": "ABC News",
-        "publishedAt": "2026-03-17T16:15:59Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
-    "headlines": [
-      {
-        "title": "El Salvador's Bukele pushes through life sentences in nation that has imprisoned 1% of population",
-        "url": "https://abcnews.com/International/wireStory/el-salvadors-bukele-pushes-life-sentences-nation-imprisoned-131164584",
-        "source": "ABC News",
-        "publishedAt": "2026-03-18T07:11:37Z"
-      }
-    ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
-    "headlines": [],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "headlines": [
+      {
+        "title": "British schoolgirl stranded in Denmark after return flight blocked over UK border rules",
+        "url": "https://www.theguardian.com/uk-news/2026/mar/19/uk-schoolgirl-stranded-denmark-dual-national-rules",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-19T13:31:29Z"
+      }
+    ],
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Sudan",
     "iso2": "SD",
     "headlines": [
       {
-        "title": "At least 17 dead in fighting on Sudan's border with Chad, aid group says",
-        "url": "https://abcnews.com/International/wireStory/17-dead-fighting-sudans-border-chad-aid-group-131177599",
-        "source": "ABC News",
-        "publishedAt": "2026-03-18T12:42:20Z"
+        "title": "Drone attack from Sudan kills 17 people in Chad as war spills over border",
+        "url": "https://www.aljazeera.com/news/2026/3/19/drone-attack-from-sudan-kills-17-in-chad-as-conflict-spills-over?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-19T13:30:14Z"
+      },
+      {
+        "title": "Chad warns Sudan it will retaliate after drone strike on mourners kills 17",
+        "url": "https://www.bbc.com/news/articles/c0mjn0g708ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-03-19T13:30:01Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "Ukraine-Russia war latest: Kyiv advances inside ‘kill zone’ areas as world distracted by Middle East crisis",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-starmer-zelensky-b2940705.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-19T02:59:04Z"
-      },
-      {
         "title": "Ukraine faces missile shortage due to war in Iran, says Zelensky",
-        "url": "https://www.independent.co.uk/news/world/europe/zelensky-ukraine-iran-missile-shortage-russia-war-b2940827.html",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-zelensky-missile-shortage-russia-iran-war-b2941529.html",
         "source": "The Independent",
-        "publishedAt": "2026-03-18T14:28:20Z"
+        "publishedAt": "2026-03-19T06:05:52Z"
       },
       {
-        "title": "Hungary’s Orbán to face pressure over Ukraine loan veto at EU summit",
-        "url": "https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-19T05:00:59Z"
+        "title": "EU leaders slam Orbán over Ukraine loan veto, accuse election games",
+        "url": "https://abcnews.com/International/wireStory/eu-leaders-blast-viktor-orbn-ukraine-loan-veto-131210459",
+        "source": "ABC News",
+        "publishedAt": "2026-03-19T13:06:50Z"
+      },
+      {
+        "title": "Ukraine Lodges Protests Over India’s Detention of Its Citizens",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/ukraine-lodges-protests-over-india-s-detention-of-its-citizens",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-19T11:57:28Z"
       }
     ],
-    "lastUpdated": "2026-03-19T05:17:07.001802Z"
+    "lastUpdated": "2026-03-19T14:41:31.063210Z"
   }
 ]
