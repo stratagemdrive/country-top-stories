@@ -4,25 +4,25 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Russia shoots down hundreds of Ukrainian drones after launching deadly attack on Lviv",
-        "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-strikes-drones-missiles-b2945235.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-25T10:39:20Z"
+        "title": "Russia slams second US-Israeli strike at Iran’s Bushehr nuclear reactor",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/26/russia-slams-second-us-israeli-strike-at-irans-bushehr-nuclear-reactor?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-26T03:31:36Z"
       },
       {
-        "title": "Russia says it shot down almost 400 Ukrainian drones as Moscow, Kyiv escalate strikes",
-        "url": "https://abcnews.com/International/wireStory/russia-shot-400-ukrainian-drones-moscow-kyiv-escalate-131387616",
+        "title": "Zimbabwe says 15 of its citizens killed after fraudulent recruitment into Russia-Ukraine war",
+        "url": "https://abcnews.com/International/wireStory/zimbabwe-15-citizens-killed-after-fraudulent-recruitment-russia-131410142",
         "source": "ABC News",
-        "publishedAt": "2026-03-25T09:41:41Z"
+        "publishedAt": "2026-03-25T20:13:36Z"
       },
       {
-        "title": "Three dead and Unesco monastery hit in Lviv as Russia launches rare daylight drone attack on Ukraine",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-strikes-spring-offensive-b2944669.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-24T17:49:28Z"
+        "title": "In rare daytime drone blitz, Russia attacks western Ukrainian city largely spared from war's damage",
+        "url": "https://www.cbc.ca/news/world/russia-drone-attack-lviv-9.7141478?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-03-25T16:44:36Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "India",
@@ -47,12 +47,18 @@
         "publishedAt": "2026-03-20T11:02:52Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Pakistan",
     "iso2": "PK",
     "headlines": [
+      {
+        "title": "Fighting resumes between Pakistan and Afghanistan after ceasefire ends; 2 dead",
+        "url": "https://abcnews.com/International/wireStory/fighting-resumes-pakistan-afghanistan-after-temporary-ceasefire-ends-131411548",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T19:54:49Z"
+      },
       {
         "title": "Iran conflict tests Pakistan amid own border clashes as Islamabad touted as venue for US-Tehran talks",
         "url": "https://www.foxnews.com/world/iran-conflict-tests-pakistan-amid-own-border-clashes-islamabad-touted-venue-us-tehran-talks",
@@ -66,48 +72,48 @@
         "publishedAt": "2026-03-20T11:02:52Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
       {
-        "title": "China protests to Japan over alleged break-in at its embassy in Tokyo",
-        "url": "https://abcnews.com/International/wireStory/china-protests-japan-alleged-break-embassy-tokyo-131355285",
-        "source": "ABC News",
-        "publishedAt": "2026-03-25T02:58:53Z"
-      },
-      {
-        "title": "Satellite Photos Show China’s Massive Manmade Island in Disputed Waters",
-        "url": "https://www.newsweek.com/satellite-photos-china-manmade-island-disputed-waters-antelope-reef-11733191",
-        "source": "Newsweek",
-        "publishedAt": "2026-03-25T15:51:15Z"
-      },
-      {
-        "title": "‘They can reach me wherever’: China using financial tactics to coerce people who flee, says report",
-        "url": "https://www.theguardian.com/world/2026/mar/25/china-hong-kong-dissidents-transnational-repression-report",
+        "title": "Middle East crisis live: Trump insists Iran wants a deal despite initial rejection; China sees ‘glimmer of hope’ for talks",
+        "url": "https://www.theguardian.com/world/live/2026/mar/26/iran-war-live-updates-trump-deal-us-military-strikes-israel-lebanon-hezbollah",
         "source": "The Guardian",
-        "publishedAt": "2026-03-25T13:44:21Z"
+        "publishedAt": "2026-03-26T05:41:03Z"
+      },
+      {
+        "title": "China Casts Itself as Asia’s Anchor as Iran War Roils Economies",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-26/china-s-no-3-leader-urges-peaceful-solutions-as-iran-war-drags",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-26T02:56:18Z"
+      },
+      {
+        "title": "Trump’s trip to meet Xi Jinping in China rescheduled for May due to Iran war",
+        "url": "https://www.theguardian.com/us-news/2026/mar/26/trump-xi-jinping-china-trip-rescheduled-may",
+        "source": "The Guardian",
+        "publishedAt": "2026-03-26T00:39:27Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "United Kingdom",
     "iso2": "GB",
     "headlines": [
       {
-        "title": "Anti-London social media posts sky-rocketing, warns major review on 'grey' warfare targeting UK elections",
+        "title": "Anti-London social media posts soaring, warns 'grey warfare' elections review",
         "url": "https://www.standard.co.uk/news/politics/social-media-london-elections-cryptocurrency-farage-reform-trump-b1276392.html",
         "source": "Evening Standard",
-        "publishedAt": "2026-03-25T15:17:32Z"
+        "publishedAt": "2026-03-25T17:55:21Z"
       },
       {
-        "title": "London police arrest two men over ambulance arson attacks",
-        "url": "https://www.ft.com/content/cb5809d1-4596-4a77-8e93-7e919257375e",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-25T09:38:22Z"
+        "title": "UK arrests 2 over 'antisemitic arson attack' as police investigate possible Iran link",
+        "url": "https://www.foxnews.com/world/united-kingdom-arrests-2-over-antisemitic-arson-attack-police-investigate-possible-iran-link",
+        "source": "Fox News World",
+        "publishedAt": "2026-03-25T17:30:04Z"
       },
       {
         "title": "'Oh, golly': Britain's embattled Starmer navigates Trump's Iran war ire",
@@ -116,7 +122,7 @@
         "publishedAt": "2026-03-25T09:00:34Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Germany",
@@ -133,15 +139,9 @@
         "url": "https://globalnews.ca/news/11743582/german-president-iran-war-trump",
         "source": "Global News",
         "publishedAt": "2026-03-24T14:44:06Z"
-      },
-      {
-        "title": "Germany’s Klingbeil Favors Joint Ventures for Foreign Firms",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/german-finance-chief-seeks-joint-venture-rule-for-foreign-firms",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T13:00:00Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "UAE",
@@ -152,107 +152,100 @@
         "url": "https://www.dailymail.co.uk/news/article-15674055/British-couple-moved-Dubai-safer-London-return-Croydon.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
         "source": "Daily Mail World",
         "publishedAt": "2026-03-24T10:55:14Z"
-      },
-      {
-        "title": "War empties Dubai’s malls and rattles struggling luxury industry",
-        "url": "https://www.ft.com/content/f88f97cb-adc7-42d1-aae1-e4bf241d4961",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-25T11:18:13Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Saudi Arabia",
     "iso2": "SA",
-    "headlines": [
-      {
-        "title": "Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia",
-        "url": "https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-25T12:18:33Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
+        "title": "Lebanese emergency workers risk lives to aid civilians during ongoing Israeli attacks",
+        "url": "https://www.pbs.org/newshour/show/lebanese-emergency-workers-risk-lives-to-aid-civilians-during-ongoing-israeli-attacks",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-03-25T22:25:09Z"
+      },
+      {
+        "title": "Russia slams second US-Israeli strike at Iran’s Bushehr nuclear reactor",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/26/russia-slams-second-us-israeli-strike-at-irans-bushehr-nuclear-reactor?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-26T03:31:36Z"
+      },
+      {
         "title": "Netanyahu races to avoid snap election, with no boost in polls from Iran war",
         "url": "https://globalnews.ca/news/11745297/netanyahu-snap-election-iran-war",
         "source": "Global News",
         "publishedAt": "2026-03-25T13:43:48Z"
-      },
-      {
-        "title": "Strikes hit Iran while Tehran targets Israel and Gulf states amid mixed signals over talks to end war",
-        "url": "https://www.pbs.org/newshour/world/strikes-hit-iran-while-tehran-targets-israel-and-gulf-states-amid-mixed-signals-over-talks-to-end-war",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-03-24T14:16:09Z"
-      },
-      {
-        "title": "Strikes hit Iran and Tehran targets Israel and Gulf states amid mixed signals over talks to end war",
-        "url": "https://abcnews.com/International/wireStory/iran-targets-israel-gulf-arab-states-trump-us-131350210",
-        "source": "ABC News",
-        "publishedAt": "2026-03-24T13:46:56Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
-        "url": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-03-25T12:27:28Z"
+        "title": "Metropolitan Police to resume arresting Palestine Action protesters",
+        "url": "https://www.standard.co.uk/news/uk/palestine-action-high-court-metropolitan-police-government-parliament-square-b1276495.html",
+        "source": "Evening Standard",
+        "publishedAt": "2026-03-25T22:00:00Z"
       },
       {
-        "title": "Israeli settlers attack West Bank villages",
-        "url": "https://www.nbcnews.com/video/israeli-settlers-attack-west-bank-villages-259886661781",
-        "source": "NBC News",
-        "publishedAt": "2026-03-23T19:20:41Z"
+        "title": "Video shows Israeli strike hitting displacement camp in Gaza",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/video-shows-israeli-strike-hitting-displacement-camp-in-gaza?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-25T22:12:18Z"
       },
       {
-        "title": "Analysts say Gaza 'civilian' deaths include Hamas, other terror members working as medics, media workers",
-        "url": "https://www.foxnews.com/world/analysts-say-gaza-civilian-deaths-include-hamas-other-terror-members-working-medics-media-workers",
-        "source": "Fox News World",
-        "publishedAt": "2026-03-22T17:18:37Z"
+        "title": "Palestine weekly wrap: West Bank attacks surge, Israel restricts Gaza aid",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/palestine-weekly-wrap-west-bank-attacks-surge-israel-restricts-gaza-aid?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-25T21:07:47Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Mexico",
     "iso2": "MX",
     "headlines": [
       {
-        "title": "Landmark verdict in New Mexico finds Meta violated state child safety laws",
-        "url": "https://www.cbc.ca/news/world/meta-facebook-whatsapp-instagram-child-safety-violated-law-9.7140763?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-03-24T22:19:09Z"
+        "title": "Migrants march from southern Mexico, protesting delays and seeking papers to work",
+        "url": "https://abcnews.com/International/wireStory/migrants-march-southern-mexico-protesting-delays-seeking-papers-131400640",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T16:16:34Z"
       },
       {
-        "title": "229 migrants found calling for help in back of truck in Mexico",
-        "url": "https://www.cbsnews.com/news/hundreds-migrants-calling-help-back-truck-mexico",
-        "source": "CBS News",
-        "publishedAt": "2026-03-24T10:33:00Z"
+        "title": "Migrants march in southern Mexico to denounce immigration restrictions",
+        "url": "https://www.aljazeera.com/gallery/2026/3/25/migrants-march-in-southern-mexico-to-denounce-immigration-restrictions?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-25T23:52:44Z"
+      },
+      {
+        "title": "Mexico will continue accepting Cuban medical workers despite US pressure",
+        "url": "https://www.aljazeera.com/news/2026/3/25/mexico-will-continue-accepting-cuban-medical-workers-despite-us-pressure?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-03-25T22:28:38Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Brazil",
     "iso2": "BR",
     "headlines": [
       {
-        "title": "Eight arrested for ‘brutal’ attack on capybara in Brazil",
-        "url": "https://www.theguardian.com/world/2026/mar/24/brutal-attack-capybara-brazil-eight-arrested",
-        "source": "The Guardian",
-        "publishedAt": "2026-03-24T00:45:43Z"
+        "title": "Brazil's Bolsonaro to be discharged from hospital to return to house arrest",
+        "url": "https://abcnews.com/International/wireStory/brazils-bolsonaro-discharged-hospital-return-house-arrest-131406540",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T17:40:02Z"
       },
       {
         "title": "Brazil's Bolsonaro gets temporary house arrest for ill-health",
@@ -261,32 +254,32 @@
         "publishedAt": "2026-03-25T11:37:17Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Canada",
     "iso2": "CA",
     "headlines": [
       {
+        "title": "Alberta and Ottawa strike methane agreement underpinning joint energy deal",
+        "url": "https://nationalpost.com/news/canada/alberta-and-ottawa-strike-methane-agreement-underpinning-joint-energy-deal",
+        "source": "National Post",
+        "publishedAt": "2026-03-25T19:24:02Z"
+      },
+      {
+        "title": "Canada PM ‘extremely disappointed’ by Air Canada CEO’s message after deadly plane crash",
+        "url": "https://www.independent.co.uk/news/world/americas/air-canada-crash-ceo-statement-laguardia-b2945562.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-25T16:29:59Z"
+      },
+      {
         "title": "Canadian woman held with daughter by ICE warns all immigrants to ‘lie low’",
         "url": "https://www.theguardian.com/us-news/2026/mar/24/canadian-mother-detention-warns-immigrants",
         "source": "The Guardian",
         "publishedAt": "2026-03-24T20:20:08Z"
-      },
-      {
-        "title": "Air traffic controller heard telling truck to stop moments before deadly Air Canada crash",
-        "url": "https://www.cbc.ca/news/world/air-canada-express-accident-la-guardia-airport-9.7138206?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-03-23T07:52:41Z"
-      },
-      {
-        "title": "Toronto police announce new counter-terrorism security unit",
-        "url": "https://nationalpost.com/news/toronto/toronto-police-new-counter-terrorism-security-unit",
-        "source": "National Post",
-        "publishedAt": "2026-03-25T15:45:53Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Nigeria",
@@ -297,38 +290,50 @@
         "url": "https://www.foxnews.com/world/us-military-sends-drones-alongside-200-troops-nigeria-amid-fears-renewed-boko-haram-insurgency",
         "source": "Fox News World",
         "publishedAt": "2026-03-24T18:41:34Z"
+      },
+      {
+        "title": "Militants in northern Nigeria kill 10 security forces and 1 resident, officials say",
+        "url": "https://abcnews.com/International/wireStory/militants-northern-nigeria-kill-10-security-forces-1-131405526",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T17:42:37Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Japan",
     "iso2": "JP",
     "headlines": [
       {
-        "title": "China protests to Japan over alleged break-in at its embassy in Tokyo",
-        "url": "https://abcnews.com/International/wireStory/china-protests-japan-alleged-break-embassy-tokyo-131355285",
-        "source": "ABC News",
-        "publishedAt": "2026-03-25T02:58:53Z"
+        "title": "Japan Should Send Warships to Secure Hormuz, Ex-Adviser Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-26/japan-should-send-warships-to-secure-hormuz-ex-adviser-says",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-26T01:00:00Z"
       },
       {
-        "title": "Reliance on imported oil squeezes Japan’s bathhouses",
-        "url": "https://www.ft.com/content/6d0adb2e-22a2-454f-b9ea-9a177dc07157",
-        "source": "Financial Times",
-        "publishedAt": "2026-03-25T12:16:06Z"
+        "title": "US Can’t Impose Unilateral Peace Plan, Iran Envoy to Japan Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-26/us-can-t-impose-peace-plan-unilaterally-iranian-ambassador-says",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-26T05:06:54Z"
+      },
+      {
+        "title": "Japan to Join Army Drills on Philippine Soil in First Since WWII",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-26/japan-to-join-army-drills-on-philippine-soil-in-first-since-wwii",
+        "source": "Bloomberg",
+        "publishedAt": "2026-03-26T03:13:25Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Iran",
     "iso2": "IR",
     "headlines": [
       {
-        "title": "Trump says Iran wants 'deal' to end war, but regime denies talks and strikes continue",
-        "url": "https://www.pbs.org/newshour/show/trump-says-iran-wants-deal-to-end-war-but-regime-denies-talks-and-strikes-continue",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-03-23T22:55:49Z"
+        "title": "US troops brace for ‘hit-and-run’ guerilla attacks as 82nd Airborne deploys to Iran, military analyst warns",
+        "url": "https://www.foxnews.com/world/us-troops-risk-hit-run-guerilla-attacks-82nd-airborne-deploys-iran-military-analyst-warns",
+        "source": "Fox News World",
+        "publishedAt": "2026-03-25T22:21:53Z"
       },
       {
         "title": "A committed pharmacist and a homesick blogger – the Iranian civilians killed in the war",
@@ -343,13 +348,13 @@
         "publishedAt": "2026-03-22T15:37:10Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "France",
@@ -368,69 +373,70 @@
         "publishedAt": "2026-03-23T16:45:52Z"
       },
       {
-        "title": "Paris offices of Swiss bank searched by authorities in Epstein-related probe",
-        "url": "https://www.independent.co.uk/news/world/europe/fabrice-aidan-jeffrey-epstein-paris-swiss-bank-rothschild-b2944966.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-24T20:29:30Z"
+        "title": "Postcard from Paris: fresh perspectives from Europe’s longest urban cable car",
+        "url": "https://www.ft.com/content/40a85bf7-710a-4e18-9466-209befa5d2f5",
+        "source": "Financial Times",
+        "publishedAt": "2026-03-26T05:00:11Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
-    "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [
+      {
+        "title": "Greetings from Turkey's border with Iran, where Iranians let loose on the dance floor",
+        "url": "https://www.npr.org/2026/03/25/nx-s1-5760830/iranian-disco-turkey-iran",
+        "source": "NPR World",
+        "publishedAt": "2026-03-25T18:27:54Z"
+      }
+    ],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Venezuela",
     "iso2": "VE",
-    "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [
+      {
+        "title": "Nicolás Maduro heads back to a US court, fighting charges as Venezuela moves on without him",
+        "url": "https://www.independent.co.uk/news/world/americas/nicolas-maduro-venezuela-new-york-caracas-brooklyn-b2945875.html",
+        "source": "The Independent",
+        "publishedAt": "2026-03-26T04:01:41Z"
+      }
+    ],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
-    "headlines": [
-      {
-        "title": "Vietnam and Russia advance nuclear power deal as energy security concerns grow",
-        "url": "https://abcnews.com/International/wireStory/vietnam-russia-advance-nuclear-power-deal-energy-security-131352872",
-        "source": "ABC News",
-        "publishedAt": "2026-03-24T11:54:48Z"
-      },
-      {
-        "title": "Putin Says He Will Visit Vietnam in 2026 at Talks With Premier",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/putin-says-he-will-visit-vietnam-in-2026-at-talks-with-premier",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T14:43:14Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Taiwan",
     "iso2": "TW",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "South Korea",
     "iso2": "KR",
     "headlines": [
       {
-        "title": "Why Arab nations are scrambling to get South Korea’s Patriot-style air defence missiles",
-        "url": "https://www.independent.co.uk/asia/east-asia/south-korea-middle-east-iran-war-patriot-cheongung-missile-b2944305.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-25T05:08:30Z"
-      },
-      {
         "title": "BTS reunites after military hiatus with historic Seoul comeback performance",
         "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/bts-reunites-seoul-comeback-performance-rcna264557",
         "source": "NBC News",
         "publishedAt": "2026-03-21T17:44:14Z"
+      },
+      {
+        "title": "My family's first trip to South Korea was great, but it would've been even better if I'd avoided these 5 mistakes",
+        "url": "https://www.businessinsider.com/mistakes-visiting-south-korea-first-time-american-family-2026-3",
+        "source": "Business Insider",
+        "publishedAt": "2026-03-25T17:05:01Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "North Korea",
@@ -443,19 +449,19 @@
         "publishedAt": "2026-03-24T18:27:13Z"
       },
       {
-        "title": "Kim vows to 'irreversibly' cement North Korea's nuclear status",
-        "url": "https://www.npr.org/2026/03/24/g-s1-114945/kim-vows-to-irreversibly-cement-north-koreas-nuclear-status",
-        "source": "NPR World",
-        "publishedAt": "2026-03-24T11:05:14Z"
-      },
-      {
         "title": "Putin ally receives white horse welcome in North Korea for Kim Jong Un talks",
         "url": "https://www.independent.co.uk/news/world/europe/north-korea-kim-jong-un-lukashenko-putin-b2945280.html",
         "source": "The Independent",
         "publishedAt": "2026-03-25T11:41:01Z"
+      },
+      {
+        "title": "Belarusian President Lukashenko arrives in North Korea for talks with Kim Jong Un",
+        "url": "https://abcnews.com/International/wireStory/belarusian-president-lukashenko-arrives-north-korea-talks-kim-131387621",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T09:38:16Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Indonesia",
@@ -468,123 +474,102 @@
         "publishedAt": "2026-03-24T22:25:04Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Myanmar",
     "iso2": "MM",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Libya",
     "iso2": "LY",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Egypt",
     "iso2": "EG",
     "headlines": [
       {
-        "title": "Mohamed Salah: Is Liverpool exit the end? Can World Cup spur Egypt star?",
-        "url": "https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss",
+        "title": "Egypt says it is ready to host Iran de-escalation talks",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/egypt-says-it-is-ready-to-host-iran-de-escalation-talks?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-03-25T13:44:24Z"
+        "publishedAt": "2026-03-25T23:44:14Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
-    "headlines": [
-      {
-        "title": "Italy’s Meloni Seeks to Boost Gas Flows From Algeria",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/italy-s-meloni-seeks-to-boost-gas-flows-from-algeria",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T14:12:51Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Argentina",
     "iso2": "AR",
-    "headlines": [
-      {
-        "title": "Thousands march in Argentina to mark 50 years since bloody coup",
-        "url": "https://abcnews.com/International/wireStory/thousands-march-argentina-mark-50-years-bloody-coup-131369375",
-        "source": "ABC News",
-        "publishedAt": "2026-03-24T20:27:04Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Chile",
     "iso2": "CL",
-    "headlines": [
-      {
-        "title": "Fuel Price Hikes in Chile Test Kast as Supporters Start to Balk",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/fuel-price-hikes-test-chile-s-kast-as-supporters-start-to-balk",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T14:00:00Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Cuba",
     "iso2": "CU",
     "headlines": [
       {
-        "title": "Dueño de una clínica de cirugías plásticas en Miami sueña con gobernar Cuba",
-        "url": "https://www.bloomberg.com/news/features/2026-03-25/armando-labrador-exiliado-en-miami-suena-con-gobernar-cuba-mn67o9tv",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T15:41:29Z"
+        "title": "Cuban president says Raúl Castro involved in US talks that are in early stages",
+        "url": "https://abcnews.com/International/wireStory/cuban-president-ral-castro-involved-us-talks-early-131417803",
+        "source": "ABC News",
+        "publishedAt": "2026-03-26T00:39:58Z"
       },
       {
-        "title": "He Runs a Miami Plastic Surgery Clinic and Wants to Be Cuba's Next Leader",
-        "url": "https://www.bloomberg.com/news/features/2026-03-25/armando-labrador-miami-plastic-surgery-executive-hopes-to-be-cuba-s-leader",
-        "source": "Bloomberg",
-        "publishedAt": "2026-03-25T15:00:04Z"
+        "title": "Cuban health-care workers struggle to support the sick amid U.S. oil embargo",
+        "url": "https://www.cbc.ca/news/world/cuba-health-care-us-oil-embargo-9.7141080?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-03-25T18:37:46Z"
       },
       {
         "title": "Islandwide blackouts bring life in Cuba to a near total halt",
@@ -593,76 +578,57 @@
         "publishedAt": "2026-03-25T08:41:59Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Colombia",
     "iso2": "CO",
     "headlines": [
       {
-        "title": "Colombia issues arrest warrants for rebel group members for Miguel Uribe killing",
-        "url": "https://abcnews.com/International/wireStory/colombia-issues-arrest-warrants-rebel-group-members-miguel-131376980",
-        "source": "ABC News",
-        "publishedAt": "2026-03-24T21:27:30Z"
-      },
-      {
         "title": "Colombian military plane crash kills at least 66, head of armed forces says",
         "url": "https://www.foxnews.com/world/colombian-military-plane-crash-kills-head-armed-forces-says",
         "source": "Fox News World",
         "publishedAt": "2026-03-24T12:11:06Z"
-      },
-      {
-        "title": "Military plane crash in Colombia kills at least 66 people and injures dozens",
-        "url": "https://www.cbsnews.com/news/colombia-military-plane-crash",
-        "source": "CBS News",
-        "publishedAt": "2026-03-24T04:13:00Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
-    "headlines": [
-      {
-        "title": "Venezuelan sues Trump administration for $1.3M over ‘government-sanctioned torture’ at notorious El Salvador prison",
-        "url": "https://www.independent.co.uk/news/world/americas/us-politics/cecot-el-salvador-trump-administration-lawsuit-b2945069.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-25T02:40:18Z"
-      }
-    ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "headlines": [],
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
     "headlines": [
       {
-        "title": "Denmark’s PM resigns after failing to secure majority in general election",
-        "url": "https://www.aljazeera.com/news/2026/3/25/denmarks-pm-resigns-after-failing-to-secure-majority-in-general-election?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-03-25T11:18:22Z"
-      },
-      {
-        "title": "Denmark votes in an early election that follows a crisis over US designs on Greenland",
-        "url": "https://abcnews.com/International/wireStory/denmark-votes-early-election-crisis-us-designs-greenland-131350622",
-        "source": "ABC News",
-        "publishedAt": "2026-03-24T22:02:36Z"
-      },
-      {
-        "title": "Danish PM Frederiksen resigns and coalition talks begin following close election – Europe live",
-        "url": "https://www.theguardian.com/world/live/2026/mar/25/denmark-election-results-mette-frederiksen-europe-latest-news-updates",
+        "title": "Denmark’s prime minister given first chance at forming government after election",
+        "url": "https://www.theguardian.com/world/2026/mar/25/denmark-braces-lengthy-challenging-coalition-talks",
         "source": "The Guardian",
-        "publishedAt": "2026-03-25T15:39:04Z"
+        "publishedAt": "2026-03-25T15:30:48Z"
+      },
+      {
+        "title": "Denmark's 'kingmaker' could decide who will lead its next government after inconclusive election",
+        "url": "https://abcnews.com/International/wireStory/denmarks-kingmaker-decide-lead-government-after-inconclusive-election-131389586",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T11:37:54Z"
+      },
+      {
+        "title": "Danish PM faces fight to stay in post after election losses",
+        "url": "https://news.sky.com/story/denmark-election-pm-frederiksen-faces-fight-to-stay-in-post-after-losses-13524098",
+        "source": "Sky News",
+        "publishedAt": "2026-03-25T01:45:00Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Sudan",
@@ -675,31 +641,31 @@
         "publishedAt": "2026-03-21T23:15:04Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "Three arrests after arson attack on drone warehouse supplying Ukraine",
-        "url": "https://www.independent.co.uk/news/world/europe/drone-warehouse-fire-pardubice-czech-ukraine-b2944791.html",
-        "source": "The Independent",
-        "publishedAt": "2026-03-24T16:41:47Z"
+        "title": "Zimbabwe says 15 of its citizens killed after fraudulent recruitment into Russia-Ukraine war",
+        "url": "https://abcnews.com/International/wireStory/zimbabwe-15-citizens-killed-after-fraudulent-recruitment-russia-131410142",
+        "source": "ABC News",
+        "publishedAt": "2026-03-25T20:13:36Z"
+      },
+      {
+        "title": "In rare daytime drone blitz, Russia attacks western Ukrainian city largely spared from war's damage",
+        "url": "https://www.cbc.ca/news/world/russia-drone-attack-lviv-9.7141478?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-03-25T16:44:36Z"
       },
       {
         "title": "Russia says it shot down almost 400 Ukrainian drones as Moscow, Kyiv escalate strikes",
         "url": "https://abcnews.com/International/wireStory/russia-shot-400-ukrainian-drones-moscow-kyiv-escalate-131387616",
         "source": "ABC News",
         "publishedAt": "2026-03-25T09:41:41Z"
-      },
-      {
-        "title": "Moldova imposes 60-day energy emergency after Russian strikes in Ukraine cut key power line",
-        "url": "https://abcnews.com/International/wireStory/moldova-imposes-60-day-energy-emergency-after-russian-131373623",
-        "source": "ABC News",
-        "publishedAt": "2026-03-25T06:44:53Z"
       }
     ],
-    "lastUpdated": "2026-03-25T15:53:06.313277Z"
+    "lastUpdated": "2026-03-26T05:52:06.488382Z"
   }
 ]
