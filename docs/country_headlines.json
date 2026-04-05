@@ -4,16 +4,16 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "At least four people killed in Russian attacks on Ukraine",
-        "url": "https://www.aljazeera.com/news/2026/4/4/1997?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T10:20:36Z"
+        "title": "Ukraine-Russia war latest: Moscow launches drone attack on market that kills five",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-drone-attacks-b2945082.html",
+        "source": "The Independent",
+        "publishedAt": "2026-04-05T05:43:35Z"
       },
       {
-        "title": "Ukraine-Russia war latest: Putin’s forces launch 280-drone assault as Zelensky hits out at ‘Easter escalation’",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-trump-zelensky-strikes-peace-talks-b2945082.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-04T09:52:27Z"
+        "title": "Deadly strikes in Ukraine and Russia kill 10, injure dozens",
+        "url": "https://www.cbsnews.com/news/russia-and-ukraine-trade-deadly-strikes-zelenskyy-istanbul",
+        "source": "CBS News",
+        "publishedAt": "2026-04-04T14:14:16Z"
       },
       {
         "title": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
@@ -22,12 +22,18 @@
         "publishedAt": "2026-04-04T08:34:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "India",
     "iso2": "IN",
     "headlines": [
+      {
+        "title": "Five elections, one month: India’s Modi faces voters amid Iran war risks",
+        "url": "https://www.ft.com/content/71c1cbf2-bbcd-45f5-badb-2b1fafaa60d1",
+        "source": "Financial Times",
+        "publishedAt": "2026-04-05T01:56:48Z"
+      },
       {
         "title": "‘India is going to face a food crisis’: Farmers panic over fertiliser shortages amid Iran war",
         "url": "https://www.theguardian.com/world/2026/apr/04/india-fuel-crisis-fertiliser-shortage-farming",
@@ -35,35 +41,29 @@
         "publishedAt": "2026-04-03T23:00:06Z"
       },
       {
-        "title": "India Acknowledges Iranian Oil Purchases, Dismisses Payment Woes",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-04/india-acknowledges-iranian-oil-purchases-dismisses-payment-woes",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-04T09:46:18Z"
-      },
-      {
-        "title": "Fury in India after elephant is painted bright pink for photoshoot and later dies - as Russian photographer reveals death threats",
-        "url": "https://www.dailymail.co.uk/news/article-15701697/Fury-India-elephant-painted-bright-pink-photoshoot-later-dies-Russian-photographer-reveals-death-threats.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-        "source": "Daily Mail World",
-        "publishedAt": "2026-04-03T22:49:08Z"
+        "title": "The man who became one of India's greatest stage queens",
+        "url": "https://www.bbc.com/news/articles/cd0rl52z3dzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-04-04T22:20:51Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Pakistan",
     "iso2": "PK",
     "headlines": [
       {
+        "title": "How will Pakistan deal with the fallout from Iran war?",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/4/4/how-will-pakistan-deal-with-the-fallout-from-iran-war?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-04T20:42:26Z"
+      },
+      {
         "title": "Eight dead after earthquake hits Afghanistan and Pakistan",
         "url": "https://news.sky.com/story/at-least-eight-dead-after-earthquake-hits-afghanistan-and-pakistan-13527757",
         "source": "Sky News",
         "publishedAt": "2026-04-03T18:56:00Z"
-      },
-      {
-        "title": "Pakistan is playing peacemaker in one war while fighting another",
-        "url": "https://www.nbcnews.com/world/asia/pakistan-iran-peace-talks-war-afghanistan-rcna265252",
-        "source": "NBC News",
-        "publishedAt": "2026-04-01T07:56:36Z"
       },
       {
         "title": "The dangerous process of mining Himalayan pink salt in Pakistan's Khewra mine",
@@ -72,7 +72,7 @@
         "publishedAt": "2026-04-04T11:00:01Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "China",
@@ -85,19 +85,19 @@
         "publishedAt": "2026-04-03T09:34:54Z"
       },
       {
+        "title": "New Zealand and Cook Islands sign a defense pact, easing tensions over a China deal",
+        "url": "https://abcnews.com/International/wireStory/new-zealand-cook-islands-sign-defense-pact-easing-131642123",
+        "source": "ABC News",
+        "publishedAt": "2026-04-02T11:44:03Z"
+      },
+      {
         "title": "New Zealand signs defence pact with Cook Islands after quarrel over China deal",
         "url": "https://www.theguardian.com/world/2026/apr/02/new-zealand-cook-islands-defense",
         "source": "The Guardian",
         "publishedAt": "2026-04-02T01:55:07Z"
-      },
-      {
-        "title": "Taiwan's opposition leader seeks to win friends in China with a high-stakes visit",
-        "url": "https://www.nbcnews.com/world/asia/taiwans-opposition-leader-seeks-win-friends-china-high-stakes-visit-rcna266349",
-        "source": "NBC News",
-        "publishedAt": "2026-04-04T12:32:07Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "United Kingdom",
@@ -110,48 +110,54 @@
         "publishedAt": "2026-04-03T13:11:40Z"
       },
       {
-        "title": "Three charged with arson over London Jewish charity ambulance attack",
-        "url": "https://www.ft.com/content/224108af-cc42-4e92-9722-a2f25ead002a",
-        "source": "Financial Times",
-        "publishedAt": "2026-04-03T22:55:29Z"
+        "title": "Iran conflict to forefront of UK religious and political leaders’ Easter messages",
+        "url": "https://www.theguardian.com/world/2026/apr/04/iran-conflict-uk-easter-messages-archbishop-canterbury-keir-starmer",
+        "source": "The Guardian",
+        "publishedAt": "2026-04-04T21:30:32Z"
       },
       {
-        "title": "Mystery London Lotto winner loses £10m jackpot after missing deadline",
-        "url": "https://www.standard.co.uk/news/national-lottery-unclaimed-lotto-jackpot-b1277608.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-03T17:11:39Z"
+        "title": "UK prosecutors charge 3, including dual Pakistani citizen, in arson attack on Jewish ambulances in London",
+        "url": "https://www.foxnews.com/world/uk-prosecutors-charge-3-including-dual-pakistani-citizen-arson-attack-jewish-ambulances-london",
+        "source": "Fox News World",
+        "publishedAt": "2026-04-04T16:56:37Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Germany",
     "iso2": "DE",
     "headlines": [
       {
+        "title": "Man arrested after threatening an attack on a high-speed train in Germany",
+        "url": "https://abcnews.com/International/wireStory/man-arrested-after-threatening-attack-high-speed-train-131669080",
+        "source": "ABC News",
+        "publishedAt": "2026-04-02T22:05:51Z"
+      },
+      {
+        "title": "Campaign to curb cars in Berlin sparks uproar ahead of election",
+        "url": "https://www.ft.com/content/8ac85c84-7947-4ed0-8c41-12733b71c88d",
+        "source": "Financial Times",
+        "publishedAt": "2026-04-05T04:00:12Z"
+      },
+      {
         "title": "Germany’s far-right AfD distances itself from Trump over Iran war",
         "url": "https://www.ft.com/content/9d5abad5-df48-4e56-908a-1a7e38bb182e",
         "source": "Financial Times",
         "publishedAt": "2026-04-04T04:00:32Z"
-      },
-      {
-        "title": "Germany Among States Pushing EU to Tax Energy Windfall Profits",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-04/five-eu-states-call-for-energy-windfall-profit-tax-reuters-says",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-04T07:49:39Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "UAE",
     "iso2": "AE",
     "headlines": [
       {
-        "title": "Jefferies Says UAE Injected $8 Billion Liquidity to Help Lenders",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-03/jefferies-says-uae-injected-8-billion-liquidity-to-help-lenders",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-03T11:28:47Z"
+        "title": "Debris from an intercepted missile struck Oracle's Dubai office days after Iran threatened US companies in the region",
+        "url": "https://www.businessinsider.com/oracle-office-dubai-strike-iran-war-2026-4",
+        "source": "Business Insider",
+        "publishedAt": "2026-04-04T16:00:21Z"
       },
       {
         "title": "Weather tracker: Thunderstorms drench UAE and Saudi Arabia",
@@ -160,7 +166,7 @@
         "publishedAt": "2026-03-30T09:31:31Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Saudi Arabia",
@@ -173,42 +179,42 @@
         "publishedAt": "2026-03-30T09:31:31Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
-        "title": "How many people have been killed in the US-Israel war on Iran since the conflict began?",
-        "url": "https://www.independent.co.uk/news/world/middle-east/iran-war-news-deaths-us-israel-april-3-b2951712.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-04T00:27:23Z"
+        "title": "Israeli police arrest antiwar protesters in Tel Aviv",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/4/israeli-police-arrest-antiwar-protesters-in-tel-aviv?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-04T20:04:21Z"
       },
       {
-        "title": "Iran war live: US-Israel attacks hit petrochemical, nuclear sites in Iran",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T00:00:00Z"
+        "title": "<a href=\"https://news.sky.com/story/iran-war-latest-trump-tehran-us-israel-kharg-island-netanyahu-lebanon-strikes-drone-live-sky-news-13509565?postid=11458523#liveblog-body\" target=\"_blank\">French-owned ship transits through Iran-controlled Strait of Hormuz route</a>",
+        "url": "https://news.sky.com/story/french-owned-ship-transits-through-iran-controlled-strait-of-hormuz-13527829",
+        "source": "Sky News",
+        "publishedAt": "2026-04-04T08:44:00Z"
       },
       {
-        "title": "Israeli strikes damage hospital in Lebanon’s Tyre; ground invasion advances",
-        "url": "https://www.aljazeera.com/news/2026/4/4/israeli-strikes-damage-hospital-in-lebanons-tyre?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T13:07:25Z"
+        "title": "Israel strikes Beirut as U.S. warns Iran may target universities",
+        "url": "https://www.cbc.ca/news/world/iran-war-lebanon-universities-warning-9.7153025?cmp=rss",
+        "source": "CBC News World",
+        "publishedAt": "2026-04-03T20:10:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "Palestinian Christians in Gaza mark Good Friday",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/4/palestinian-christians-in-gaza-mark-good-friday?traffic_source=rss",
+        "title": "Vehicle engulfed in flames after Israeli drone strike in central Gaza",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/4/vehicle-engulfed-in-flames-after-israeli-drone-strike-in-central-gaza?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T00:30:08Z"
+        "publishedAt": "2026-04-04T18:43:35Z"
       },
       {
         "title": "Palestinians in occupied West Bank face growing violence from Israeli settlers",
@@ -223,7 +229,7 @@
         "publishedAt": "2026-04-02T17:15:07Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Mexico",
@@ -242,13 +248,13 @@
         "publishedAt": "2026-04-02T06:32:49Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Brazil",
     "iso2": "BR",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Canada",
@@ -261,19 +267,19 @@
         "publishedAt": "2026-04-04T13:13:36Z"
       },
       {
-        "title": "Jack Middleton: Qatar’s LNG crisis proves Canada must build now",
-        "url": "https://nationalpost.com/opinion/jack-middleton-qatars-lng-crisis-proves-canada-must-build-now",
-        "source": "National Post",
-        "publishedAt": "2026-04-04T10:00:07Z"
-      },
-      {
-        "title": "How the Middle East war is already impacting mortgage rates in Canada",
+        "title": "How the war in the Middle East is already impacting mortgage rates in Canada",
         "url": "https://www.cbc.ca/news/canada/iran-war-mortgage-rates-canada-9.7152182?cmp=rss",
         "source": "CBC News World",
         "publishedAt": "2026-04-04T08:00:00Z"
+      },
+      {
+        "title": "Canada offers Toronto’s heartbroken Italians a jersey swap for World Cup",
+        "url": "https://nationalpost.com/news/canada/canada-offers-torontos-heartbroken-italians-a-jersey-swap-for-world-cup",
+        "source": "National Post",
+        "publishedAt": "2026-04-04T19:42:24Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Nigeria",
@@ -298,7 +304,7 @@
         "publishedAt": "2026-03-31T18:36:33Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Japan",
@@ -315,15 +321,9 @@
         "url": "https://www.ft.com/content/6c33a7cf-9c25-4ad9-9526-50198074e3df",
         "source": "Financial Times",
         "publishedAt": "2026-04-04T04:00:42Z"
-      },
-      {
-        "title": "Clarke disappointed by boos as Japan stun Scotland at Hampden",
-        "url": "https://www.telegraph.co.uk/football/2026/03/28/scotland-vs-japan-live-score-latest-updates-international",
-        "source": "The Telegraph",
-        "publishedAt": "2026-03-28T23:06:10Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Iran",
@@ -336,19 +336,19 @@
         "publishedAt": "2026-04-04T13:27:55Z"
       },
       {
-        "title": "How many people have been killed in the US-Israel war on Iran since the conflict began?",
-        "url": "https://www.independent.co.uk/news/world/middle-east/iran-war-news-deaths-us-israel-april-3-b2951712.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-04T00:27:23Z"
+        "title": "Five elections, one month: India’s Modi faces voters amid Iran war risks",
+        "url": "https://www.ft.com/content/71c1cbf2-bbcd-45f5-badb-2b1fafaa60d1",
+        "source": "Financial Times",
+        "publishedAt": "2026-04-05T01:56:48Z"
       },
       {
-        "title": "Iran war live: US-Israel attacks hit petrochemical, nuclear sites in Iran",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T00:00:00Z"
+        "title": "Trump gives conflicting messages on war in Iran",
+        "url": "https://www.cbsnews.com/video/trump-gives-conflicting-messages-iran-war",
+        "source": "CBS News",
+        "publishedAt": "2026-04-04T22:52:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Syria",
@@ -367,7 +367,7 @@
         "publishedAt": "2026-04-03T07:00:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "France",
@@ -378,26 +378,26 @@
         "url": "https://www.bloomberg.com/news/articles/2026-04-04/france-to-offer-loans-to-small-businesses-hit-by-fuel-costs",
         "source": "Bloomberg",
         "publishedAt": "2026-04-04T07:08:08Z"
-      },
-      {
-        "title": "France's Muslim gathering ban overturned by courts",
-        "url": "https://www.bbc.com/news/articles/cwyjekvwww0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-04-03T12:20:28Z"
-      },
-      {
-        "title": "French and South Korean leaders say they'll work together on the Strait of Hormuz",
-        "url": "https://abcnews.com/International/wireStory/french-south-korean-leaders-work-strait-hormuz-131678218",
-        "source": "ABC News",
-        "publishedAt": "2026-04-03T11:30:31Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
     "headlines": [
+      {
+        "title": "Zelenskyy in Istanbul for security talks with Erdogan",
+        "url": "https://nationalpost.com/news/world/zelenskyy-in-istanbul-for-security-talks-with-erdogan",
+        "source": "National Post",
+        "publishedAt": "2026-04-04T16:30:14Z"
+      },
+      {
+        "title": "How baklava is made at the oldest restaurant in Turkey's culinary capital",
+        "url": "https://www.businessinsider.com/handmade-baklava-turkey-oldest-restaurant-kebab-2026-3",
+        "source": "Business Insider",
+        "publishedAt": "2026-04-04T15:21:01Z"
+      },
       {
         "title": "Turkey’s NATO role under scrutiny amid new report on Hamas, Muslim Brotherhood ties",
         "url": "https://www.foxnews.com/world/turkeys-nato-role-under-scrutiny-amid-new-report-hamas-muslim-brotherhood-ties",
@@ -405,18 +405,12 @@
         "publishedAt": "2026-04-01T15:52:02Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Venezuela",
     "iso2": "VE",
     "headlines": [
-      {
-        "title": "Trump admin. lifts sanctions on Delcy Rodriguez, Venezuela's acting president",
-        "url": "https://www.cbsnews.com/news/trump-administration-lifts-sanctions-delcy-rodriguez-venezuela-acting-president",
-        "source": "CBS News",
-        "publishedAt": "2026-04-01T23:09:52Z"
-      },
       {
         "title": "Trump and the Venezuela Model of Compliant Autocracy",
         "url": "https://time.com/article/2026/04/02/trump-and-the-venezuela-model-of-autocracy",
@@ -424,7 +418,7 @@
         "publishedAt": "2026-04-03T10:30:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Vietnam",
@@ -437,7 +431,7 @@
         "publishedAt": "2026-04-04T12:59:40Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Taiwan",
@@ -450,19 +444,19 @@
         "publishedAt": "2026-04-04T12:32:07Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "South Korea",
     "iso2": "KR",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "North Korea",
     "iso2": "KP",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Indonesia",
@@ -475,13 +469,19 @@
         "publishedAt": "2026-04-02T05:23:28Z"
       },
       {
+        "title": "Indonesia receives bodies of peacekeepers killed in southern Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/4/4/indonesia-receives-bodies-of-peacekeepers-killed-in-southern-lebanon?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-04T20:21:51Z"
+      },
+      {
         "title": "Magnitude 7.4 earthquake off Indonesia topples buildings, kills 1 person",
         "url": "https://www.cbc.ca/news/world/earthquake-indonesia-9.7151044?cmp=rss",
         "source": "CBC News World",
         "publishedAt": "2026-04-02T08:48:36Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Myanmar",
@@ -492,33 +492,27 @@
         "url": "https://www.theguardian.com/world/2026/apr/03/mynanmar-junta-chief-min-aung-hlaing-profile",
         "source": "The Guardian",
         "publishedAt": "2026-04-03T10:22:52Z"
-      },
-      {
-        "title": "Myanmar’s parliament elects ruling general as president, keeping the army in charge",
-        "url": "https://abcnews.com/International/wireStory/myanmars-parliament-elects-ruling-general-president-keeping-army-131678128",
-        "source": "ABC News",
-        "publishedAt": "2026-04-03T07:30:42Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Somalia",
@@ -531,13 +525,13 @@
         "publishedAt": "2026-03-30T16:38:43Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Libya",
@@ -550,36 +544,42 @@
         "publishedAt": "2026-04-02T12:50:41Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Egypt",
     "iso2": "EG",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Argentina",
     "iso2": "AR",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Chile",
     "iso2": "CL",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
     "headlines": [
+      {
+        "title": "Peru’s Presidential Front-Runners Shift With Election Days Away",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-04/peru-s-presidential-front-runners-shift-with-election-days-away",
+        "source": "Bloomberg",
+        "publishedAt": "2026-04-04T17:16:16Z"
+      },
       {
         "title": "One dead, dozens injured in crush during rally at Peru soccer stadium",
         "url": "https://www.cbsnews.com/news/peru-soccer-alejandro-villanueva-stadium-alianza-lima-universitario-crush-rally",
@@ -591,15 +591,9 @@
         "url": "https://www.theguardian.com/world/2026/apr/04/lima-football-stadium-pre-match-event-injured-dead",
         "source": "The Guardian",
         "publishedAt": "2026-04-04T10:00:05Z"
-      },
-      {
-        "title": "Football rally in Peru leaves one dead and dozens injured",
-        "url": "https://www.bbc.com/news/articles/ckgxyn3ljgjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-04-04T06:34:56Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Cuba",
@@ -612,50 +606,43 @@
         "publishedAt": "2026-04-03T18:15:07Z"
       },
       {
-        "title": "Cuban skeptics say leftists behind aid mission ‘actually know nothing’",
-        "url": "https://nationalpost.com/news/cuban-skeptics-say-leftists-behind-aid-mission-actually-know-nothing",
-        "source": "National Post",
-        "publishedAt": "2026-04-04T10:00:11Z"
-      },
-      {
         "title": "Cuba begins releasing more than 2,000 prisoners as US pressure mounts",
         "url": "https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "publishedAt": "2026-04-03T20:59:48Z"
+      },
+      {
+        "title": "Cuba says it released over 2,000 prisoners as White House heaps pressure on island",
+        "url": "https://www.cbsnews.com/news/cuba-releases-prisoners-trump-administration-pressure-on-island-oil-russia",
+        "source": "CBS News",
+        "publishedAt": "2026-04-03T19:34:27Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Colombia",
     "iso2": "CO",
-    "headlines": [
-      {
-        "title": "A road accident in Colombia involving several vehicles kills at least 2 people and injures 19",
-        "url": "https://abcnews.com/International/wireStory/road-accident-colombia-involving-vehicles-kills-2-people-131622257",
-        "source": "ABC News",
-        "publishedAt": "2026-04-01T18:15:38Z"
-      }
-    ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "headlines": [],
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
     "headlines": [],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Sudan",
@@ -668,23 +655,23 @@
         "publishedAt": "2026-04-03T11:31:13Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "At least four people killed in Russian attacks on Ukraine",
-        "url": "https://www.aljazeera.com/news/2026/4/4/1997?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-04T10:20:36Z"
+        "title": "Ukraine-Russia war latest: Moscow launches drone attack on market that kills five",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-drone-attacks-b2945082.html",
+        "source": "The Independent",
+        "publishedAt": "2026-04-05T05:43:35Z"
       },
       {
-        "title": "Ukraine-Russia war latest: Putin’s forces launch 280-drone assault as Zelensky hits out at ‘Easter escalation’",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-trump-zelensky-strikes-peace-talks-b2945082.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-04T09:52:27Z"
+        "title": "Deadly strikes in Ukraine and Russia kill 10, injure dozens",
+        "url": "https://www.cbsnews.com/news/russia-and-ukraine-trade-deadly-strikes-zelenskyy-istanbul",
+        "source": "CBS News",
+        "publishedAt": "2026-04-04T14:14:16Z"
       },
       {
         "title": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
@@ -693,6 +680,6 @@
         "publishedAt": "2026-04-04T08:34:00Z"
       }
     ],
-    "lastUpdated": "2026-04-04T14:04:37.672695Z"
+    "lastUpdated": "2026-04-05T05:56:00.901152Z"
   }
 ]
