@@ -4,10 +4,10 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Ukraine-Russia war latest: Putin and Zelensky agree to ceasefire while Moscow loses 1,100 troops in a day",
+        "title": "Ukraine-Russia war latest: Putin and Zelensky agree to 32-hour Easter ceasefire while Moscow loses 1,100 troops in a day",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-easter-ceasefire-b2945082.html",
         "source": "The Independent",
-        "publishedAt": "2026-04-10T06:12:24Z"
+        "publishedAt": "2026-04-10T06:52:19Z"
       },
       {
         "title": "Putin declares weekend ceasefire in Russia's war against Ukraine for Orthodox Easter",
@@ -16,13 +16,13 @@
         "publishedAt": "2026-04-09T23:46:06Z"
       },
       {
-        "title": "Attack submarine sent by Putin towards UK as 'decoy' in Russian spy operation targeting underwater cables",
-        "url": "https://www.standard.co.uk/news/politics/russian-submarine-spy-operation-uk-underwater-cables-putin-royal-navy-b1278110.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-09T12:08:15Z"
+        "title": "Russia's air force is much more dangerous now than it was before it invaded Ukraine, airpower experts warn",
+        "url": "https://www.businessinsider.com/russian-air-force-now-more-dangerous-nato-learned-ukraine-2026-4",
+        "source": "Business Insider",
+        "publishedAt": "2026-04-10T12:37:32Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "India",
@@ -35,55 +35,49 @@
         "publishedAt": "2026-04-03T23:00:06Z"
       },
       {
-        "title": "India struggles to stabilise rupee as war creates depreciation pressure",
-        "url": "https://www.ft.com/content/7b4ee96d-8bcb-4c75-b1db-d3b6de0bfc93",
-        "source": "Financial Times",
-        "publishedAt": "2026-04-10T02:21:23Z"
-      },
-      {
         "title": "Key Indian state elections test Modi party reach in key big opposition strongholds",
         "url": "https://abcnews.com/International/wireStory/key-indian-states-hold-elections-test-reach-modis-131867357",
         "source": "ABC News",
         "publishedAt": "2026-04-09T05:30:32Z"
+      },
+      {
+        "title": "US, Iran Come to Pakistan as India Is Left to Look On",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-10/us-iran-come-to-pakistan-as-india-is-left-to-look-on",
+        "source": "Bloomberg",
+        "publishedAt": "2026-04-10T10:00:09Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Pakistan",
     "iso2": "PK",
     "headlines": [
       {
+        "title": "Middle East crisis live: Vance warns Iran not to ‘play’ US as he heads to Pakistan for talks",
+        "url": "https://www.theguardian.com/world/live/2026/apr/10/iran-war-live-updates-trump-ceasefire-strait-hormuz-israel-lebanon-hezbollah",
+        "source": "The Guardian",
+        "publishedAt": "2026-04-10T12:57:06Z"
+      },
+      {
+        "title": "Islamabad prepares to host US-Iran negotiations as Trump casts doubt on ceasefire | First Thing",
+        "url": "https://www.theguardian.com/us-news/2026/apr/10/first-thing-islamabad-us-iran-talks-ceasefire",
+        "source": "The Guardian",
+        "publishedAt": "2026-04-10T11:35:54Z"
+      },
+      {
         "title": "Islamabad prepares to host historic negotiations between Iran and the US",
         "url": "https://www.theguardian.com/world/2026/apr/10/islamabad-pakistan-negotiations-iran-us",
         "source": "The Guardian",
         "publishedAt": "2026-04-10T03:00:07Z"
-      },
-      {
-        "title": "High-stakes talks set for Islamabad over US-Iran war: What to know",
-        "url": "https://thehill.com/homenews/administration/5824835-high-stakes-talks-islamabad-ceasefire",
-        "source": "The Hill",
-        "publishedAt": "2026-04-09T22:34:44Z"
-      },
-      {
-        "title": "Uranium, sanctions and the Strait of Hormuz: The key sticking points between US and Iran ahead of talks in Islamabad",
-        "url": "https://www.independent.co.uk/news/world/middle-east/iran-ceasefire-us-peace-deal-trump-lebanon-strait-of-hormuz-b2954285.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-09T09:51:41Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
-      {
-        "title": "Xi Helps Trump on Iran War as China Assists in Ceasefire Bid",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/xi-helps-trump-on-iran-war-as-china-assists-with-ceasefire-bid",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-09T11:00:00Z"
-      },
       {
         "title": "China aiding Iran missile program amid US-Israeli strikes, reports say",
         "url": "https://www.foxnews.com/world/china-aiding-iran-missile-program-amid-us-israeli-strikes-reports-say",
@@ -91,51 +85,50 @@
         "publishedAt": "2026-04-07T17:54:27Z"
       },
       {
-        "title": "China’s factory gate prices exit deflation after Iran war shock",
-        "url": "https://www.ft.com/content/a56c69bc-97a1-4911-be38-8bccf8f7dcb3",
+        "title": "How will the Iran war impact China? You asked, we answered",
+        "url": "https://www.ft.com/content/d0a02760-aeaa-47d1-a1fb-a96d2cadfacf",
         "source": "Financial Times",
-        "publishedAt": "2026-04-10T04:08:23Z"
+        "publishedAt": "2026-04-10T12:00:12Z"
+      },
+      {
+        "title": "China's Xi meets Taiwan opposition leader ahead of key summit with Trump",
+        "url": "https://www.npr.org/2026/04/10/nx-s1-5780605/china-xi-taiwan-opposition",
+        "source": "NPR World",
+        "publishedAt": "2026-04-10T11:29:04Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "United Kingdom",
     "iso2": "GB",
     "headlines": [
       {
-        "title": "Stop attacks on Lebanon, Britain tells Israel amid fragile ceasefire as it warns Tehran not to 'hijack' Strait of Hormuz",
-        "url": "https://www.standard.co.uk/news/politics/israel-stop-attack-lebanon-iran-trump-ceasefire-britain-b1278070.html",
+        "title": "London park wars: Inside the battle to restrict festivals in Brockwell Park and Gunnersbury Park",
+        "url": "https://www.standard.co.uk/homesandproperty/property-news/music-festivals-london-parks-brockwell-park-gunnersbury-park-b1273270.html",
         "source": "Evening Standard",
-        "publishedAt": "2026-04-09T19:23:30Z"
+        "publishedAt": "2026-04-10T08:59:23Z"
       },
       {
-        "title": "Housing war erupts: Greens accuse Labour of ‘cosy’ developer ties as London local elections battle heats up",
-        "url": "https://www.standard.co.uk/news/politics/housing-greens-labour-london-local-elections-b1278122.html",
+        "title": "World Naked Bike Ride confirmed for London this summer despite growing intolerance towards event",
+        "url": "https://www.standard.co.uk/news/london/world-naked-bike-ride-london-2026-route-confirmed-b1278211.html",
         "source": "Evening Standard",
-        "publishedAt": "2026-04-09T16:49:57Z"
+        "publishedAt": "2026-04-10T12:20:47Z"
       },
       {
-        "title": "Met steps up antisemitism crackdown in London with more than 20 arrests",
-        "url": "https://www.standard.co.uk/news/crime/met-police-antisemitism-crackdown-arrests-london-b1278142.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-09T14:59:33Z"
+        "title": "Squeezed Britain: student loans, salaries and strikes",
+        "url": "https://www.ft.com/content/290f2bdc-ddcc-4a53-9128-94e68e7eb4b4",
+        "source": "Financial Times",
+        "publishedAt": "2026-04-10T12:09:52Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Germany",
     "iso2": "DE",
-    "headlines": [
-      {
-        "title": "Germany suspends military approval for long stays abroad for men under 45",
-        "url": "https://www.bbc.com/news/articles/ckgx103wkl1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-04-08T15:21:12Z"
-      }
-    ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "UAE",
@@ -154,54 +147,61 @@
         "publishedAt": "2026-04-08T21:30:00Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Saudi Arabia",
     "iso2": "SA",
-    "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [
+      {
+        "title": "Saudi Says Attacks on Oil Assets Hit Output and Exports",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/saudi-oil-output-capacity-cut-600-000-barrels-a-day-in-attacks",
+        "source": "Bloomberg",
+        "publishedAt": "2026-04-09T18:52:21Z"
+      }
+    ],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
-        "title": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-10T00:00:00Z"
-      },
-      {
-        "title": "Stop attacks on Lebanon, Britain tells Israel amid fragile ceasefire as it warns Tehran not to 'hijack' Strait of Hormuz",
-        "url": "https://www.standard.co.uk/news/politics/israel-stop-attack-lebanon-iran-trump-ceasefire-britain-b1278070.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-09T19:23:30Z"
-      },
-      {
         "title": "Starmer hits out at Israel over Lebanon strikes following Iran war ceasefire",
         "url": "https://www.independent.co.uk/news/uk/politics/starmer-israel-attack-lebanon-iran-ceasefire-b2954766.html",
         "source": "The Independent",
         "publishedAt": "2026-04-09T17:21:16Z"
+      },
+      {
+        "title": "Israel strikes Lebanon without warning, hours after Iran ceasefire announced",
+        "url": "https://www.pbs.org/newshour/show/israel-strikes-lebanon-without-warning-hours-after-iran-ceasefire-announced",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-04-08T22:45:40Z"
+      },
+      {
+        "title": "Iran War Live Updates: Israel Strikes Hezbollah as Vance Pursues Iran Peace Talks",
+        "url": "https://www.newsweek.com/iran-war-live-updates-vance-pakistan-iran-talks-israel-hezbollah-hormuz-ceasefire-trump-11811063",
+        "source": "Newsweek",
+        "publishedAt": "2026-04-10T13:15:19Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "Gaza journalists mourn Al Jazeera’s Wishah, killed by Israel",
-        "url": "https://www.aljazeera.com/news/2026/4/9/gaza-journalists-mourn-al-jazeeras-wishah-killed-by-israel?traffic_source=rss",
+        "title": "Gaza families still unable to bury dead six months into ‘ceasefire’",
+        "url": "https://www.aljazeera.com/news/2026/4/10/gaza-families-still-unable-to-bury-dead-six-months-into-ceasefire?traffic_source=rss",
         "source": "Al Jazeera",
-        "publishedAt": "2026-04-09T20:41:58Z"
+        "publishedAt": "2026-04-10T11:06:19Z"
       },
       {
-        "title": "Gaza schoolgirl shot dead by Israeli forces ‘in front of other students’",
-        "url": "https://www.independent.co.uk/news/world/middle-east/gaza-schoolgirl-shooting-death-israel-b2954469.html",
-        "source": "The Independent",
-        "publishedAt": "2026-04-09T12:05:26Z"
+        "title": "Six months into ‘ceasefire’, Gaza suffers under persistent Israeli attacks",
+        "url": "https://www.aljazeera.com/gallery/2026/4/10/six-months-into-a-us-brokered-ceasefire-gaza-remains-under-israeli-attacks?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-10T09:36:31Z"
       },
       {
         "title": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
@@ -210,13 +210,26 @@
         "publishedAt": "2026-04-09T11:39:56Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Mexico",
     "iso2": "MX",
-    "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [
+      {
+        "title": "Bodies of at least 11 people found in hidden graves in western Mexico",
+        "url": "https://www.cbsnews.com/news/human-remains-guadalajara-jalisco-mexico-found",
+        "source": "CBS News",
+        "publishedAt": "2026-04-10T12:13:38Z"
+      },
+      {
+        "title": "DHS deported a US citizen to Mexico after threatening him with prison time: report",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/bryan-morales-us-citizen-deport-mexico-b2955205.html",
+        "source": "The Independent",
+        "publishedAt": "2026-04-10T11:17:53Z"
+      }
+    ],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Brazil",
@@ -229,7 +242,7 @@
         "publishedAt": "2026-04-09T11:35:06Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Canada",
@@ -242,19 +255,19 @@
         "publishedAt": "2026-04-07T23:39:17Z"
       },
       {
-        "title": "Canada pushes to join UK-Italy-Japan advanced fighter jet project",
-        "url": "https://www.ft.com/content/d664b704-56a5-4b00-b34c-8da39e82a2a9",
-        "source": "Financial Times",
-        "publishedAt": "2026-04-10T04:00:20Z"
+        "title": "Canadian mother held by ICE with daughter, 7, speaks out on families ‘suffering greatly’ in detention",
+        "url": "https://www.theguardian.com/us-news/2026/apr/10/ice-canadian-mother-daughter-texas",
+        "source": "The Guardian",
+        "publishedAt": "2026-04-10T11:00:17Z"
       },
       {
-        "title": "If Frank Stronach is acquitted of sex assault charges, it would likely mark end of MeToo era in Canada",
-        "url": "https://nationalpost.com/news/frank-stronach-trial-arguments",
+        "title": "Desire to have children increasing among Canadians: Statistics Canada study",
+        "url": "https://nationalpost.com/news/canada/desire-to-have-children-increasing-among-canadians-statistics-canada-study",
         "source": "National Post",
-        "publishedAt": "2026-04-09T21:00:04Z"
+        "publishedAt": "2026-04-10T11:00:03Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Nigeria",
@@ -267,7 +280,7 @@
         "publishedAt": "2026-04-09T14:46:30Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Japan",
@@ -280,45 +293,38 @@
         "publishedAt": "2026-04-10T04:00:20Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Iran",
     "iso2": "IR",
     "headlines": [
       {
-        "title": "Middle East crisis live: Trump casts doubt on Iran war ceasefire over continued closure of strait of Hormuz",
-        "url": "https://www.theguardian.com/world/live/2026/apr/10/iran-war-live-updates-trump-ceasefire-strait-hormuz-israel-lebanon-hezbollah",
-        "source": "The Guardian",
-        "publishedAt": "2026-04-10T06:06:35Z"
+        "title": "Starmer hits out at Israel over Lebanon strikes following Iran war ceasefire",
+        "url": "https://www.independent.co.uk/news/uk/politics/starmer-israel-attack-lebanon-iran-ceasefire-b2954766.html",
+        "source": "The Independent",
+        "publishedAt": "2026-04-09T17:21:16Z"
       },
       {
-        "title": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-10T00:00:00Z"
+        "title": "US-Iran war in numbers: Thousands killed and billions spent as fragile ceasefire takes effect",
+        "url": "https://www.independent.co.uk/news/world/middle-east/iran-israel-us-war-death-toll-b2953551.html",
+        "source": "The Independent",
+        "publishedAt": "2026-04-09T15:30:57Z"
       },
       {
-        "title": "Stop attacks on Lebanon, Britain tells Israel amid fragile ceasefire as it warns Tehran not to 'hijack' Strait of Hormuz",
-        "url": "https://www.standard.co.uk/news/politics/israel-stop-attack-lebanon-iran-trump-ceasefire-britain-b1278070.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-09T19:23:30Z"
+        "title": "Iran war ceasefire teeters over disagreements on Lebanon and the Strait of Hormuz",
+        "url": "https://www.pbs.org/newshour/world/iran-war-ceasefire-teeters-over-disagreements-on-lebanon-and-the-strait-of-hormuz",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-04-09T13:46:52Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
-    "headlines": [
-      {
-        "title": "Syria: the world’s toughest reconstruction project?",
-        "url": "https://www.telegraph.co.uk/global-health/terror-and-security/is-this-the-worlds-toughest-reconstruction-project",
-        "source": "The Telegraph",
-        "publishedAt": "2026-04-03T07:00:00Z"
-      }
-    ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "France",
@@ -337,24 +343,18 @@
         "publishedAt": "2026-04-09T11:52:20Z"
       },
       {
-        "title": "Paris Fury knew husband Tyson would return to boxing as it is his ‘passion’",
-        "url": "https://www.standard.co.uk/showbiz/celebrity-news/venezuela-press-association-instagram-netflix-b1278205.html",
-        "source": "Evening Standard",
-        "publishedAt": "2026-04-10T05:56:48Z"
+        "title": "How Brigitte Macron Became Donald’s Trump Card",
+        "url": "https://www.newsweek.com/brigitte-macron-trump-france-iran-11810500",
+        "source": "Newsweek",
+        "publishedAt": "2026-04-10T12:40:49Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
     "headlines": [
-      {
-        "title": "Gunman near Israeli Consulate in Istanbul killed, Turkish governor says",
-        "url": "https://www.cbc.ca/news/world/hungary-istanbul-israel-consulate-incident-9.7154453?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-04-07T10:22:10Z"
-      },
       {
         "title": "3 gunmen open fire outside Israeli consulate in Istanbul, dubbed 'terrorists' by Turkish official",
         "url": "https://www.foxnews.com/world/3-gunmen-open-fire-outside-israeli-consulate-istanbul-dubbed-terrorists-turkish-official",
@@ -362,7 +362,7 @@
         "publishedAt": "2026-04-07T13:21:58Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Venezuela",
@@ -375,67 +375,60 @@
         "publishedAt": "2026-04-10T02:21:29Z"
       },
       {
-        "title": "Police in Venezuela block protesters calling for higher wages, pensions",
-        "url": "https://www.aljazeera.com/news/2026/4/9/police-in-venezuela-block-protesters-calling-for-higher-wages-pensions?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-04-09T22:50:43Z"
+        "title": "Trump ‘reaping bitter fruit’ of thinking Iran intervention as easy as Venezuela, says former diplomat",
+        "url": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
+        "source": "The Guardian",
+        "publishedAt": "2026-04-10T10:00:16Z"
       },
       {
-        "title": "The US refinery now processing Venezuelan oil",
-        "url": "https://www.bbc.com/news/articles/cx24n8eqzgyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-04-07T23:00:31Z"
+        "title": "Mauro compares Iran rescue of missing colonel to Maduro capture, credits intelligence preparation",
+        "url": "https://www.foxnews.com/world/mauro-compares-iran-rescue-missing-colonel-maduro-capture-credits-intelligence-preparation",
+        "source": "Fox News World",
+        "publishedAt": "2026-04-06T18:01:37Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
-    "headlines": [
-      {
-        "title": "Vietnam elects Communist Party chief as president, echoing China's power structure",
-        "url": "https://abcnews.com/International/wireStory/vietnam-elects-communist-party-chief-president-echoing-chinas-131789817",
-        "source": "ABC News",
-        "publishedAt": "2026-04-07T06:00:12Z"
-      }
-    ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Taiwan",
     "iso2": "TW",
     "headlines": [
       {
-        "title": "China’s Xi tells Taiwan opposition leader unification an ‘inevitability’",
-        "url": "https://www.ft.com/content/e4aecf2e-9975-4b44-b01c-d6f2b8435386",
-        "source": "Financial Times",
-        "publishedAt": "2026-04-10T05:08:27Z"
+        "title": "China's Xi meets Taiwan opposition leader ahead of key summit with Trump",
+        "url": "https://www.npr.org/2026/04/10/nx-s1-5780605/china-xi-taiwan-opposition",
+        "source": "NPR World",
+        "publishedAt": "2026-04-10T11:29:04Z"
       },
       {
-        "title": "China Sends Message to Trump as It Welcomes Taiwan’s Opposition Leader",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-10/china-sends-message-to-trump-as-it-welcomes-taiwan-s-opposition-leader",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-10T04:36:30Z"
+        "title": "Taiwan's opposition leader meets China's Xi Jinping as both sides call for peace",
+        "url": "https://abcnews.com/International/wireStory/taiwans-opposition-leader-meets-chinas-xi-jinping-sides-131906702",
+        "source": "ABC News",
+        "publishedAt": "2026-04-10T11:37:10Z"
       },
       {
-        "title": "Xi Tells Taiwan's Main Opposition Chief That China Wants Peace, Unification",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-10/xi-meets-kmt-s-cheng-as-china-pushes-for-influence-in-taiwan",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-10T03:18:27Z"
+        "title": "Taiwan opposition leader calls for ‘reconciliation’ after meeting Xi",
+        "url": "https://www.aljazeera.com/news/2026/4/10/taiwan-opposition-leader-calls-for-reconciliation-after-meeting-xi?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-10T10:39:17Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "South Korea",
     "iso2": "KR",
     "headlines": [
       {
-        "title": "South Korea to Send Envoy to Iran as Hormuz Remains Blocked",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-10/south-korea-to-send-envoy-to-iran-as-hormuz-remains-blocked",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-10T01:50:04Z"
+        "title": "Architect Sophie Hicks: my love affair with Seoul",
+        "url": "https://www.ft.com/content/712a4185-95b1-4cb6-8c7b-e3daa5a7df7e",
+        "source": "Financial Times",
+        "publishedAt": "2026-04-10T08:30:05Z"
       },
       {
         "title": "K-pop supergroup BTS kick off world tour in South Korea after 4-year hiatus",
@@ -444,13 +437,13 @@
         "publishedAt": "2026-04-09T13:54:13Z"
       },
       {
-        "title": "Hundreds search for wolf that escaped from zoo in South Korea",
-        "url": "https://www.theguardian.com/world/2026/apr/09/wolf-escaped-zoo-daejeon-south-korea",
-        "source": "The Guardian",
-        "publishedAt": "2026-04-09T04:26:07Z"
+        "title": "'Credible intelligence' reveals North Korea's successor to Kim Jong Un, South Korea says",
+        "url": "https://www.foxnews.com/world/credible-intelligence-reveals-north-koreas-successor-kim-jong-un-south-korea-says",
+        "source": "Fox News World",
+        "publishedAt": "2026-04-06T12:20:31Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "North Korea",
@@ -469,68 +462,87 @@
         "publishedAt": "2026-04-08T11:04:39Z"
       },
       {
-        "title": "China’s Top Envoy Says Ties With North Korea to Strengthen",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-10/china-s-top-envoy-says-ties-with-north-korea-to-strengthen",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-10T01:35:30Z"
+        "title": "North Korea and China agree to deepen cooperation in talks between foreign ministers",
+        "url": "https://abcnews.com/International/wireStory/north-korea-china-agree-deepen-cooperation-talks-foreign-131901523",
+        "source": "ABC News",
+        "publishedAt": "2026-04-10T11:44:34Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Indonesia",
     "iso2": "ID",
-    "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [
+      {
+        "title": "Torpedo-like object discovered by Indonesian fisherman",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/10/torpedo-like-object-discovered-by-indonesian-fisherman?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-10T09:15:55Z"
+      }
+    ],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Myanmar",
     "iso2": "MM",
     "headlines": [
       {
-        "title": "Myanmar's parliament approves cabinet mostly of former generals and holdovers",
-        "url": "https://abcnews.com/International/wireStory/myanmars-parliament-approves-cabinet-former-generals-holdovers-131868950",
+        "title": "Myanmar military chief who led 2021 army takeover takes presidency after criticized election",
+        "url": "https://abcnews.com/International/wireStory/myanmar-military-chief-led-2021-army-takeover-takes-131908564",
         "source": "ABC News",
-        "publishedAt": "2026-04-09T10:06:49Z"
+        "publishedAt": "2026-04-10T11:36:39Z"
+      },
+      {
+        "title": "Myanmar’s coup leader Min Aung Hlaing sworn in as president",
+        "url": "https://www.aljazeera.com/news/2026/4/10/myanmars-coup-leader-min-aung-hlaing-sworn-in-as-president?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-04-10T07:36:09Z"
+      },
+      {
+        "title": "Myanmar New Leader Pledges to Fix Economic Bust in First Speech",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/myanmar-new-leader-pledges-to-fix-economic-bust-in-first-speech",
+        "source": "Bloomberg",
+        "publishedAt": "2026-04-10T06:49:02Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Libya",
     "iso2": "LY",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Egypt",
@@ -543,13 +555,13 @@
         "publishedAt": "2026-04-07T16:27:01Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Argentina",
@@ -566,15 +578,9 @@
         "url": "https://abcnews.com/International/wireStory/argentina-approves-mileis-bill-eases-protections-glaciers-despite-131881790",
         "source": "ABC News",
         "publishedAt": "2026-04-10T04:10:09Z"
-      },
-      {
-        "title": "Milei Pleads for Patience as Growth Slows and Approval Falls",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/milei-pleads-for-patience-as-growth-slows-and-approval-falls",
-        "source": "Bloomberg",
-        "publishedAt": "2026-04-09T22:00:52Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Chile",
@@ -587,18 +593,31 @@
         "publishedAt": "2026-04-08T13:00:32Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
-    "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "headlines": [
+      {
+        "title": "Giant Ballot Sheets and Obscure Candidates Baffle Peru’s Voters",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/giant-ballot-sheets-and-obscure-candidates-baffle-peru-s-voters",
+        "source": "Bloomberg",
+        "publishedAt": "2026-04-10T09:00:00Z"
+      }
+    ],
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Cuba",
     "iso2": "CU",
     "headlines": [
+      {
+        "title": "Cuba's president has a message for Trump after the US president said the island was 'next' for a takeover",
+        "url": "https://news.sky.com/story/cuba8217s-president-has-a-message-for-the-us-after-donald-trump-said-the-island-was-8216next8217-for-a-takeover-13529991",
+        "source": "Sky News",
+        "publishedAt": "2026-04-10T09:54:00Z"
+      },
       {
         "title": "Cuba's president says he's 'not stepping down' under U.S. pressure",
         "url": "https://www.nbcnews.com/world/cuba/cubas-president-says-not-stepping-down-rcna267456",
@@ -612,7 +631,7 @@
         "publishedAt": "2026-04-09T17:59:43Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Colombia",
@@ -625,25 +644,25 @@
         "publishedAt": "2026-04-09T23:33:53Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
     "headlines": [],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Sudan",
@@ -656,17 +675,17 @@
         "publishedAt": "2026-04-09T09:38:15Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "Ukraine-Russia war latest: Putin and Zelensky agree to ceasefire while Moscow loses 1,100 troops in a day",
+        "title": "Ukraine-Russia war latest: Putin and Zelensky agree to 32-hour Easter ceasefire while Moscow loses 1,100 troops in a day",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-easter-ceasefire-b2945082.html",
         "source": "The Independent",
-        "publishedAt": "2026-04-10T06:12:24Z"
+        "publishedAt": "2026-04-10T06:52:19Z"
       },
       {
         "title": "Putin declares weekend ceasefire in Russia's war against Ukraine for Orthodox Easter",
@@ -675,12 +694,12 @@
         "publishedAt": "2026-04-09T23:46:06Z"
       },
       {
-        "title": "Ukraine faces military desertions as Russian invasion grinds through 5th year",
-        "url": "https://www.pbs.org/newshour/show/ukraine-faces-military-desertions-as-russian-invasion-grinds-through-5th-year",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-04-09T22:30:50Z"
+        "title": "Russia's air force is much more dangerous now than it was before it invaded Ukraine, airpower experts warn",
+        "url": "https://www.businessinsider.com/russian-air-force-now-more-dangerous-nato-learned-ukraine-2026-4",
+        "source": "Business Insider",
+        "publishedAt": "2026-04-10T12:37:32Z"
       }
     ],
-    "lastUpdated": "2026-04-10T06:19:56.282244Z"
+    "lastUpdated": "2026-04-10T13:17:41.036052Z"
   }
 ]
