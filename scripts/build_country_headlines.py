@@ -84,9 +84,9 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# ── 30 major RSS feeds: USA, UK, Canada ───────────────────────
+# ── RSS feeds ─────────────────────────────────────────────────
 RSS_FEEDS: Dict[str, str] = {
-    # USA
+    # ── USA ───────────────────────────────────────────────────
     "BBC News":            "https://feeds.bbci.co.uk/news/world/rss.xml",
     "NPR World":           "https://www.npr.org/rss/rss.php?id=1004",
     "PBS NewsHour":        "https://www.pbs.org/newshour/feeds/rss/world",
@@ -99,24 +99,41 @@ RSS_FEEDS: Dict[str, str] = {
     "Time Magazine":       "https://time.com/feed/",
     "Newsweek":            "https://www.newsweek.com/rss",
     "Bloomberg":           "https://feeds.bloomberg.com/politics/news.rss",
-    "Business Insider":    "https://feeds.businessinsider.com/custom/all",
+    "Bloomberg Markets":   "https://feeds.bloomberg.com/markets/news.rss",
     "The Hill":            "https://thehill.com/homenews/feed/",
     "Politico":            "https://rss.politico.com/politics-news.xml",
-    # UK
+    "Foreign Policy":      "https://foreignpolicy.com/feed/",
+    "AP World":            "https://rsshub.app/apnews/topics/world-news",
+    # ── UK ────────────────────────────────────────────────────
     "The Guardian":        "https://www.theguardian.com/world/rss",
-    "The Telegraph":       "https://www.telegraph.co.uk/rss.xml",
+    "The Guardian Politics": "https://www.theguardian.com/politics/rss",
+    "The Telegraph":       "https://www.telegraph.co.uk/news/rss.xml",
     "The Independent":     "https://www.independent.co.uk/news/world/rss",
     "Sky News":            "https://feeds.skynews.com/feeds/rss/world.xml",
     "The Economist":       "https://www.economist.com/the-world-this-week/rss.xml",
     "Financial Times":     "https://www.ft.com/world?format=rss",
-    "Daily Mail World":    "https://www.dailymail.co.uk/news/worldnews/index.rss",
-    "Evening Standard":    "https://www.standard.co.uk/rss",
     "The Times UK":        "https://www.thetimes.co.uk/rss/world",
     "Al Jazeera":          "https://www.aljazeera.com/xml/rss/all.xml",
-    # Canada
+    "Reuters World":       "https://feeds.reuters.com/reuters/worldNews",
+    "Reuters Business":    "https://feeds.reuters.com/reuters/businessNews",
+    # ── Europe / International ────────────────────────────────
+    "DW World":            "https://rss.dw.com/rdf/rss-en-world",
+    "DW Europe":           "https://rss.dw.com/rdf/rss-en-eu",
+    "RFI English":         "https://www.rfi.fr/en/rss",
+    "Euronews":            "https://www.euronews.com/rss?level=theme&name=news",
+    "POLITICO Europe":     "https://www.politico.eu/feed/",
+    # ── Asia / Pacific ────────────────────────────────────────
+    "South China Morning Post": "https://www.scmp.com/rss/91/feed",
+    "The Straits Times":   "https://www.straitstimes.com/global/rss.xml",
+    "Nikkei Asia":         "https://asia.nikkei.com/rss/feed/nar",
+    "The Hindu":           "https://www.thehindu.com/news/international/?service=rss",
+    "Times of India World": "https://timesofindia.indiatimes.com/rss.cms?msid=2963896",
+    # ── Middle East / Africa ──────────────────────────────────
+    "Middle East Eye":     "https://www.middleeasteye.net/rss",
+    "African Arguments":   "https://africanarguments.org/feed/",
+    # ── Canada ────────────────────────────────────────────────
     "CBC News World":      "https://rss.cbc.ca/lineup/world.xml",
     "Global News":         "https://globalnews.ca/world/feed/",
-    "Toronto Star":        "https://www.thestar.com/content/thestar/feed.RSSManagerServlet.articles.topstories.rss",
     "National Post":       "https://nationalpost.com/feed/",
     "CTV News":            "https://www.ctvnews.ca/rss/ctvnews-ca-world-public-rss-1.822289",
 }
@@ -913,8 +930,11 @@ COUNTRY_TERMS: Dict[str, Tuple[List[str], List[str]]] = {
         ["bhutanese"],
     ),
     "GE": (
-        ["georgia", "tbilisi"],
-        ["georgian"],
+        # "georgia" alone matches the US state — require tbilisi or a
+        # Georgian-politics term in the title to confirm it's the country
+        ["tbilisi", "georgian dream", "georgian parliament",
+         "georgia president", "georgia government", "georgia prime minister"],
+        ["georgia"],   # weak: only qualifies when corroborated by a strong term
     ),
     "CY": (
         ["cyprus", "nicosia"],
@@ -941,8 +961,112 @@ IMPORTANCE_HINTS = [
     "summit", "deal", "agreement", "treaty", "election", "coup",
     "collapse", "escalat", "historic", "major", "urgent", "emergency",
     "explosion", "arrest", "sentenced", "protest", "crackdown",
-    "offensive", "battle", "siege", "casualt", "civilian",
+    "offensive", "battle", "siege", "casualt", "civilian", "refugee",
+    "famine", "drought", "flood", "earthquake", "inflation", "recession",
+    "gdp", "tariff", "sanction", "diplomat", "minister", "president",
+    "government", "parliament", "military", "forces", "airstrike",
 ]
+
+# ── Topic filter ───────────────────────────────────────────────
+#
+# ALLOWED_TOPICS: at least one phrase must appear anywhere in
+#   title+summary for the article to pass. Broad enough to catch
+#   geopolitics, economics, climate, disasters, and hard news.
+#
+# OFF_TOPIC_BLOCKS: if any phrase appears in the title, the article
+#   is rejected outright regardless of country match.
+#   Targets sports results/fixtures, entertainment, celebrity gossip,
+#   lifestyle, and travel fluff.
+
+ALLOWED_TOPICS: List[str] = [
+    # governance / politics
+    "president", "prime minister", "government", "parliament", "minister",
+    "election", "vote", "referendum", "congress", "senate", "cabinet",
+    "diplomat", "diplomacy", "foreign", "treaty", "summit", "bilateral",
+    "sanctions", "embargo", "veto", "nato", "un ", "united nations",
+    "coup", "protest", "riot", "demonstration", "crackdown", "opposition",
+    "authoritarian", "democracy", "corruption", "impeach",
+    # conflict / security
+    "war", "conflict", "military", "troops", "soldier", "airstrike",
+    "missile", "bomb", "attack", "killed", "dead", "casualt",
+    "ceasefire", "offensive", "invasion", "siege", "battle", "armed",
+    "nuclear", "weapons", "defense", "security", "terror", "rebel",
+    "insurgent", "militia", "navy", "air force", "army",
+    # economics / trade
+    "economy", "economic", "gdp", "recession", "inflation", "tariff",
+    "trade", "export", "import", "currency", "debt", "deficit",
+    "budget", "fiscal", "monetary", "central bank", "interest rate",
+    "market", "stock", "oil", "gas", "energy", "supply chain",
+    "investment", "billion", "million", "imf", "world bank",
+    # climate / environment / disasters
+    "climate", "emission", "carbon", "renewable", "fossil fuel",
+    "flood", "earthquake", "hurricane", "typhoon", "cyclone",
+    "drought", "wildfire", "tsunami", "disaster", "evacuate",
+    "pollution", "deforestation", "extinction",
+    # humanitarian / social
+    "refugee", "migrant", "asylum", "humanitarian", "famine", "hunger",
+    "poverty", "human rights", "arrest", "sentenced", "prison",
+    "protest", "civil war", "genocide", "ethnic", "massacre",
+    "epidemic", "pandemic", "outbreak", "disease", "health crisis",
+    # international affairs
+    "bilateral", "relations", "ties", "agreement", "deal", "accord",
+    "blockade", "strait", "territorial", "sovereignty", "border",
+    "occupation", "annexation", "independence",
+]
+
+OFF_TOPIC_BLOCKS: List[str] = [
+    # sports fixtures, results, transfers
+    "vs ", " vs.", "lineup", "lineups", "predicted xi", "team news",
+    "kick-off", "kick off", "match preview", "match report",
+    "transfer", "signing", "squad", "fixtures", "standings",
+    "champions league preview", "premier league preview",
+    "la liga", "serie a", "bundesliga", "ligue 1",
+    "tour de france", "paris-roubaix", "giro d'italia",
+    "wimbledon", "us open", "australian open", "french open",
+    "formula 1", "grand prix", "nascar", "f1 ",
+    "nba ", "nfl ", "mlb ", "nhl ", "mls ",
+    "world cup qualifier", "euro 2", "copa america",
+    "odds", "betting", "fantasy",
+    # entertainment / celebrity
+    "olivier award", "oscar", "grammy", "bafta", "emmy",
+    "box office", "album review", "film review", "movie review",
+    "concert tour", "on tour", "new album", "new single",
+    "celebrity", "dating", "romance", "breakup", "wedding",
+    "royal baby", "meghan markle gossip", "prince harry gossip",
+    "hair transplant", "plastic surgery", "beauty",
+    # lifestyle / travel / fluff
+    "best restaurants", "best hotels", "travel guide",
+    "recipe", "cooking", "fashion week", "runway",
+    "interior design", "home decor",
+    "retirement party", "retirement flight",
+]
+
+
+def is_on_topic(title: str, summary: str) -> bool:
+    """
+    Returns True only if the article is about hard news
+    (politics, conflict, economics, climate, disasters, etc.).
+
+    Logic:
+    1. If any OFF_TOPIC_BLOCKS phrase appears in the title → reject.
+    2. If any ALLOWED_TOPICS phrase appears in title+summary → accept.
+    3. Otherwise → reject (default-deny keeps noise out).
+    """
+    norm_title   = _norm(title)
+    norm_summary = _norm(summary)
+    full_text    = norm_title + " " + norm_summary
+
+    # Hard blocklist on title only (sport fixture language is title-specific)
+    for phrase in OFF_TOPIC_BLOCKS:
+        if phrase in norm_title:
+            return False
+
+    # Allowlist on full text
+    for phrase in ALLOWED_TOPICS:
+        if phrase in full_text:
+            return True
+
+    return False
 
 # ── Headline cleaning ──────────────────────────────────────────
 TITLE_PREFIXES_TO_DROP = [
@@ -1157,6 +1281,11 @@ def fetch_all_articles(cutoff: datetime) -> List[dict]:
                 continue
 
             summary = _norm(e.get("summary") or e.get("description") or "")
+
+            # Skip off-topic articles (sports, entertainment, gossip, etc.)
+            if not is_on_topic(title, summary):
+                continue
+
             ts = dt.timestamp() if dt else 0.0
             pub_str = dt.isoformat().replace("+00:00", "Z") if dt else None
 
