@@ -1397,7 +1397,7 @@ def main() -> None:
         print(f"\n⏭  Next run: {next_run.strftime('%Y-%m-%d %H:%M:%S UTC')}")
         print(f"   Sleeping {POLL_INTERVAL_HOURS}h …")
         time.sleep(POLL_INTERVAL_HOURS * 3600)
--e 
+
 
 if __name__ == "__main__":
     main()
