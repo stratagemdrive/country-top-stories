@@ -2,16 +2,23 @@
 build_country_headlines.py
 ==========================
 Fetches up to 3 prominent headlines per country using RSS feeds only.
-No API key required.
+No API key required.  Runs continuously, polling every 3 hours.
 
 Logic:
 - Pulls from 30 major RSS feeds (UK, USA, Canada)
-- 7-day rolling window ending at runtime
+- 7-day rolling window; no article older than 7 days is ever surfaced
 - For each country, scans all articles for mentions using name + synonym matching
 - Title-primary matching: article must mention the country in its TITLE to qualify,
   OR have a strong match (multiple terms / full country name) in the title+summary
-- Ranks by importance keyword density + source diversity + recency
-- Outputs top 3 unique headlines per country
+- Ranking priority (in order):
+    1. UNIQUE stories — articles whose URL / story-signature have NOT appeared
+       in the rolling archive yet (i.e. genuinely new to the feed)
+    2. Within each tier, rank by importance-keyword density then recency
+- Archive system:
+    - public/archive/YYYY-MM-DD.jsonl  — one file per UTC day
+    - Each line is a seen-article record: {url, sig, iso2, firstSeenAt}
+    - On every run: load archive → prune entries > 7 days → merge new hits
+    - Archive files older than 7 days are deleted automatically
 
 Outputs: public/country_headlines.json
 
@@ -43,10 +50,11 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
 import feedparser
@@ -56,12 +64,15 @@ from dateutil import parser as dtparser
 
 # ─────────────────────────── CONFIG ───────────────────────────
 
-WINDOW_DAYS = 7
+WINDOW_DAYS = 7              # max article age (days) — also archive retention
 HEADLINES_PER_COUNTRY = 3
+POLL_INTERVAL_HOURS = 3      # how often the continuous loop runs
 TIMEOUT = 20
 MAX_RETRIES = 3
 RETRY_SLEEP = 1.2
-FEED_SLEEP = 0.3   # polite delay between feed fetches
+FEED_SLEEP = 0.3             # polite delay between feed fetches
+
+ARCHIVE_DIR = Path("public") / "archive"   # one .jsonl per UTC day
 
 HEADERS = {
     "User-Agent": (
@@ -112,69 +123,173 @@ RSS_FEEDS: Dict[str, str] = {
 
 # ── Countries to track ─────────────────────────────────────────
 COUNTRIES = [
-    {"country": "Russia",        "iso2": "RU"},
-    {"country": "India",         "iso2": "IN"},
-    {"country": "Pakistan",      "iso2": "PK"},
-    {"country": "China",         "iso2": "CN"},
-    {"country": "United Kingdom","iso2": "GB"},
-    {"country": "Germany",       "iso2": "DE"},
-    {"country": "UAE",           "iso2": "AE"},
-    {"country": "Saudi Arabia",  "iso2": "SA"},
-    {"country": "Israel",        "iso2": "IL"},
-    {"country": "Palestine",     "iso2": "PS"},
-    {"country": "Mexico",        "iso2": "MX"},
-    {"country": "Brazil",        "iso2": "BR"},
-    {"country": "Canada",        "iso2": "CA"},
-    {"country": "Nigeria",       "iso2": "NG"},
-    {"country": "Japan",         "iso2": "JP"},
-    {"country": "Iran",          "iso2": "IR"},
-    {"country": "Syria",         "iso2": "SY"},
-    {"country": "France",        "iso2": "FR"},
-    {"country": "Turkey",        "iso2": "TR"},
-    {"country": "Venezuela",     "iso2": "VE"},
-    {"country": "Vietnam",       "iso2": "VN"},
-    {"country": "Taiwan",        "iso2": "TW"},
-    {"country": "South Korea",   "iso2": "KR"},
-    {"country": "North Korea",   "iso2": "KP"},
-    {"country": "Indonesia",     "iso2": "ID"},
-    {"country": "Myanmar",       "iso2": "MM"},
-    {"country": "Armenia",       "iso2": "AM"},
-    {"country": "Azerbaijan",    "iso2": "AZ"},
-    {"country": "Morocco",       "iso2": "MA"},
-    {"country": "Somalia",       "iso2": "SO"},
-    {"country": "Yemen",         "iso2": "YE"},
-    {"country": "Libya",         "iso2": "LY"},
-    {"country": "Egypt",         "iso2": "EG"},
-    {"country": "Algeria",       "iso2": "DZ"},
-    {"country": "Argentina",     "iso2": "AR"},
-    {"country": "Chile",         "iso2": "CL"},
-    {"country": "Peru",          "iso2": "PE"},
-    {"country": "Cuba",          "iso2": "CU"},
-    {"country": "Colombia",      "iso2": "CO"},
-    {"country": "Panama",        "iso2": "PA"},
-    {"country": "El Salvador",   "iso2": "SV"},
-    {"country": "Denmark",       "iso2": "DK"},
-    {"country": "Sudan",         "iso2": "SD"},
-    {"country": "Ukraine",       "iso2": "UA"},
+    # Original countries
+    {"country": "Russia",               "iso2": "RU"},
+    {"country": "India",                "iso2": "IN"},
+    {"country": "Pakistan",             "iso2": "PK"},
+    {"country": "China",                "iso2": "CN"},
+    {"country": "United Kingdom",       "iso2": "GB"},
+    {"country": "Germany",              "iso2": "DE"},
+    {"country": "UAE",                  "iso2": "AE"},
+    {"country": "Saudi Arabia",         "iso2": "SA"},
+    {"country": "Israel",               "iso2": "IL"},
+    {"country": "Palestine",            "iso2": "PS"},
+    {"country": "Mexico",               "iso2": "MX"},
+    {"country": "Brazil",               "iso2": "BR"},
+    {"country": "Canada",               "iso2": "CA"},
+    {"country": "Nigeria",              "iso2": "NG"},
+    {"country": "Japan",                "iso2": "JP"},
+    {"country": "Iran",                 "iso2": "IR"},
+    {"country": "Syria",                "iso2": "SY"},
+    {"country": "France",               "iso2": "FR"},
+    {"country": "Turkey",               "iso2": "TR"},
+    {"country": "Venezuela",            "iso2": "VE"},
+    {"country": "Vietnam",              "iso2": "VN"},
+    {"country": "Taiwan",               "iso2": "TW"},
+    {"country": "South Korea",          "iso2": "KR"},
+    {"country": "North Korea",          "iso2": "KP"},
+    {"country": "Indonesia",            "iso2": "ID"},
+    {"country": "Myanmar",              "iso2": "MM"},
+    {"country": "Armenia",              "iso2": "AM"},
+    {"country": "Azerbaijan",           "iso2": "AZ"},
+    {"country": "Morocco",              "iso2": "MA"},
+    {"country": "Somalia",              "iso2": "SO"},
+    {"country": "Yemen",                "iso2": "YE"},
+    {"country": "Libya",                "iso2": "LY"},
+    {"country": "Egypt",                "iso2": "EG"},
+    {"country": "Algeria",              "iso2": "DZ"},
+    {"country": "Argentina",            "iso2": "AR"},
+    {"country": "Chile",                "iso2": "CL"},
+    {"country": "Peru",                 "iso2": "PE"},
+    {"country": "Cuba",                 "iso2": "CU"},
+    {"country": "Colombia",             "iso2": "CO"},
+    {"country": "Panama",               "iso2": "PA"},
+    {"country": "El Salvador",          "iso2": "SV"},
+    {"country": "Denmark",              "iso2": "DK"},
+    {"country": "Sudan",                "iso2": "SD"},
+    {"country": "Ukraine",              "iso2": "UA"},
+    # Newly added countries
+    {"country": "Australia",            "iso2": "AU"},
+    {"country": "Singapore",            "iso2": "SG"},
+    {"country": "Philippines",          "iso2": "PH"},
+    {"country": "Afghanistan",          "iso2": "AF"},
+    {"country": "Iraq",                 "iso2": "IQ"},
+    {"country": "Spain",                "iso2": "ES"},
+    {"country": "Italy",                "iso2": "IT"},
+    {"country": "Poland",               "iso2": "PL"},
+    {"country": "Bolivia",              "iso2": "BO"},
+    {"country": "New Zealand",          "iso2": "NZ"},
+    {"country": "Portugal",             "iso2": "PT"},
+    {"country": "Czech Republic",       "iso2": "CZ"},
+    {"country": "Norway",               "iso2": "NO"},
+    {"country": "Romania",              "iso2": "RO"},
+    {"country": "Sweden",               "iso2": "SE"},
+    {"country": "Hong Kong",            "iso2": "HK"},
+    {"country": "Finland",              "iso2": "FI"},
+    {"country": "Switzerland",          "iso2": "CH"},
+    {"country": "Angola",               "iso2": "AO"},
+    {"country": "South Africa",         "iso2": "ZA"},
+    {"country": "Kenya",                "iso2": "KE"},
+    {"country": "Oman",                 "iso2": "OM"},
+    {"country": "Qatar",                "iso2": "QA"},
+    {"country": "DRC",                  "iso2": "CD"},
+    {"country": "Dominican Republic",   "iso2": "DO"},
+    {"country": "Netherlands",          "iso2": "NL"},
+    {"country": "Belgium",              "iso2": "BE"},
+    {"country": "Malaysia",             "iso2": "MY"},
+    {"country": "Guyana",               "iso2": "GY"},
+    {"country": "Ireland",              "iso2": "IE"},
+    {"country": "Austria",              "iso2": "AT"},
+    {"country": "Belarus",              "iso2": "BY"},
+    {"country": "Thailand",             "iso2": "TH"},
+    {"country": "Cambodia",             "iso2": "KH"},
+    {"country": "Laos",                 "iso2": "LA"},
+    {"country": "Ecuador",              "iso2": "EC"},
+    {"country": "Paraguay",             "iso2": "PY"},
+    {"country": "Uruguay",              "iso2": "UY"},
+    {"country": "Mali",                 "iso2": "ML"},
+    {"country": "Botswana",             "iso2": "BW"},
+    {"country": "Tanzania",             "iso2": "TZ"},
+    {"country": "Madagascar",           "iso2": "MG"},
+    {"country": "Turkmenistan",         "iso2": "TM"},
+    {"country": "Kazakhstan",           "iso2": "KZ"},
+    {"country": "Hungary",              "iso2": "HU"},
+    {"country": "Serbia",               "iso2": "RS"},
+    {"country": "Albania",              "iso2": "AL"},
+    {"country": "Bulgaria",             "iso2": "BG"},
+    {"country": "Moldova",              "iso2": "MD"},
+    {"country": "Greece",               "iso2": "GR"},
+    {"country": "Kosovo",               "iso2": "XK"},
+    {"country": "Bahamas",              "iso2": "BS"},
+    {"country": "Bangladesh",           "iso2": "BD"},
+    {"country": "Nepal",                "iso2": "NP"},
+    {"country": "Sri Lanka",            "iso2": "LK"},
+    {"country": "Jordan",               "iso2": "JO"},
+    {"country": "Lebanon",              "iso2": "LB"},
+    {"country": "Kuwait",               "iso2": "KW"},
+    {"country": "Bahrain",              "iso2": "BH"},
+    {"country": "Tunisia",              "iso2": "TN"},
+    {"country": "Ethiopia",             "iso2": "ET"},
+    {"country": "Ghana",                "iso2": "GH"},
+    {"country": "Ivory Coast",          "iso2": "CI"},
+    {"country": "Senegal",              "iso2": "SN"},
+    {"country": "Rwanda",               "iso2": "RW"},
+    {"country": "Uganda",               "iso2": "UG"},
+    {"country": "Zimbabwe",             "iso2": "ZW"},
+    {"country": "Zambia",               "iso2": "ZM"},
+    {"country": "Cameroon",             "iso2": "CM"},
+    {"country": "Mozambique",           "iso2": "MZ"},
+    {"country": "Burkina Faso",         "iso2": "BF"},
+    {"country": "Niger",                "iso2": "NE"},
+    {"country": "Chad",                 "iso2": "TD"},
+    {"country": "Guinea",               "iso2": "GN"},
+    {"country": "Uzbekistan",           "iso2": "UZ"},
+    {"country": "Kyrgyzstan",           "iso2": "KG"},
+    {"country": "Tajikistan",           "iso2": "TJ"},
+    {"country": "Croatia",              "iso2": "HR"},
+    {"country": "Slovakia",             "iso2": "SK"},
+    {"country": "Slovenia",             "iso2": "SI"},
+    {"country": "Lithuania",            "iso2": "LT"},
+    {"country": "Latvia",               "iso2": "LV"},
+    {"country": "Estonia",              "iso2": "EE"},
+    {"country": "North Macedonia",      "iso2": "MK"},
+    {"country": "Bosnia and Herzegovina","iso2": "BA"},
+    {"country": "Montenegro",           "iso2": "ME"},
+    {"country": "Guatemala",            "iso2": "GT"},
+    {"country": "Honduras",             "iso2": "HN"},
+    {"country": "Nicaragua",            "iso2": "NI"},
+    {"country": "Costa Rica",           "iso2": "CR"},
+    {"country": "Haiti",                "iso2": "HT"},
+    {"country": "Trinidad and Tobago",  "iso2": "TT"},
+    {"country": "Jamaica",              "iso2": "JM"},
+    {"country": "South Sudan",          "iso2": "SS"},
+    {"country": "Eritrea",              "iso2": "ER"},
+    {"country": "Djibouti",             "iso2": "DJ"},
+    {"country": "Mauritania",           "iso2": "MR"},
+    {"country": "Liberia",              "iso2": "LR"},
+    {"country": "Sierra Leone",         "iso2": "SL"},
+    {"country": "Gabon",                "iso2": "GA"},
+    {"country": "Congo",                "iso2": "CG"},
+    {"country": "Namibia",              "iso2": "NA"},
+    {"country": "Eswatini",             "iso2": "SZ"},
+    {"country": "Lesotho",              "iso2": "LS"},
+    {"country": "Malawi",               "iso2": "MW"},
+    {"country": "Papua New Guinea",     "iso2": "PG"},
+    {"country": "Mongolia",             "iso2": "MN"},
+    {"country": "Brunei",               "iso2": "BN"},
+    {"country": "Timor-Leste",          "iso2": "TL"},
+    {"country": "Maldives",             "iso2": "MV"},
+    {"country": "Bhutan",               "iso2": "BT"},
+    {"country": "Georgia",              "iso2": "GE"},
+    {"country": "Cyprus",               "iso2": "CY"},
+    {"country": "Malta",                "iso2": "MT"},
+    {"country": "Luxembourg",           "iso2": "LU"},
+    {"country": "Iceland",              "iso2": "IS"},
 ]
 
-# ── Country terms: (strong_terms, weak_terms)
-#
-# STRONG terms: match if found ANYWHERE in title (alone is enough to qualify)
-# WEAK terms  : match only if found in title AND at least one other weak/strong
-#               term also appears — prevents single-word false positives
-#
-# Rule applied in article_mentions_country():
-#   - If ANY strong term appears in the title → MATCH
-#   - If ANY strong term appears in the summary (not title) + also in title with
-#     a weak term → MATCH
-#   - A weak-only title hit with no corroborating term → NO MATCH
-#
-# Keep strong terms specific (full country names, capitals, leaders).
-# Keep weak terms as adjectives/demonyms that need context.
-# ─────────────────────────────────────────────────────────────
+# ── Country terms: (strong_terms, weak_terms) ──────────────────
 COUNTRY_TERMS: Dict[str, Tuple[List[str], List[str]]] = {
-    # iso2: ([strong_terms], [weak_terms])
+    # ── Original entries ──
     "RU": (
         ["russia", "kremlin", "moscow", "putin"],
         ["russian"],
@@ -352,6 +467,471 @@ COUNTRY_TERMS: Dict[str, Tuple[List[str], List[str]]] = {
         ["ukraine", "kyiv", "kiev", "zelenskyy", "zelensky"],
         ["ukrainian"],
     ),
+    # ── Newly added entries ──
+    "AU": (
+        ["australia", "canberra", "sydney", "melbourne"],
+        ["australian"],
+    ),
+    "SG": (
+        ["singapore"],
+        ["singaporean"],
+    ),
+    "PH": (
+        ["philippines", "manila", "marcos"],
+        ["filipino", "philippine"],
+    ),
+    "AF": (
+        ["afghanistan", "kabul", "taliban"],
+        ["afghan"],
+    ),
+    "IQ": (
+        ["iraq", "baghdad", "basra"],
+        ["iraqi"],
+    ),
+    "ES": (
+        ["spain", "madrid", "barcelona", "sanchez"],
+        ["spanish"],
+    ),
+    "IT": (
+        ["italy", "rome", "milan", "meloni"],
+        ["italian"],
+    ),
+    "PL": (
+        ["poland", "warsaw", "tusk"],
+        ["polish"],
+    ),
+    "BO": (
+        ["bolivia", "la paz", "sucre"],
+        ["bolivian"],
+    ),
+    "NZ": (
+        ["new zealand", "wellington", "auckland"],
+        ["kiwi", "new zealander"],
+    ),
+    "PT": (
+        ["portugal", "lisbon"],
+        ["portuguese"],
+    ),
+    "CZ": (
+        ["czech republic", "czechia", "prague"],
+        ["czech"],
+    ),
+    "NO": (
+        ["norway", "oslo"],
+        ["norwegian"],
+    ),
+    "RO": (
+        ["romania", "bucharest"],
+        ["romanian"],
+    ),
+    "SE": (
+        ["sweden", "stockholm"],
+        ["swedish"],
+    ),
+    "HK": (
+        ["hong kong"],
+        ["hongkonger"],
+    ),
+    "FI": (
+        ["finland", "helsinki"],
+        ["finnish"],
+    ),
+    "CH": (
+        ["switzerland", "bern", "zurich", "geneva"],
+        ["swiss"],
+    ),
+    "AO": (
+        ["angola", "luanda"],
+        ["angolan"],
+    ),
+    "ZA": (
+        ["south africa", "pretoria", "johannesburg", "cape town", "ramaphosa"],
+        ["south african"],
+    ),
+    "KE": (
+        ["kenya", "nairobi", "ruto"],
+        ["kenyan"],
+    ),
+    "OM": (
+        ["oman", "muscat"],
+        ["omani"],
+    ),
+    "QA": (
+        ["qatar", "doha"],
+        ["qatari"],
+    ),
+    "CD": (
+        ["democratic republic of the congo", "drc", "kinshasa", "congo-kinshasa"],
+        ["congolese"],
+    ),
+    "DO": (
+        ["dominican republic", "santo domingo"],
+        ["dominican"],
+    ),
+    "NL": (
+        ["netherlands", "amsterdam", "the hague", "schiphol"],
+        ["dutch"],
+    ),
+    "BE": (
+        ["belgium", "brussels", "antwerp"],
+        ["belgian"],
+    ),
+    "MY": (
+        ["malaysia", "kuala lumpur"],
+        ["malaysian"],
+    ),
+    "GY": (
+        ["guyana", "georgetown"],
+        ["guyanese"],
+    ),
+    "IE": (
+        ["ireland", "dublin"],
+        ["irish"],
+    ),
+    "AT": (
+        ["austria", "vienna"],
+        ["austrian"],
+    ),
+    "BY": (
+        ["belarus", "minsk", "lukashenko"],
+        ["belarusian"],
+    ),
+    "TH": (
+        ["thailand", "bangkok"],
+        ["thai"],
+    ),
+    "KH": (
+        ["cambodia", "phnom penh"],
+        ["cambodian", "khmer"],
+    ),
+    "LA": (
+        ["laos", "vientiane"],
+        ["lao", "laotian"],
+    ),
+    "EC": (
+        ["ecuador", "quito", "guayaquil", "noboa"],
+        ["ecuadorian"],
+    ),
+    "PY": (
+        ["paraguay", "asuncion"],
+        ["paraguayan"],
+    ),
+    "UY": (
+        ["uruguay", "montevideo"],
+        ["uruguayan"],
+    ),
+    "ML": (
+        ["mali", "bamako"],
+        ["malian"],
+    ),
+    "BW": (
+        ["botswana", "gaborone"],
+        ["motswana", "batswana"],
+    ),
+    "TZ": (
+        ["tanzania", "dar es salaam", "dodoma"],
+        ["tanzanian"],
+    ),
+    "MG": (
+        ["madagascar", "antananarivo"],
+        ["malagasy"],
+    ),
+    "TM": (
+        ["turkmenistan", "ashgabat"],
+        ["turkmen"],
+    ),
+    "KZ": (
+        ["kazakhstan", "astana", "almaty"],
+        ["kazakh"],
+    ),
+    "HU": (
+        ["hungary", "budapest", "orban"],
+        ["hungarian"],
+    ),
+    "RS": (
+        ["serbia", "belgrade", "vucic"],
+        ["serbian"],
+    ),
+    "AL": (
+        ["albania", "tirana"],
+        ["albanian"],
+    ),
+    "BG": (
+        ["bulgaria", "sofia"],
+        ["bulgarian"],
+    ),
+    "MD": (
+        ["moldova", "chisinau"],
+        ["moldovan"],
+    ),
+    "GR": (
+        ["greece", "athens", "thessaloniki"],
+        ["greek"],
+    ),
+    "XK": (
+        ["kosovo", "pristina"],
+        ["kosovar"],
+    ),
+    "BS": (
+        ["bahamas", "nassau"],
+        ["bahamian"],
+    ),
+    "BD": (
+        ["bangladesh", "dhaka"],
+        ["bangladeshi"],
+    ),
+    "NP": (
+        ["nepal", "kathmandu"],
+        ["nepali", "nepalese"],
+    ),
+    "LK": (
+        ["sri lanka", "colombo"],
+        ["sri lankan"],
+    ),
+    "JO": (
+        ["jordan", "amman", "king abdullah"],
+        ["jordanian"],
+    ),
+    "LB": (
+        ["lebanon", "beirut"],
+        ["lebanese"],
+    ),
+    "KW": (
+        ["kuwait", "kuwait city"],
+        ["kuwaiti"],
+    ),
+    "BH": (
+        ["bahrain", "manama"],
+        ["bahraini"],
+    ),
+    "TN": (
+        ["tunisia", "tunis", "saied"],
+        ["tunisian"],
+    ),
+    "ET": (
+        ["ethiopia", "addis ababa", "abiy"],
+        ["ethiopian"],
+    ),
+    "GH": (
+        ["ghana", "accra"],
+        ["ghanaian"],
+    ),
+    "CI": (
+        ["ivory coast", "cote d'ivoire", "abidjan", "yamoussoukro"],
+        ["ivorian"],
+    ),
+    "SN": (
+        ["senegal", "dakar"],
+        ["senegalese"],
+    ),
+    "RW": (
+        ["rwanda", "kigali", "kagame"],
+        ["rwandan"],
+    ),
+    "UG": (
+        ["uganda", "kampala", "museveni"],
+        ["ugandan"],
+    ),
+    "ZW": (
+        ["zimbabwe", "harare", "mnangagwa"],
+        ["zimbabwean"],
+    ),
+    "ZM": (
+        ["zambia", "lusaka"],
+        ["zambian"],
+    ),
+    "CM": (
+        ["cameroon", "yaounde", "douala"],
+        ["cameroonian"],
+    ),
+    "MZ": (
+        ["mozambique", "maputo"],
+        ["mozambican"],
+    ),
+    "BF": (
+        ["burkina faso", "ouagadougou"],
+        ["burkinabe"],
+    ),
+    "NE": (
+        ["niger", "niamey"],
+        ["nigerien"],
+    ),
+    "TD": (
+        ["chad", "ndjamena"],
+        ["chadian"],
+    ),
+    "GN": (
+        ["guinea", "conakry"],
+        ["guinean"],
+    ),
+    "UZ": (
+        ["uzbekistan", "tashkent"],
+        ["uzbek"],
+    ),
+    "KG": (
+        ["kyrgyzstan", "bishkek"],
+        ["kyrgyz"],
+    ),
+    "TJ": (
+        ["tajikistan", "dushanbe"],
+        ["tajik"],
+    ),
+    "HR": (
+        ["croatia", "zagreb"],
+        ["croatian"],
+    ),
+    "SK": (
+        ["slovakia", "bratislava", "fico"],
+        ["slovak"],
+    ),
+    "SI": (
+        ["slovenia", "ljubljana"],
+        ["slovenian"],
+    ),
+    "LT": (
+        ["lithuania", "vilnius"],
+        ["lithuanian"],
+    ),
+    "LV": (
+        ["latvia", "riga"],
+        ["latvian"],
+    ),
+    "EE": (
+        ["estonia", "tallinn"],
+        ["estonian"],
+    ),
+    "MK": (
+        ["north macedonia", "skopje"],
+        ["macedonian"],
+    ),
+    "BA": (
+        ["bosnia", "sarajevo", "herzegovina"],
+        ["bosnian"],
+    ),
+    "ME": (
+        ["montenegro", "podgorica"],
+        ["montenegrin"],
+    ),
+    "GT": (
+        ["guatemala", "guatemala city"],
+        ["guatemalan"],
+    ),
+    "HN": (
+        ["honduras", "tegucigalpa"],
+        ["honduran"],
+    ),
+    "NI": (
+        ["nicaragua", "managua", "ortega"],
+        ["nicaraguan"],
+    ),
+    "CR": (
+        ["costa rica", "san jose"],
+        ["costa rican"],
+    ),
+    "HT": (
+        ["haiti", "port-au-prince"],
+        ["haitian"],
+    ),
+    "TT": (
+        ["trinidad and tobago", "port of spain"],
+        ["trinidadian", "tobagonian"],
+    ),
+    "JM": (
+        ["jamaica", "kingston"],
+        ["jamaican"],
+    ),
+    "SS": (
+        ["south sudan", "juba"],
+        ["south sudanese"],
+    ),
+    "ER": (
+        ["eritrea", "asmara"],
+        ["eritrean"],
+    ),
+    "DJ": (
+        ["djibouti"],
+        ["djiboutian"],
+    ),
+    "MR": (
+        ["mauritania", "nouakchott"],
+        ["mauritanian"],
+    ),
+    "LR": (
+        ["liberia", "monrovia"],
+        ["liberian"],
+    ),
+    "SL": (
+        ["sierra leone", "freetown"],
+        ["sierra leonean"],
+    ),
+    "GA": (
+        ["gabon", "libreville"],
+        ["gabonese"],
+    ),
+    "CG": (
+        ["republic of the congo", "brazzaville", "congo-brazzaville"],
+        ["congolese"],
+    ),
+    "NA": (
+        ["namibia", "windhoek"],
+        ["namibian"],
+    ),
+    "SZ": (
+        ["eswatini", "swaziland", "mbabane"],
+        ["swazi"],
+    ),
+    "LS": (
+        ["lesotho", "maseru"],
+        ["basotho", "lesothan"],
+    ),
+    "MW": (
+        ["malawi", "lilongwe", "blantyre"],
+        ["malawian"],
+    ),
+    "PG": (
+        ["papua new guinea", "port moresby"],
+        ["papuan"],
+    ),
+    "MN": (
+        ["mongolia", "ulaanbaatar"],
+        ["mongolian"],
+    ),
+    "BN": (
+        ["brunei", "bandar seri begawan"],
+        ["bruneian"],
+    ),
+    "TL": (
+        ["timor-leste", "east timor", "dili"],
+        ["timorese"],
+    ),
+    "MV": (
+        ["maldives", "male"],
+        ["maldivian"],
+    ),
+    "BT": (
+        ["bhutan", "thimphu"],
+        ["bhutanese"],
+    ),
+    "GE": (
+        ["georgia", "tbilisi"],
+        ["georgian"],
+    ),
+    "CY": (
+        ["cyprus", "nicosia"],
+        ["cypriot"],
+    ),
+    "MT": (
+        ["malta", "valletta"],
+        ["maltese"],
+    ),
+    "LU": (
+        ["luxembourg"],
+        ["luxembourgish"],
+    ),
+    "IS": (
+        ["iceland", "reykjavik"],
+        ["icelandic", "icelander"],
+    ),
 }
 
 # Importance signals for ranking
@@ -476,8 +1056,6 @@ def _term_in_text(term: str, text: str) -> bool:
     Whole-word / whole-phrase boundary check so that e.g. "iran" doesn't
     match inside "tirane" or "uk" doesn't match inside "truck".
     """
-    # Escape for regex, then wrap with word boundaries.
-    # For multi-word phrases the boundaries are on the outer edges only.
     pattern = r"(?<![a-z])" + re.escape(term) + r"(?![a-z])"
     return bool(re.search(pattern, text))
 
@@ -490,7 +1068,6 @@ def article_mentions_country(title: str, summary: str, iso2: str) -> bool:
     1. A STRONG term appears in the TITLE                     → MATCH
     2. A STRONG term appears in the SUMMARY **and** at least
        one strong or weak term also appears in the TITLE       → MATCH
-       (prevents pure-summary leakage from unrelated articles)
     3. A WEAK term appears in the TITLE **and** a second
        strong term also appears anywhere in title+summary      → MATCH
     4. Anything else                                           → NO MATCH
@@ -604,37 +1181,53 @@ def fetch_all_articles(cutoff: datetime) -> List[dict]:
 def select_top_for_country(
     articles: List[dict],
     iso2: str,
+    seen_urls: Set[str],
+    seen_sigs: Set[str],
     n: int = HEADLINES_PER_COUNTRY,
 ) -> List[dict]:
     """
     Filter articles mentioning this country, deduplicate, rank, return top n.
+
+    Ranking priority:
+      1. Articles whose URL AND story-signature are both absent from the archive
+         (genuinely new — never surfaced before in the 7-day window).
+      2. Articles already in the archive but still within the 7-day window
+         (shown only when there aren't enough fresh ones).
+      Within each tier: higher importance score first, then more recent.
     """
     matching = [a for a in articles if article_mentions_country(a["title"], a["summary"], iso2)]
 
-    seen_urls: set = set()
-    seen_sigs: set = set()
-    candidates: List[Tuple[float, dict]] = []
+    local_urls: set = set()
+    local_sigs: set = set()
+    fresh: List[Tuple[float, dict]] = []
+    repeat: List[Tuple[float, dict]] = []
 
     for a in matching:
-        if a["url"] in seen_urls:
+        if a["url"] in local_urls:
             continue
-        seen_urls.add(a["url"])
+        local_urls.add(a["url"])
 
         sig = story_signature(a["title"])
-        if sig in seen_sigs:
+        if sig in local_sigs:
             continue
-        seen_sigs.add(sig)
+        local_sigs.add(sig)
 
         imp = importance_score(a["title"])
         recency = a["_ts"] / (7 * 86400)
         score = (imp * 1_000_000) + recency
 
-        candidates.append((score, a))
+        is_new = (a["url"] not in seen_urls) and (sig not in seen_sigs)
+        if is_new:
+            fresh.append((score, a))
+        else:
+            repeat.append((score, a))
 
-    candidates.sort(key=lambda x: x[0], reverse=True)
+    fresh.sort(key=lambda x: x[0], reverse=True)
+    repeat.sort(key=lambda x: x[0], reverse=True)
+    ranked = fresh + repeat
 
     out = []
-    for _, a in candidates[:n]:
+    for _, a in ranked[:n]:
         out.append({
             "title": a["title"],
             "url": a["url"],
@@ -644,39 +1237,123 @@ def select_top_for_country(
     return out
 
 
+# ─────────────────────────── ARCHIVE ──────────────────────────
+
+def _archive_file(dt: datetime) -> Path:
+    return ARCHIVE_DIR / f"{dt.strftime('%Y-%m-%d')}.jsonl"
+
+
+def load_archive(now: datetime) -> tuple[Set[str], Set[str]]:
+    """
+    Read all archive .jsonl files within the retention window.
+    Returns (seen_urls, seen_sigs) — sets of strings already surfaced.
+    Deletes any archive files older than WINDOW_DAYS.
+    """
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    cutoff = now - timedelta(days=WINDOW_DAYS)
+    seen_urls: Set[str] = set()
+    seen_sigs: Set[str] = set()
+
+    for path in sorted(ARCHIVE_DIR.glob("*.jsonl")):
+        # Parse date from filename
+        try:
+            file_date = datetime.strptime(path.stem, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+
+        if file_date < cutoff:
+            path.unlink(missing_ok=True)
+            print(f"  🗑  Pruned old archive: {path.name}")
+            continue
+
+        try:
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                rec = json.loads(line)
+                seen_urls.add(rec.get("url", ""))
+                seen_sigs.add(rec.get("sig", ""))
+        except Exception as e:
+            print(f"  ⚠️  Could not read archive {path.name}: {e}")
+
+    return seen_urls, seen_sigs
+
+
+def append_to_archive(articles: List[dict], now: datetime) -> None:
+    """
+    Append newly surfaced article records to today's archive file.
+    Each record: {url, sig, firstSeenAt}
+    """
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    path = _archive_file(now)
+    ts = now.isoformat().replace("+00:00", "Z")
+    lines = []
+    for a in articles:
+        rec = {
+            "url": a["url"],
+            "sig": story_signature(a["title"]),
+            "firstSeenAt": ts,
+        }
+        lines.append(json.dumps(rec, ensure_ascii=False))
+    if lines:
+        with path.open("a", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+
+
 # ─────────────────────────── MAIN ─────────────────────────────
 
-def main() -> None:
+def run_once() -> None:
+    """Execute a single fetch-match-rank-write cycle."""
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=WINDOW_DAYS)
 
-    print(f"🕐 Run time : {now.isoformat()}")
-    print(f"📅 Window  : {cutoff.isoformat()} → {now.isoformat()}")
-    print(f"🌍 Countries: {len(COUNTRIES)}")
-    print(f"📰 Feeds    : {len(RSS_FEEDS)}")
+    print(f"\n{'─'*60}")
+    print(f"🕐 Run time : {now.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+    print(f"📅 Window  : last {WINDOW_DAYS} days")
+    print(f"🌍 Countries: {len(COUNTRIES)}  |  📰 Feeds: {len(RSS_FEEDS)}")
     print()
-    print("── Fetching RSS feeds ──")
 
+    # ── 1. Load archive ──────────────────────────────────────
+    print("── Loading archive ──")
+    seen_urls, seen_sigs = load_archive(now)
+    print(f"  📦 Archive: {len(seen_urls)} known URLs, {len(seen_sigs)} known story signatures")
+    print()
+
+    # ── 2. Fetch feeds ───────────────────────────────────────
+    print("── Fetching RSS feeds ──")
     all_articles = fetch_all_articles(cutoff)
     print(f"\n✓ Total articles in window: {len(all_articles)}")
     print()
-    print("── Matching articles to countries ──")
 
+    # ── 3. Match & rank ──────────────────────────────────────
+    print("── Matching articles to countries ──")
     results: List[dict] = []
     last_updated = now.isoformat().replace("+00:00", "Z")
+    all_surfaced: List[dict] = []
 
     for entry in COUNTRIES:
         iso2 = entry["iso2"]
         country_name = entry["country"]
-        headlines = select_top_for_country(all_articles, iso2)
+        headlines = select_top_for_country(
+            all_articles, iso2, seen_urls, seen_sigs
+        )
         results.append({
             "country": country_name,
             "iso2": iso2,
             "headlines": headlines,
             "lastUpdated": last_updated,
         })
-        print(f"  {country_name} ({iso2}): {len(headlines)} headline(s)")
 
+        fresh_count = sum(
+            1 for h in headlines
+            if h["url"] not in seen_urls and story_signature(h["title"]) not in seen_sigs
+        )
+        label = f"({fresh_count} new)" if fresh_count else ""
+        print(f"  {country_name} ({iso2}): {len(headlines)} headline(s) {label}".rstrip())
+
+        all_surfaced.extend(headlines)
+
+    # ── 4. Persist output ────────────────────────────────────
     out_dir = Path("public")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "country_headlines.json"
@@ -684,8 +1361,43 @@ def main() -> None:
         json.dumps(results, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\n✅ Wrote {len(results)} countries → {out_path.resolve()}")
 
+    # ── 5. Update archive with newly surfaced articles ───────
+    new_articles = [
+        a for a in all_surfaced
+        if a["url"] not in seen_urls and story_signature(a["title"]) not in seen_sigs
+    ]
+    append_to_archive(new_articles, now)
+
+    print(f"\n✅ Wrote {len(results)} countries → {out_path.resolve()}")
+    print(f"📁 Archived {len(new_articles)} new article(s) → {_archive_file(now).name}")
+
+
+def main() -> None:
+    """
+    Continuous loop: run once immediately, then every POLL_INTERVAL_HOURS hours.
+    Pass --once as a CLI flag to run a single cycle and exit (useful for cron/CI).
+    """
+    single_shot = "--once" in sys.argv
+
+    if single_shot:
+        run_once()
+        return
+
+    print(f"🔄 Scheduler started — polling every {POLL_INTERVAL_HOURS}h")
+    print("   (pass --once to run a single cycle and exit)\n")
+
+    while True:
+        try:
+            run_once()
+        except Exception as e:
+            print(f"\n❌ Run failed: {e}")
+
+        next_run = datetime.now(timezone.utc) + timedelta(hours=POLL_INTERVAL_HOURS)
+        print(f"\n⏭  Next run: {next_run.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+        print(f"   Sleeping {POLL_INTERVAL_HOURS}h …")
+        time.sleep(POLL_INTERVAL_HOURS * 3600)
+-e 
 
 if __name__ == "__main__":
     main()
