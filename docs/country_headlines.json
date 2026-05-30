@@ -4,25 +4,25 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Ukraine keeps up assault on Russian oil sites as Kyiv expects more strikes",
-        "url": "https://www.thehindu.com/news/international/ukraine-keeps-up-assault-on-russian-oil-sites-as-kyiv-expects-more-strikes/article71042488.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-05-30T17:23:45Z"
-      },
-      {
-        "title": "How Ukraine turned the tide against Russia",
-        "url": "https://thehill.com/policy/international/5901178-ukraine-gains-momentum-russia",
-        "source": "The Hill",
-        "publishedAt": "2026-05-30T16:00:00Z"
+        "title": "Russia says Ukraine drone struck Zaporizhzhia nuclear plant",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3355434/russia-says-ukraine-drone-struck-zaporizhzhia-nuclear-plant",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-05-30T21:31:31Z"
       },
       {
         "title": "Ukraine's foreign minister says drone attacks in Russia could pressure Putin to end war",
         "url": "https://www.pbs.org/newshour/show/ukraines-foreign-minister-says-drone-attacks-in-russia-could-pressure-putin-to-end-war",
         "source": "PBS NewsHour",
         "publishedAt": "2026-05-28T22:35:42Z"
+      },
+      {
+        "title": "Ukraine-Russia war latest: Russian oil depot and tanker struck by drones in ‘massive attack’ by Kyiv",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-romania-drone-attack-b2986368.html",
+        "source": "The Independent",
+        "publishedAt": "2026-05-30T13:54:46Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "India",
@@ -47,7 +47,7 @@
         "publishedAt": "2026-05-30T09:23:43Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Pakistan",
@@ -72,32 +72,32 @@
         "publishedAt": "2026-05-30T14:11:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
       {
-        "title": "China is building launch pads near its nuclear missile silos: report",
-        "url": "https://www.thehindu.com/news/international/china-is-building-launch-pads-near-its-nuclear-missile-silos-report/article71041271.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-05-30T18:06:05Z"
+        "title": "China dials down rhetoric but regional risks persist at Shangri-La Dialogue",
+        "url": "https://www.scmp.com/news/china/military/article/3355425/china-dials-down-rhetoric-regional-risks-persist-shangri-la-dialogue",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-05-30T13:30:41Z"
       },
       {
-        "title": "Philippines remains under threat from China despite Trump-Xi summit, Minister says",
-        "url": "https://www.thehindu.com/news/international/philippines-remains-under-severe-threat-from-china-despite-trump-xi-summit/article71041495.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-05-30T16:42:43Z"
+        "title": "Hegseth says US-China ties are ‘better than in years’",
+        "url": "https://www.ft.com/content/0a601b2b-aeba-439d-8915-359f44cecf09",
+        "source": "Financial Times",
+        "publishedAt": "2026-05-30T12:09:53Z"
       },
       {
-        "title": "Hegseth walks tightrope on China, urging Asian allies to share burden against threats",
-        "url": "https://thehill.com/policy/defense/5902518-trump-hegseth-china-policy",
-        "source": "The Hill",
-        "publishedAt": "2026-05-30T17:21:01Z"
+        "title": "US agency goes back to the future to take on China’s Belt and Road Initiative",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3352868/us-agency-goes-back-future-take-chinas-belt-and-road-initiative",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-05-30T12:00:06Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "United Kingdom",
@@ -111,9 +111,9 @@
       },
       {
         "title": "Cafe owner says UK police tried to recruit him to spy on Palestine Action",
-        "url": "https://www.middleeasteye.net/news/cafe-owner-says-uk-police-tried-recruit-him-spy-palestine-action",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/cafe-owner-says-uk-police-tried-recruit-him-spy-palestine-action",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T15:36:31Z"
+        "publishedAt": "2026-05-30T20:54:38Z"
       },
       {
         "title": "Why Britain’s Bond Market Is Sounding the Alarm",
@@ -122,7 +122,7 @@
         "publishedAt": "2026-05-30T12:03:29Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Germany",
@@ -147,7 +147,7 @@
         "publishedAt": "2026-05-29T12:01:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "UAE",
@@ -160,68 +160,74 @@
         "publishedAt": "2026-05-30T16:25:40Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Saudi Arabia",
     "iso2": "SA",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
-        "title": "Israeli and Lebanese military delegations meet in Washington",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-and-lebanese-military-delegations-meet-washington",
+        "title": "Netanyahu to hold security talks as Israel escalates attacks on Lebanon",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-hold-security-talks-israel-escalates-attacks-lebanon",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T17:52:53Z"
+        "publishedAt": "2026-05-30T20:43:51Z"
       },
       {
-        "title": "Lebanon prime minister condemns Israeli ‘scorched-earth policy’",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-prime-minister-condemns-israeli-scorched-earth-policy",
+        "title": "Israeli strike near Nabatieh hospital in Lebanon kills at least one person",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-near-nabatieh-hospital-lebanon-kills-least-one-person",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T17:39:55Z"
+        "publishedAt": "2026-05-30T21:33:34Z"
       },
       {
-        "title": "Israeli officials voice frustration as Hezbollah attacks intensify",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-officials-voice-frustration-hezbollah-attacks-intensify",
+        "title": "Israeli strike kills nine Syrian family members, including six children",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-nine-syrian-family-members-including-six-children",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T16:58:48Z"
+        "publishedAt": "2026-05-30T20:20:15Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "‘It was a jungle’: Israeli troops describe confusion near Gaza after ceasefire",
-        "url": "https://www.independent.co.uk/news/world/middle-east/israel-ceasefire-gaza-yellow-line-b2986524.html",
-        "source": "The Independent",
-        "publishedAt": "2026-05-30T18:49:07Z"
-      },
-      {
-        "title": "Palestinian doctor killed, three people injured in Israeli attack on Gaza",
-        "url": "https://www.aljazeera.com/news/2026/5/30/palestinian-doctor-killed-three-people-injured-in-israeli-attack-on-gaza?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-05-30T17:04:03Z"
+        "title": "Over a thousand Palestinians from Gaza held in Israeli detention without charge",
+        "url": "https://www.npr.org/2026/05/30/nx-s1-5831351/over-a-thousand-palestinians-from-gaza-held-in-israeli-detention-without-charge",
+        "source": "NPR World",
+        "publishedAt": "2026-05-30T21:08:42Z"
       },
       {
         "title": "Egypt warns Israel that dangerous Gaza escalations threaten ceasefire",
         "url": "https://www.aljazeera.com/news/2026/5/30/egypt-warns-israel-that-dangerous-gaza-escalations-threaten-ceasefire?traffic_source=rss",
         "source": "Al Jazeera",
         "publishedAt": "2026-05-30T12:04:35Z"
+      },
+      {
+        "title": "‘It was a jungle’: Israeli troops describe confusion near Gaza after ceasefire",
+        "url": "https://www.independent.co.uk/news/world/middle-east/israel-ceasefire-gaza-yellow-line-b2986524.html",
+        "source": "The Independent",
+        "publishedAt": "2026-05-30T18:49:07Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Mexico",
     "iso2": "MX",
     "headlines": [
+      {
+        "title": "Mexico Mayor Arrested as Extortion Crackdown Continues",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-30/mexico-mayor-arrested-as-extortion-crackdown-continues",
+        "source": "Bloomberg",
+        "publishedAt": "2026-05-30T20:33:58Z"
+      },
       {
         "title": "Alarm at Mexico bill allowing elections to be annulled for ‘foreign interference’",
         "url": "https://www.theguardian.com/world/2026/may/29/mexico-senate-election-constitutional-amendment",
@@ -233,20 +239,20 @@
         "url": "https://foreignpolicy.com/2026/05/29/eu-mexico-trade-deal-investment-sheinbaum-trump-usmca",
         "source": "Foreign Policy",
         "publishedAt": "2026-05-29T12:00:17Z"
-      },
-      {
-        "title": "As Trade Talks Begin, U.S.-Mexico Ties Falter",
-        "url": "https://foreignpolicy.com/2026/05/29/usmca-review-trade-talks-mexico-us-trump-sheinbaum-cartels",
-        "source": "Foreign Policy",
-        "publishedAt": "2026-05-29T19:35:11Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Brazil",
     "iso2": "BR",
     "headlines": [
+      {
+        "title": "Brazil Extends Measures to Limit Fuel Price Hikes by Two Months",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-30/brazil-extends-measures-to-limit-fuel-price-hikes-by-two-months",
+        "source": "Bloomberg Markets",
+        "publishedAt": "2026-05-30T19:47:53Z"
+      },
       {
         "title": "U.S. government labels Brazil's 2 biggest drug gangs as foreign terrorist organizations",
         "url": "https://www.pbs.org/newshour/world/u-s-government-labels-brazils-2-biggest-drug-gangs-as-foreign-terrorist-organizations",
@@ -258,15 +264,9 @@
         "url": "https://www.theguardian.com/world/2026/may/29/brazil-gangs-terrorist-rubio",
         "source": "The Guardian",
         "publishedAt": "2026-05-29T17:13:27Z"
-      },
-      {
-        "title": "Deforestation in Brazil's Amazon slows to lowest level in six years",
-        "url": "https://www.rfi.fr/en/environment/20260527-deforestation-in-brazil-s-amazon-slows-to-lowest-level-in-six-years",
-        "source": "RFI English",
-        "publishedAt": "2026-05-27T09:59:45Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Canada",
@@ -285,13 +285,13 @@
         "publishedAt": "2026-05-30T09:25:05Z"
       },
       {
-        "title": "Chinese tourists are choosing Canada — again",
-        "url": "https://www.cbc.ca/news/canada/china-canada-tourism-trump-trade-9.7216946?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-05-30T08:00:00Z"
+        "title": "Canada might double exports to China, Chinese FM Wang Yi says during rare visit",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3355384/canada-might-double-exports-china-chinese-fm-wang-yi-says-during-rare-visit",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-05-29T19:39:50Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Nigeria",
@@ -304,12 +304,18 @@
         "publishedAt": "2026-05-29T17:19:16Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Japan",
     "iso2": "JP",
     "headlines": [
+      {
+        "title": "Japan, US, Philippines to hold September investment forum for Manila AI hub",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-us-philippines-to-hold-september-investment-forum-for-manila-ai-hub",
+        "source": "Nikkei Asia",
+        "publishedAt": null
+      },
       {
         "title": "Japan's industrial production and retail sales improve despite Iran war",
         "url": "https://asia.nikkei.com/economy/japan-s-industrial-production-and-retail-sales-improve-despite-iran-war",
@@ -321,45 +327,45 @@
         "url": "https://asia.nikkei.com/business/energy/japan-s-crude-imports-plunge-50-since-iran-war-exposing-mideast-reliance2",
         "source": "Nikkei Asia",
         "publishedAt": null
-      },
-      {
-        "title": "Hegseth Says US to Deter Regional Aggression With Japan, Korea",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-30/hegseth-says-us-to-deter-regional-aggression-with-japan-korea",
-        "source": "Bloomberg",
-        "publishedAt": "2026-05-30T12:43:02Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Iran",
     "iso2": "IR",
     "headlines": [
       {
-        "title": "Asia security summit opens with US strategy in focus amid Iran war",
-        "url": "https://asia.nikkei.com/politics/defense/asia-security-summit-opens-with-us-strategy-in-focus-amid-iran-war",
-        "source": "Nikkei Asia",
-        "publishedAt": null
+        "title": "Trump says a ceasefire extension deal with Iran is near, but core issues remain",
+        "url": "https://www.npr.org/2026/05/30/nx-s1-5839359/trump-says-a-ceasefire-extension-deal-with-iran-is-near-but-core-issues-remain",
+        "source": "NPR World",
+        "publishedAt": "2026-05-30T21:08:43Z"
       },
       {
-        "title": "Trump decision on Iran deal yet to come as Hegseth talks negotiations",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-vance-ceasefire-strait-of-hormuz-deal-close",
-        "source": "CBS News",
-        "publishedAt": "2026-05-30T18:54:47Z"
+        "title": "Iran-US war latest: Trump hits out at Pope again as Tehran says US president ‘betraying diplomacy’",
+        "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-deal-ceasefire-strait-of-hormuz-b2986344.html",
+        "source": "The Independent",
+        "publishedAt": "2026-05-30T21:07:50Z"
       },
       {
-        "title": "Israeli-US war on Iran costs American consumers nearly $60bn",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-war-iran-costs-american-consumers-nearly-60bn",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T17:15:04Z"
+        "title": "Sunday shows preview: Will Trump greenlight a new Iran deal?",
+        "url": "https://thehill.com/homenews/sunday-talk-shows/5902687-sunday-shows-preview-trump-iran-deal",
+        "source": "The Hill",
+        "publishedAt": "2026-05-30T21:39:55Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
     "headlines": [
+      {
+        "title": "Euphrates flooding displaces thousands in Syria's Deir Ezzor",
+        "url": "https://www.middleeasteye.net/news/euphrates-flooding-displaces-thousands-eastern-syrias-deir-ezzor",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-05-30T19:43:38Z"
+      },
       {
         "title": "Syria Wants to Replace the Strait of Hormuz",
         "url": "https://foreignpolicy.com/2026/05/29/syria-iran-hormuz-shipping-reconstruction",
@@ -367,18 +373,12 @@
         "publishedAt": "2026-05-29T15:12:25Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "France",
     "iso2": "FR",
     "headlines": [
-      {
-        "title": "Heatwave makes conditions ‘inhumane’, say inmates at overcrowded Paris suburb prison",
-        "url": "https://nationalpost.com/news/world/heatwave-makes-conditions-inhumane-say-inmates-at-overcrowded-paris-suburb-prison",
-        "source": "National Post",
-        "publishedAt": "2026-05-30T16:46:54Z"
-      },
       {
         "title": "Attal highlights break with Macron in first rally in French presidential bid",
         "url": "https://www.politico.eu/article/gabriel-attal-breaks-emmanuel-macron-first-rally-french-presidential-bid",
@@ -386,13 +386,19 @@
         "publishedAt": "2026-05-30T15:29:47Z"
       },
       {
-        "title": "French parliament votes to repeal slavery-era Black Code",
-        "url": "https://www.pbs.org/newshour/world/french-parliament-votes-to-repeal-slavery-era-black-code",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-05-28T17:36:25Z"
+        "title": "EU probes deal that would give Chinese retailer a stake in France's Fnac Darty",
+        "url": "https://www.rfi.fr/en/international/20260528-eu-probes-deal-that-would-give-chinese-retailer-a-stake-in-france-s-fnac-darty",
+        "source": "RFI English",
+        "publishedAt": "2026-05-28T16:27:47Z"
+      },
+      {
+        "title": "Heatwave makes conditions ‘inhumane’, say inmates at overcrowded Paris suburb prison",
+        "url": "https://nationalpost.com/news/world/heatwave-makes-conditions-inhumane-say-inmates-at-overcrowded-paris-suburb-prison",
+        "source": "National Post",
+        "publishedAt": "2026-05-30T16:46:54Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Turkey",
@@ -417,12 +423,18 @@
         "publishedAt": "2026-05-27T15:26:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Venezuela",
     "iso2": "VE",
     "headlines": [
+      {
+        "title": "Venezuela's opposition candidate Edmundo González calls for presidential elections",
+        "url": "https://abcnews.com/International/wireStory/venezuelas-opposition-candidate-edmundo-gonzlez-calls-presidential-elections-133455086",
+        "source": "ABC News",
+        "publishedAt": "2026-05-30T20:49:11Z"
+      },
       {
         "title": "Guyanese soldier wounded in border gunfight with armed men in Venezuela",
         "url": "https://abcnews.com/International/wireStory/guyanese-soldier-wounded-border-gunfight-armed-men-venezuela-133449349",
@@ -430,23 +442,23 @@
         "publishedAt": "2026-05-30T15:14:03Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
     "headlines": [
       {
-        "title": "Vietnam to release nearly 10,000 prisoners",
-        "url": "https://www.thehindu.com/news/international/vietnam-to-release-nearly-10000-prisoners-in-election-linked-amnesty/article71041188.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-05-30T16:44:09Z"
-      },
-      {
         "title": "Vietnam BrahMos deal already signed, Indonesia pact in final stages: Defence Secretary R.K. Singh",
         "url": "https://www.thehindu.com/news/national/vietnam-brahmos-deal-already-signed-indonesia-pact-in-final-stages-defence-secretary-rk-singh/article71041667.ece",
         "source": "The Hindu",
         "publishedAt": "2026-05-30T13:50:13Z"
+      },
+      {
+        "title": "Vietnam to release nearly 10,000 prisoners",
+        "url": "https://www.thehindu.com/news/international/vietnam-to-release-nearly-10000-prisoners-in-election-linked-amnesty/article71041188.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-05-30T16:44:09Z"
       },
       {
         "title": "US Hits Vietnam With Third Probe as Trade Pressure Grows",
@@ -455,7 +467,7 @@
         "publishedAt": "2026-05-29T21:14:45Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Taiwan",
@@ -480,7 +492,7 @@
         "publishedAt": "2026-05-30T12:53:23Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "South Korea",
@@ -499,7 +511,7 @@
         "publishedAt": "2026-05-29T13:34:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "North Korea",
@@ -512,7 +524,7 @@
         "publishedAt": "2026-05-30T11:15:20Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Indonesia",
@@ -531,7 +543,7 @@
         "publishedAt": "2026-05-30T03:30:09Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Myanmar",
@@ -556,7 +568,7 @@
         "publishedAt": "2026-05-29T16:47:33Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Armenia",
@@ -581,25 +593,25 @@
         "publishedAt": "2026-05-28T14:00:53Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Morocco",
     "iso2": "MA",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Yemen",
@@ -612,13 +624,13 @@
         "publishedAt": "2026-05-27T11:21:26Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Libya",
     "iso2": "LY",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Egypt",
@@ -631,13 +643,13 @@
         "publishedAt": "2026-05-30T12:04:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Argentina",
@@ -650,26 +662,19 @@
         "publishedAt": "2026-05-29T13:05:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Chile",
     "iso2": "CL",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
-    "headlines": [
-      {
-        "title": "Clown Day in Peru, violence in Colombia and other top photos from Latin America and the Caribbean",
-        "url": "https://abcnews.com/International/wireStory/clown-day-peru-violence-colombia-top-photos-latin-133409132",
-        "source": "ABC News",
-        "publishedAt": "2026-05-29T05:03:49Z"
-      }
-    ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "headlines": [],
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Cuba",
@@ -686,31 +691,25 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/cuba-calls-guantanamo-talks-with-u-s-general-positive?traffic_source=rss",
         "source": "Al Jazeera",
         "publishedAt": "2026-05-30T12:49:12Z"
-      },
-      {
-        "title": "Fidel Castro's anti-communist daughter hopes the U.S. will bring regime change to Cuba",
-        "url": "https://www.cbc.ca/radio/asithappens/alina-fernandez-9.7217239?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-05-29T21:27:26Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Colombia",
     "iso2": "CO",
     "headlines": [
       {
+        "title": "Colombia accuses Ecuador of interfering in its general election",
+        "url": "https://www.pbs.org/newshour/world/colombia-accuses-ecuador-of-interfering-in-its-general-election",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-05-30T19:08:03Z"
+      },
+      {
         "title": "‘Opposite visions’: What to know about Colombia’s presidential election",
         "url": "https://www.aljazeera.com/news/2026/5/30/opposite-visions-what-to-know-about-colombias-presidential-election?traffic_source=rss",
         "source": "Al Jazeera",
         "publishedAt": "2026-05-30T16:21:52Z"
-      },
-      {
-        "title": "Colombia accuses Ecuador of 'deliberate interference' in general elections",
-        "url": "https://abcnews.com/International/wireStory/colombia-accuses-ecuador-deliberate-interference-general-elections-133451428",
-        "source": "ABC News",
-        "publishedAt": "2026-05-30T16:19:09Z"
       },
       {
         "title": "Colombia Lifts Ecuador Tariffs, Warns of Electoral Interference",
@@ -719,7 +718,7 @@
         "publishedAt": "2026-05-30T04:16:59Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Panama",
@@ -732,13 +731,13 @@
         "publishedAt": "2026-05-29T10:03:24Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Denmark",
@@ -757,7 +756,7 @@
         "publishedAt": "2026-05-30T11:30:06Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Sudan",
@@ -776,32 +775,32 @@
         "publishedAt": "2026-05-28T17:13:34Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "Ukraine keeps up assault on Russian oil sites as Kyiv expects more strikes",
-        "url": "https://abcnews.com/International/wireStory/ukraine-assault-russian-oil-sites-kyiv-expects-strikes-133444262",
-        "source": "ABC News",
-        "publishedAt": "2026-05-30T15:56:20Z"
+        "title": "Drone attack struck turbine building at Ukraine's Zaporizhzhia nuclear plant, IAEA says",
+        "url": "https://www.thehindu.com/news/international/drone-attack-struck-turbine-building-at-ukraines-zaporizhzhia-nuclear-plant-iaea-says/article71042720.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-05-30T21:26:49Z"
       },
       {
-        "title": "How Ukraine turned the tide against Russia",
-        "url": "https://thehill.com/policy/international/5901178-ukraine-gains-momentum-russia",
-        "source": "The Hill",
-        "publishedAt": "2026-05-30T16:00:00Z"
+        "title": "Russia says Ukraine drone struck Zaporizhzhia nuclear plant",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3355434/russia-says-ukraine-drone-struck-zaporizhzhia-nuclear-plant",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-05-30T21:31:31Z"
       },
       {
-        "title": "Ukraine's foreign minister says drone attacks in Russia could pressure Putin to end war",
-        "url": "https://www.pbs.org/newshour/show/ukraines-foreign-minister-says-drone-attacks-in-russia-could-pressure-putin-to-end-war",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-05-28T22:35:42Z"
+        "title": "Is the war in Ukraine entering a new phase?",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/5/30/is-the-war-in-ukraine-entering-a-new-phase-2?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-05-30T20:12:44Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Australia",
@@ -826,7 +825,7 @@
         "publishedAt": "2026-05-30T13:04:46Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Singapore",
@@ -851,12 +850,18 @@
         "publishedAt": "2026-05-30T01:30:13Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Philippines",
     "iso2": "PH",
     "headlines": [
+      {
+        "title": "Japan, US, Philippines to hold September investment forum for Manila AI hub",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-us-philippines-to-hold-september-investment-forum-for-manila-ai-hub",
+        "source": "Nikkei Asia",
+        "publishedAt": null
+      },
       {
         "title": "Philippines remains under threat from China despite Trump-Xi summit, Minister says",
         "url": "https://www.thehindu.com/news/international/philippines-remains-under-severe-threat-from-china-despite-trump-xi-summit/article71041495.ece",
@@ -868,15 +873,9 @@
         "url": "https://www.aljazeera.com/opinions/2026/5/30/how-the-iran-war-is-dividing-muslims-in-the-philippines?traffic_source=rss",
         "source": "Al Jazeera",
         "publishedAt": "2026-05-30T12:49:20Z"
-      },
-      {
-        "title": "Philippines Seeks Closer Ties With Taiwan, Adversaries of China",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-30/philippines-seeks-closer-ties-with-taiwan-adversaries-of-china",
-        "source": "Bloomberg",
-        "publishedAt": "2026-05-30T12:53:23Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Afghanistan",
@@ -901,7 +900,7 @@
         "publishedAt": "2026-05-30T10:07:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Iraq",
@@ -914,7 +913,7 @@
         "publishedAt": "2026-05-30T15:06:21Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Spain",
@@ -939,7 +938,7 @@
         "publishedAt": "2026-05-30T02:09:47Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Italy",
@@ -964,19 +963,19 @@
         "publishedAt": "2026-05-30T15:19:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Poland",
     "iso2": "PL",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bolivia",
     "iso2": "BO",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "New Zealand",
@@ -989,7 +988,7 @@
         "publishedAt": "2026-05-30T08:00:01Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Portugal",
@@ -1002,19 +1001,19 @@
         "publishedAt": "2026-05-28T06:28:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Czech Republic",
     "iso2": "CZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Norway",
     "iso2": "NO",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Romania",
@@ -1039,23 +1038,23 @@
         "publishedAt": "2026-05-29T09:29:13Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Sweden",
     "iso2": "SE",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Hong Kong",
     "iso2": "HK",
     "headlines": [
       {
-        "title": "Beijing to release Hong Kong yacht policy with mainland port details next month",
-        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3355395/beijing-allows-hong-kong-yachts-berth-more-easily-some-mainland-chinese-ports",
+        "title": "Hong Kong’s old buildings: 5 lessons for urban renewal",
+        "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3354573/hong-kongs-old-buildings-5-lessons-urban-renewal",
         "source": "South China Morning Post",
-        "publishedAt": "2026-05-30T04:19:22Z"
+        "publishedAt": "2026-05-30T21:30:06Z"
       },
       {
         "title": "Hong Kong cuts emergency mobile alert activation time from 1 hour to 15 minutes",
@@ -1070,13 +1069,13 @@
         "publishedAt": "2026-05-30T14:19:46Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Finland",
     "iso2": "FI",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Switzerland",
@@ -1089,13 +1088,13 @@
         "publishedAt": "2026-05-28T13:43:20Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Angola",
     "iso2": "AO",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "South Africa",
@@ -1114,18 +1113,12 @@
         "publishedAt": "2026-05-30T13:10:11Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Kenya",
     "iso2": "KE",
     "headlines": [
-      {
-        "title": "Eight students arrested in Kenya after suspected deadly school arson attack",
-        "url": "https://www.bbc.com/news/articles/cx21r3138m9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-05-29T11:22:10Z"
-      },
       {
         "title": "Kenyan court blocks opening of U.S. Ebola quarantine center on air base",
         "url": "https://www.cbsnews.com/news/ebola-us-kenya-court-blocks-american-quarantine-center-laikipia-air-base",
@@ -1137,9 +1130,15 @@
         "url": "https://www.cbsnews.com/news/us-ebola-quarantine-facility-kenya",
         "source": "CBS News",
         "publishedAt": "2026-05-28T22:11:00Z"
+      },
+      {
+        "title": "US building Ebola quarantine center in Kenya for Americans amid outbreak",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-administration-ebola-quarantine-kenya",
+        "source": "The Guardian",
+        "publishedAt": "2026-05-27T18:00:41Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Oman",
@@ -1152,7 +1151,7 @@
         "publishedAt": "2026-05-29T12:11:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Qatar",
@@ -1177,12 +1176,18 @@
         "publishedAt": "2026-05-30T07:33:15Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "DRC",
     "iso2": "CD",
     "headlines": [
+      {
+        "title": "Women bear the brunt of DRC’s Ebola outbreak",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/women-bear-the-brunt-of-drcs-ebola-outbreak?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-05-30T20:30:12Z"
+      },
       {
         "title": "WHO puts Ebola outbreak death rate at ‘huge’ 30-50% as chief arrives in DRC",
         "url": "https://www.theguardian.com/world/2026/may/29/who-chief-tedros-adhanom-ghebreyesus-drc-ebola-outbreak-epidemic",
@@ -1196,7 +1201,7 @@
         "publishedAt": "2026-05-29T05:44:22Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Dominican Republic",
@@ -1209,7 +1214,7 @@
         "publishedAt": "2026-05-30T14:54:17Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Netherlands",
@@ -1222,7 +1227,7 @@
         "publishedAt": "2026-05-30T13:04:46Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Belgium",
@@ -1247,7 +1252,7 @@
         "publishedAt": "2026-05-29T16:17:23Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Malaysia",
@@ -1266,13 +1271,13 @@
         "publishedAt": "2026-05-30T02:00:16Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Guyana",
     "iso2": "GY",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ireland",
@@ -1285,7 +1290,7 @@
         "publishedAt": "2026-05-28T06:28:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Austria",
@@ -1304,7 +1309,7 @@
         "publishedAt": "2026-05-30T05:00:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Belarus",
@@ -1317,7 +1322,7 @@
         "publishedAt": "2026-05-30T09:57:54Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Thailand",
@@ -1330,7 +1335,7 @@
         "publishedAt": "2026-05-30T14:12:53Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Cambodia",
@@ -1343,23 +1348,23 @@
         "publishedAt": null
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Laos",
     "iso2": "LA",
     "headlines": [
       {
-        "title": "Four men rescued from flooded Laos cave as search continues for 2 others",
-        "url": "https://www.pbs.org/newshour/world/four-men-rescued-from-flooded-laos-cave-as-search-continues-for-2-others",
-        "source": "PBS NewsHour",
-        "publishedAt": "2026-05-30T17:55:44Z"
-      },
-      {
         "title": "5 villagers trapped in flooded Laos cave freed after 10-day ordeal",
         "url": "https://www.scmp.com/week-asia/people/article/3355416/5-villagers-trapped-flooded-laos-cave-freed-after-10-day-ordeal",
         "source": "South China Morning Post",
         "publishedAt": "2026-05-30T10:52:33Z"
+      },
+      {
+        "title": "Four men rescued from flooded Laos cave as search continues for 2 others",
+        "url": "https://www.pbs.org/newshour/world/four-men-rescued-from-flooded-laos-cave-as-search-continues-for-2-others",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-05-30T17:55:44Z"
       },
       {
         "title": "Rescuers free four more men from flooded Laos cave, two still missing",
@@ -1368,17 +1373,23 @@
         "publishedAt": "2026-05-30T14:53:35Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ecuador",
     "iso2": "EC",
     "headlines": [
       {
-        "title": "Colombia accuses Ecuador of 'deliberate interference' in general elections",
-        "url": "https://abcnews.com/International/wireStory/colombia-accuses-ecuador-deliberate-interference-general-elections-133451428",
-        "source": "ABC News",
-        "publishedAt": "2026-05-30T16:19:09Z"
+        "title": "Ecuador accused of meddling in Colombian election with tariff vow",
+        "url": "https://www.bbc.com/news/articles/czx2zndk7elo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-05-30T20:40:07Z"
+      },
+      {
+        "title": "Colombia accuses Ecuador of interfering in its general election",
+        "url": "https://www.pbs.org/newshour/world/colombia-accuses-ecuador-of-interfering-in-its-general-election",
+        "source": "PBS NewsHour",
+        "publishedAt": "2026-05-30T19:08:03Z"
       },
       {
         "title": "Colombia Lifts Ecuador Tariffs, Warns of Electoral Interference",
@@ -1387,49 +1398,49 @@
         "publishedAt": "2026-05-30T04:16:59Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Paraguay",
     "iso2": "PY",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Uruguay",
     "iso2": "UY",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Mali",
     "iso2": "ML",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Botswana",
     "iso2": "BW",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Tanzania",
     "iso2": "TZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Madagascar",
     "iso2": "MG",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Turkmenistan",
     "iso2": "TM",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Kazakhstan",
@@ -1442,7 +1453,7 @@
         "publishedAt": "2026-05-28T20:43:20Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Hungary",
@@ -1467,19 +1478,19 @@
         "publishedAt": "2026-05-29T15:40:52Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Serbia",
     "iso2": "RS",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Albania",
     "iso2": "AL",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bulgaria",
@@ -1492,13 +1503,13 @@
         "publishedAt": "2026-05-30T04:00:57Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Moldova",
     "iso2": "MD",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Greece",
@@ -1509,21 +1520,15 @@
         "url": "https://abcnews.com/International/wireStory/migrant-amateur-teams-greece-world-cup-spirit-new-133442688",
         "source": "ABC News",
         "publishedAt": "2026-05-30T10:00:26Z"
-      },
-      {
-        "title": "On the Greek island of Rhodes, I skipped the beach to visit a pasha's library",
-        "url": "https://www.middleeasteye.net/news/greek-island-rhodes-i-skipped-beach-visit-pashas-library",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T09:39:39Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Kosovo",
     "iso2": "XK",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bahamas",
@@ -1536,7 +1541,7 @@
         "publishedAt": "2026-05-28T21:20:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bangladesh",
@@ -1549,25 +1554,19 @@
         "publishedAt": "2026-05-29T10:02:16Z"
       },
       {
-        "title": "Bangladesh was on target to eliminate measles. Now the disease is killing hundreds of children",
-        "url": "https://www.cbc.ca/radio/asithappens/bangladesh-measles-9.7215844?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-05-28T21:50:36Z"
-      },
-      {
         "title": "Blond Bangladeshi buffalo nicknamed ‘Donald Trump’ saved from Eid sacrifice",
         "url": "https://www.theguardian.com/world/2026/may/28/blond-bangladeshi-buffalo-nicknamed-donald-trump-saved-from-eid-sacrifice",
         "source": "The Guardian",
         "publishedAt": "2026-05-28T11:40:06Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Nepal",
     "iso2": "NP",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Sri Lanka",
@@ -1580,38 +1579,38 @@
         "publishedAt": "2026-05-30T12:28:47Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Jordan",
     "iso2": "JO",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Lebanon",
     "iso2": "LB",
     "headlines": [
       {
-        "title": "Lebanon prime minister condemns Israeli ‘scorched-earth policy’",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-prime-minister-condemns-israeli-scorched-earth-policy",
+        "title": "Netanyahu to hold security talks as Israel escalates attacks on Lebanon",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-hold-security-talks-israel-escalates-attacks-lebanon",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T17:39:55Z"
+        "publishedAt": "2026-05-30T20:43:51Z"
       },
       {
-        "title": "Lebanon death toll climbs to 3,371 as Israeli strikes continue",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-climbs-3371-israeli-strikes-continue",
+        "title": "Israeli strikes kill paramedic and civilian across south Lebanon",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-paramedic-and-civilian-across-south-lebanon",
         "source": "Middle East Eye",
-        "publishedAt": "2026-05-30T16:42:28Z"
+        "publishedAt": "2026-05-30T19:28:18Z"
       },
       {
-        "title": "Israeli troops push deeper into Lebanon as two sides start military talks at Pentagon",
-        "url": "https://www.thehindu.com/news/international/israeli-troops-push-deeper-into-lebanon-military-talks-at-pentagon/article71040106.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-05-30T16:00:37Z"
+        "title": "Israeli strike near Nabatieh hospital in Lebanon kills at least one person",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-near-nabatieh-hospital-lebanon-kills-least-one-person",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-05-30T21:33:34Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Kuwait",
@@ -1630,19 +1629,19 @@
         "publishedAt": "2026-05-30T09:23:42Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bahrain",
     "iso2": "BH",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Tunisia",
     "iso2": "TN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ethiopia",
@@ -1655,7 +1654,7 @@
         "publishedAt": "2026-05-29T15:31:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ghana",
@@ -1674,25 +1673,25 @@
         "publishedAt": "2026-05-30T00:51:49Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Ivory Coast",
     "iso2": "CI",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Senegal",
     "iso2": "SN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Rwanda",
     "iso2": "RW",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Uganda",
@@ -1705,13 +1704,13 @@
         "publishedAt": "2026-05-28T09:19:19Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Zimbabwe",
     "iso2": "ZW",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Zambia",
@@ -1724,79 +1723,79 @@
         "publishedAt": "2026-05-29T16:42:01Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Cameroon",
     "iso2": "CM",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Mozambique",
     "iso2": "MZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Burkina Faso",
     "iso2": "BF",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Niger",
     "iso2": "NE",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Chad",
     "iso2": "TD",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Guinea",
     "iso2": "GN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Uzbekistan",
     "iso2": "UZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Kyrgyzstan",
     "iso2": "KG",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Tajikistan",
     "iso2": "TJ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Croatia",
     "iso2": "HR",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Slovakia",
     "iso2": "SK",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Slovenia",
     "iso2": "SI",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Lithuania",
@@ -1809,37 +1808,37 @@
         "publishedAt": "2026-05-27T20:16:18Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Latvia",
     "iso2": "LV",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Estonia",
     "iso2": "EE",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "North Macedonia",
     "iso2": "MK",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bosnia and Herzegovina",
     "iso2": "BA",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Montenegro",
     "iso2": "ME",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Guatemala",
@@ -1852,25 +1851,25 @@
         "publishedAt": "2026-05-29T13:28:00Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Honduras",
     "iso2": "HN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Nicaragua",
     "iso2": "NI",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Costa Rica",
     "iso2": "CR",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Haiti",
@@ -1883,13 +1882,13 @@
         "publishedAt": "2026-05-30T14:54:17Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Trinidad and Tobago",
     "iso2": "TT",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Jamaica",
@@ -1902,55 +1901,55 @@
         "publishedAt": "2026-05-30T11:00:18Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "South Sudan",
     "iso2": "SS",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Eritrea",
     "iso2": "ER",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Djibouti",
     "iso2": "DJ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Mauritania",
     "iso2": "MR",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Liberia",
     "iso2": "LR",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Sierra Leone",
     "iso2": "SL",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Gabon",
     "iso2": "GA",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Congo",
     "iso2": "CG",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Namibia",
@@ -1963,43 +1962,43 @@
         "publishedAt": "2026-05-30T17:31:45Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Eswatini",
     "iso2": "SZ",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Lesotho",
     "iso2": "LS",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Malawi",
     "iso2": "MW",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Papua New Guinea",
     "iso2": "PG",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Mongolia",
     "iso2": "MN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Brunei",
     "iso2": "BN",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Timor-Leste",
@@ -2012,61 +2011,61 @@
         "publishedAt": "2026-05-30T14:25:40Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Maldives",
     "iso2": "MV",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Bhutan",
     "iso2": "BT",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Georgia",
     "iso2": "GE",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Cyprus",
     "iso2": "CY",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Malta",
     "iso2": "MT",
     "headlines": [
       {
-        "title": "Voters in Malta head to polls for early elections",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/voters-in-malta-head-to-polls-for-early-elections?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-05-30T17:20:17Z"
-      },
-      {
         "title": "Malta votes in snap parliamentary election",
         "url": "https://www.dw.com/en/malta-votes-in-snap-parliamentary-election/a-77353620?maca=en-rss-en-world-4025-rdf",
         "source": "DW World",
         "publishedAt": "2026-05-30T08:40:00Z"
+      },
+      {
+        "title": "Voters in Malta head to polls for early elections",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/30/voters-in-malta-head-to-polls-for-early-elections?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-05-30T17:20:17Z"
       }
     ],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Luxembourg",
     "iso2": "LU",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   },
   {
     "country": "Iceland",
     "iso2": "IS",
     "headlines": [],
-    "lastUpdated": "2026-05-30T19:01:01.069728Z"
+    "lastUpdated": "2026-05-30T21:53:13.258961Z"
   }
 ]
