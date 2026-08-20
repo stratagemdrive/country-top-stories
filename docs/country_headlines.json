@@ -4,55 +4,61 @@
     "iso2": "RU",
     "headlines": [
       {
-        "title": "Deadly Russian missile attack in Kyiv leaves parts of capital without power",
-        "url": "https://www.cbc.ca/news/world/russian-missiles-attack-kyiv-9.7313497?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-08-20T02:38:51Z"
+        "title": "Ukraine-Russia war latest: At least 12 dead and 33 injured as Putin launches ‘massive attack’ on Kyiv",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-drones-missile-attacks-b3036084.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T06:16:01Z"
       },
       {
-        "title": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
-        "url": "https://abcnews.com/International/wireStory/warehouse-burns-moscow-ukraine-drone-crews-prepare-strike-135760980",
-        "source": "ABC News",
-        "publishedAt": "2026-08-20T02:27:27Z"
+        "title": "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
+        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-08-20T05:25:23Z"
       },
       {
-        "title": "Iran taps financial lifeline, Russian arms as Trump escalates 'crushing' economic warfare",
-        "url": "https://www.foxnews.com/world/iran-taps-financial-lifeline-russian-arms-trump-escalates-crushing-economic-warfare",
-        "source": "Fox News World",
-        "publishedAt": "2026-08-20T01:09:10Z"
+        "title": "War comes to Putin’s favourite Black Sea resort",
+        "url": "https://www.ft.com/content/565f7434-f648-45a8-b0d4-b04a529c39cd?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "publishedAt": "2026-08-20T04:00:11Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "India",
     "iso2": "IN",
     "headlines": [
       {
-        "title": "India Bars JPMorgan Unit for Alleged Market Manipulation",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/india-bars-jpmorgan-unit-over-alleged-stock-market-manipulation",
-        "source": "Bloomberg Markets",
-        "publishedAt": "2026-08-20T01:29:25Z"
-      },
-      {
-        "title": "ASEAN headlines India's export expansion in April-June quarter",
-        "url": "https://asia.nikkei.com/economy/trade/asean-headlines-india-s-export-expansion-in-april-june-quarter",
-        "source": "Nikkei Asia",
-        "publishedAt": null
-      },
-      {
         "title": "After deadly floods in India, experts call for better warnings and long-term planning",
         "url": "https://abcnews.com/International/wireStory/after-deadly-floods-indias-assam-experts-call-warnings-135757240",
         "source": "ABC News",
         "publishedAt": "2026-08-19T01:18:58Z"
+      },
+      {
+        "title": "India 'Cockroach' movement takes aim at government schools",
+        "url": "https://www.dw.com/en/india-cockroach-movement-takes-aim-at-government-schools/a-78431291?maca=en-rss-en-world-4025-rdf",
+        "source": "DW World",
+        "publishedAt": "2026-08-19T14:11:00Z"
+      },
+      {
+        "title": "Bangladesh’s energy crisis opens door for India to mend ties",
+        "url": "https://www.scmp.com/week-asia/politics/article/3364601/bangladeshs-energy-crisis-opens-door-india-mend-ties",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-08-19T14:08:11Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Pakistan",
     "iso2": "PK",
     "headlines": [
+      {
+        "title": "Pakistan Blasts US Envoy’s Remark About Disputed Kashmir Region",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/pakistan-blasts-us-envoy-s-remark-about-disputed-kashmir-region",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-20T03:47:57Z"
+      },
       {
         "title": "Shaibani's arrival in Pakistan marks first Syrian diplomatic visit in nearly two decades",
         "url": "https://www.middleeasteye.net/live-blog/live-blog-update/shaibanis-arrival-pakistan-marks-first-syrian-diplomatic-visit-nearly",
@@ -64,65 +70,59 @@
         "url": "https://www.scmp.com/news/asia/south-asia/article/3364588/pakistans-government-challenges-court-order-imran-khan-hospital-move",
         "source": "South China Morning Post",
         "publishedAt": "2026-08-19T12:25:05Z"
-      },
-      {
-        "title": "Could Pakistan's jailed ex-PM Imran Khan make a new deal?",
-        "url": "https://www.dw.com/en/could-pakistan-s-jailed-ex-pm-imran-khan-make-a-new-deal/a-78429070?maca=en-rss-en-world-4025-rdf",
-        "source": "DW World",
-        "publishedAt": "2026-08-19T11:39:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "China",
     "iso2": "CN",
     "headlines": [
       {
-        "title": "China’s top diplomat Wang Yi calls on US to change ‘hostile policy’ on North Korea",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3364621/chinas-top-diplomat-wang-yi-calls-us-change-hostile-policy-north-korea",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-20T01:12:54Z"
+        "title": "China’s Property Crisis: From Evergrande Collapse to Spiraling Prices",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-s-property-crisis-from-evergrande-collapse-to-spiraling-prices",
+        "source": "Bloomberg Markets",
+        "publishedAt": "2026-08-20T06:18:43Z"
       },
       {
-        "title": "Be wary of defence contractors, Chinese study warns, pointing to US system",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3364585/be-wary-defence-contractors-chinese-study-warns-beijing-pointing-us-system",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-20T01:00:10Z"
+        "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
+        "url": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "publishedAt": "2026-08-20T06:08:02Z"
       },
       {
-        "title": "China Tests a New Maritime Presence East of Taiwan, Report Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-tests-a-new-maritime-presence-east-of-taiwan-report-says",
-        "source": "Bloomberg",
-        "publishedAt": "2026-08-20T03:00:56Z"
+        "title": "China Evergrande founder Hui Ka Yan sentenced to life in prison",
+        "url": "https://asia.nikkei.com/business/markets/china-debt-crunch/china-evergrande-founder-hui-ka-yan-sentenced-to-life-in-prison",
+        "source": "Nikkei Asia",
+        "publishedAt": null
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "United Kingdom",
     "iso2": "GB",
     "headlines": [
       {
-        "title": "Labour’s Farage donor crackdown hits a Downing Street roadblock",
-        "url": "https://www.politico.eu/article/uk-political-donations-cap-labour-andy-burnham-nigel-farage",
+        "title": "Prince Harry and Meghan ‘moving back to Britain this month’",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T01:28:29Z"
+      },
+      {
+        "title": "AUKUS only works if Britain’s submarine town does",
+        "url": "https://www.politico.com/news/2026/08/19/aukus-britain-submarine-town-01041456",
         "source": "POLITICO Europe",
-        "publishedAt": "2026-08-20T02:00:00Z"
+        "publishedAt": "2026-08-19T18:59:36Z"
       },
       {
-        "title": "Harry and Meghan moving back to Britain: reports",
-        "url": "https://www.dw.com/en/harry-and-meghan-moving-back-to-britain-reports/a-78438052?maca=en-rss-en-world-4025-rdf",
-        "source": "DW World",
-        "publishedAt": "2026-08-20T03:10:00Z"
-      },
-      {
-        "title": "UK condemns Israel's E1 settlement expansion in occupied West Bank",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-condemns-israels-e1-settlement-expansion-occupied-west-bank",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T01:42:35Z"
+        "title": "Compulsory GCSE resits in England harm teenagers’ mental wellbeing, study finds",
+        "url": "https://www.theguardian.com/education/2026/aug/19/gcse-resits-england-harm-teenagers-mental-wellbeing-ucl",
+        "source": "The Guardian Politics",
+        "publishedAt": "2026-08-19T18:34:59Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Germany",
@@ -147,7 +147,7 @@
         "publishedAt": "2026-08-17T19:27:27Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "UAE",
@@ -166,13 +166,13 @@
         "publishedAt": "2026-08-19T13:51:12Z"
       },
       {
-        "title": "Iran warns Gulf nations against helping US as UAE halts trade ties",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3364576/iran-warns-gulf-nations-against-helping-us-uae-halts-trade-ties",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T10:35:35Z"
+        "title": "UAE accuses Iran of firing two ballistic missiles at its territory",
+        "url": "https://www.thehindu.com/news/international/uae-accuses-iran-of-firing-ballistic-missiles-at-its-territory/article71362169.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-08-19T05:07:52Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Saudi Arabia",
@@ -191,57 +191,57 @@
         "publishedAt": "2026-08-18T14:25:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Israel",
     "iso2": "IL",
     "headlines": [
       {
-        "title": "Netanyahu casts Turkey as Israel’s new villain amid tough re-election fight",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3364623/netanyahu-casts-turkey-israels-new-villain-amid-tough-re-election-fight",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-20T01:36:37Z"
-      },
-      {
-        "title": "‘Tsunami’ of emigration reshapes Israel’s future, experts warn",
-        "url": "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-08-20T00:26:59Z"
-      },
-      {
-        "title": "UK condemns Israel's E1 settlement expansion in occupied West Bank",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-condemns-israels-e1-settlement-expansion-occupied-west-bank",
+        "title": "Israeli defence minister warns Turkey against 'threatening its security'",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-defence-minister-warns-turkey-against-threatening-its-security",
         "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T01:42:35Z"
+        "publishedAt": "2026-08-20T06:03:02Z"
+      },
+      {
+        "title": "Israeli military launches criminal probes into killings of 5-year-old and paramedics",
+        "url": "https://www.npr.org/2026/08/20/nx-s1-5939310/israeli-military-criminal-probes",
+        "source": "NPR World",
+        "publishedAt": "2026-08-20T05:50:53Z"
+      },
+      {
+        "title": "Australia ‘outraged’ as Israel clears soldiers over killing of aid worker in Gaza",
+        "url": "https://www.independent.co.uk/news/world/australasia/israel-australia-aid-worker-gaza-zomi-frankcom-penny-wong-b3036086.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T05:34:05Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Palestine",
     "iso2": "PS",
     "headlines": [
       {
-        "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
-        "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+        "title": "Australia ‘outraged’ as Israel clears soldiers over killing of aid worker in Gaza",
+        "url": "https://www.independent.co.uk/news/world/australasia/israel-australia-aid-worker-gaza-zomi-frankcom-penny-wong-b3036086.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T05:34:05Z"
+      },
+      {
+        "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+        "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "publishedAt": "2026-08-20T03:12:07Z"
+        "publishedAt": "2026-08-20T00:53:20Z"
       },
       {
-        "title": "UK condemns Israel's E1 settlement expansion in occupied West Bank",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-condemns-israels-e1-settlement-expansion-occupied-west-bank",
+        "title": "Australia summons Israeli ambassador over Gaza aid worker killing",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/australia-summons-israeli-ambassador-over-gaza-aid-worker-death",
         "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T01:42:35Z"
-      },
-      {
-        "title": "Israel's Bennett calls for Qatar, Turkey's exclusion from future role in Gaza",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-bennett-calls-qatar-turkeys-exclusion-future-role-gaza",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T00:58:27Z"
+        "publishedAt": "2026-08-19T21:55:52Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Mexico",
@@ -254,7 +254,7 @@
         "publishedAt": "2026-08-18T18:33:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Brazil",
@@ -273,32 +273,32 @@
         "publishedAt": "2026-08-18T12:22:25Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Canada",
     "iso2": "CA",
     "headlines": [
       {
-        "title": "Trump proposed reviving the Keystone XL pipeline. Does Canada still want it?",
-        "url": "https://www.ft.com/content/28a39ff4-cc0b-4a32-93d7-d5fbc8a4bcb9?syn-25a6b1a6=1",
-        "source": "Financial Times",
-        "publishedAt": "2026-08-20T00:27:53Z"
+        "title": "Trump Set to Cut Canada Auto Tariffs to 15% in Trade Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-19/trump-offers-to-cut-canada-auto-tariffs-to-15-in-trade-deal",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-19T20:51:36Z"
       },
       {
-        "title": "What Trump’s focus on an oil pipeline means for Canada-U.S. trade",
-        "url": "https://www.cbc.ca/news/business/keystone-xl-trump-trade-9.7312773?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-08-19T20:15:25Z"
+        "title": "Anxious Manufacturers Await Canada-US Deal to Avoid 50% Tariffs",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-19/anxious-manufacturers-await-canada-us-deal-to-avoid-50-tariffs",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-19T20:39:06Z"
       },
       {
-        "title": "Canadian tribunal says wheat gluten dumping is likely hurting industry",
-        "url": "https://globalnews.ca/news/12026872/italy-poland-uk-dumping-wheat-canada-tribunal",
-        "source": "Global News",
-        "publishedAt": "2026-08-19T16:37:41Z"
+        "title": "Trump pausing 50% tariffs on some Canadian goods as deal being finalized",
+        "url": "https://www.cbsnews.com/news/trump-pauses-tariffs-canada",
+        "source": "CBS News",
+        "publishedAt": "2026-08-19T19:41:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Nigeria",
@@ -323,92 +323,92 @@
         "publishedAt": "2026-08-20T00:06:05Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Japan",
     "iso2": "JP",
     "headlines": [
       {
-        "title": "Japan Student-Loan Bond Priced at Record High Coupon",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/japan-student-loan-bond-priced-at-record-high-coupon",
+        "title": "Japan Real Estate Investment Set to Hit Record for Second Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/japan-real-estate-investment-set-to-hit-record-for-second-year",
         "source": "Bloomberg Markets",
-        "publishedAt": "2026-08-20T02:05:51Z"
+        "publishedAt": "2026-08-20T05:38:33Z"
       },
       {
-        "title": "Japan Medium-Term Bonds See Largest Foreign Outflow Since 2006",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/japan-medium-term-bonds-see-largest-foreign-outflow-since-2006",
-        "source": "Bloomberg Markets",
-        "publishedAt": "2026-08-20T02:55:53Z"
+        "title": "U.S. sanctions ICC chief Tomoko Akane of Japan",
+        "url": "https://www.thehindu.com/news/international/us-sanctions-icc-chief-tomoko-akane-of-japan/article71363112.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-08-19T01:17:27Z"
       },
       {
-        "title": "Japan logged trade deficit for third consecutive month in July",
-        "url": "https://asia.nikkei.com/economy/trade/japan-logged-trade-deficit-for-third-consecutive-month-in-july",
-        "source": "Nikkei Asia",
-        "publishedAt": null
+        "title": "Japan and OAS award Haiti $3M to help troubled country prepare for long-awaited elections",
+        "url": "https://abcnews.com/International/wireStory/japan-oas-award-haiti-3m-troubled-country-prepare-135751106",
+        "source": "ABC News",
+        "publishedAt": "2026-08-18T20:07:45Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Iran",
     "iso2": "IR",
     "headlines": [
       {
-        "title": "Iran taps financial lifeline, Russian arms as Trump escalates 'crushing' economic warfare",
-        "url": "https://www.foxnews.com/world/iran-taps-financial-lifeline-russian-arms-trump-escalates-crushing-economic-warfare",
-        "source": "Fox News World",
-        "publishedAt": "2026-08-20T01:09:10Z"
+        "title": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
+        "url": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T04:53:44Z"
       },
       {
-        "title": "Trump warns of punishment for any country that supports Iran: ‘economic warfare’",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3364619/trump-warns-punishment-any-country-supports-iran-economic-warfare",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T23:30:51Z"
+        "title": "Iran-US war latest: Tehran vows ‘further defeat’ for Trump after ‘Economic D-Day’ threat",
+        "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-oil-uae-nuclear-weapons-b3036080.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T06:26:48Z"
       },
       {
-        "title": "Trump Says US Starting ‘Economic Warfare’ Operation Against Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-19/trump-says-us-starting-economic-warfare-operation-against-iran",
-        "source": "Bloomberg",
-        "publishedAt": "2026-08-19T23:06:49Z"
+        "title": "Erratic Trump left with few exits in Iran war | Data",
+        "url": "https://www.thehindu.com/data/erratic-trump-left-with-few-exits-in-iran-war/article71366473.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-08-20T05:35:49Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Syria",
     "iso2": "SY",
     "headlines": [
       {
+        "title": "Lebanon extradites ex-Assad military general to Syria for trial over alleged crimes committed during civil war",
+        "url": "http://www.euronews.com/2026/08/20/lebanon-extradites-ex-assad-military-general-to-syria-for-trial-over-alleged-crimes-commit",
+        "source": "Euronews",
+        "publishedAt": "2026-08-20T04:51:38Z"
+      },
+      {
+        "title": "Mossad chief called Syria over Turkish army presence before airbase strike: Report",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mossad-chief-called-syria-over-turkish-army-presence-airbase-strike",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-08-20T05:52:06Z"
+      },
+      {
         "title": "U.S. diplomat calls Israeli strikes on Syria base \"unnecessary escalation\"",
         "url": "https://www.cbsnews.com/news/syria-israel-airstrikes-us-tom-barrack-unnecessary-escalation-middle-east",
         "source": "CBS News",
         "publishedAt": "2026-08-18T14:45:04Z"
-      },
-      {
-        "title": "Lebanon hands former Syrian army general to Damascus after arrest warrant",
-        "url": "https://www.aljazeera.com/news/2026/8/19/lebanon-hands-former-syrian-army-general-to-damascus-after-arrest-warrant?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-08-19T23:21:32Z"
-      },
-      {
-        "title": "Israel strikes an air base in Syria to prevent Turkish troops from deploying",
-        "url": "https://www.npr.org/2026/08/19/nx-s1-5937400/israel-strikes-syria",
-        "source": "NPR World",
-        "publishedAt": "2026-08-19T07:51:59Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "France",
     "iso2": "FR",
     "headlines": [
       {
-        "title": "France’s big climate problem: The budget crunch",
-        "url": "https://www.politico.eu/article/france-climate-change-problem-budget",
-        "source": "POLITICO Europe",
-        "publishedAt": "2026-08-19T18:17:34Z"
+        "title": "Bond Investors Choose Italy Over France as Elections Loom",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/bond-investors-choose-italy-over-france-as-elections-loom",
+        "source": "Bloomberg Markets",
+        "publishedAt": "2026-08-20T06:15:00Z"
       },
       {
         "title": "7,300 excess deaths and counting as France battles historically hot summer",
@@ -423,32 +423,32 @@
         "publishedAt": "2026-08-19T14:07:30Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Turkey",
     "iso2": "TR",
     "headlines": [
       {
+        "title": "Israeli defence minister warns Turkey against 'threatening its security'",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-defence-minister-warns-turkey-against-threatening-its-security",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-08-20T06:03:02Z"
+      },
+      {
+        "title": "Mossad chief called Syria over Turkish army presence before airbase strike: Report",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mossad-chief-called-syria-over-turkish-army-presence-airbase-strike",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-08-20T05:52:06Z"
+      },
+      {
         "title": "Netanyahu casts Turkey as Israel’s new villain amid tough re-election fight",
         "url": "https://www.scmp.com/news/world/middle-east/article/3364623/netanyahu-casts-turkey-israels-new-villain-amid-tough-re-election-fight",
         "source": "South China Morning Post",
         "publishedAt": "2026-08-20T01:36:37Z"
-      },
-      {
-        "title": "Israel's Bennett calls for Qatar, Turkey's exclusion from future role in Gaza",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-bennett-calls-qatar-turkeys-exclusion-future-role-gaza",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T00:58:27Z"
-      },
-      {
-        "title": "Israel strikes an air base in Syria to prevent Turkish troops from deploying",
-        "url": "https://www.npr.org/2026/08/19/nx-s1-5937400/israel-strikes-syria",
-        "source": "NPR World",
-        "publishedAt": "2026-08-19T07:51:59Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Venezuela",
@@ -459,101 +459,95 @@
         "url": "https://foreignpolicy.com/2026/08/19/venezuela-opposition-rodriguez-trump",
         "source": "Foreign Policy",
         "publishedAt": "2026-08-19T16:04:47Z"
-      },
-      {
-        "title": "Venezuela seeks return of 31 tonnes of gold worth €4bn from Bank of England",
-        "url": "http://www.euronews.com/2026/08/17/venezuela-seeks-return-of-31-tonnes-of-gold-worth-4bn-from-bank-of-england",
-        "source": "Euronews",
-        "publishedAt": "2026-08-17T13:09:27Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Vietnam",
     "iso2": "VN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Taiwan",
     "iso2": "TW",
     "headlines": [
       {
-        "title": "China Tests a New Maritime Presence East of Taiwan, Report Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-tests-a-new-maritime-presence-east-of-taiwan-report-says",
-        "source": "Bloomberg",
-        "publishedAt": "2026-08-20T03:00:56Z"
+        "title": "Exclusive: China slows exports of key optical, aerospace metals to Taiwan",
+        "url": "https://asia.nikkei.com/spotlight/supply-chain/exclusive-china-slows-exports-of-key-optical-aerospace-metals-to-taiwan",
+        "source": "Nikkei Asia",
+        "publishedAt": null
       },
       {
         "title": "Taiwan-made satellite launcher fails first test, triggers missile panic",
         "url": "https://www.scmp.com/news/china/military/article/3364561/taiwan-made-satellite-launcher-fails-first-test-triggers-missile-panic",
         "source": "South China Morning Post",
         "publishedAt": "2026-08-19T12:00:06Z"
+      },
+      {
+        "title": "China Tests a New Maritime Presence East of Taiwan, Report Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-tests-a-new-maritime-presence-east-of-taiwan-report-says",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-20T03:00:56Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "South Korea",
     "iso2": "KR",
     "headlines": [
       {
-        "title": "Alarm in South Korea as Iran dispute with Trump shakes a 72-year alliance",
-        "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-08-20T01:56:41Z"
+        "title": "South Korea estimates North Korea has up to 120 nuclear warheads, far above Trump’s figure",
+        "url": "https://www.thehindu.com/news/international/south-korea-estimates-north-korea-has-up-to-120-nuclear-warheads-far-above-trumps-figure/article71367796.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-08-20T04:55:36Z"
       },
       {
-        "title": "South Korea says South Korean and US militaries have agreed to shorten their drills",
-        "url": "https://abcnews.com/International/wireStory/south-korea-south-korean-us-militaries-agreed-shorten-135757051",
-        "source": "ABC News",
-        "publishedAt": "2026-08-20T01:54:15Z"
+        "title": "North Korea May Have Up to 120 Nuclear Warheads, Seoul Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/korea-s-lee-hails-trump-s-determination-for-peninsula-peace",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-20T00:30:04Z"
       },
       {
-        "title": "South Korean container ship will test Arctic route to Europe amid Western concern",
-        "url": "https://www.scmp.com/news/asia/east-asia/article/3364610/south-korean-container-ship-will-test-arctic-route-europe-amid-western-concern",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T22:33:05Z"
+        "title": "North Korea says Trump's scale-back of joint military exercises with South Korea 'changes nothing'",
+        "url": "http://www.euronews.com/2026/08/20/north-korea-says-trumps-scale-back-of-joint-military-exercises-with-south-korea-changes-no",
+        "source": "Euronews",
+        "publishedAt": "2026-08-20T04:02:29Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "North Korea",
     "iso2": "KP",
     "headlines": [
       {
-        "title": "China’s top diplomat Wang Yi calls on US to change ‘hostile policy’ on North Korea",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3364621/chinas-top-diplomat-wang-yi-calls-us-change-hostile-policy-north-korea",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-20T01:12:54Z"
+        "title": "South Korea estimates North Korea has up to 120 nuclear warheads, far above Trump’s figure",
+        "url": "https://www.thehindu.com/news/international/south-korea-estimates-north-korea-has-up-to-120-nuclear-warheads-far-above-trumps-figure/article71367796.ece",
+        "source": "The Hindu",
+        "publishedAt": "2026-08-20T04:55:36Z"
       },
       {
-        "title": "Will Trump and Kim Jong Un Meet? Why US Is Seeking to Reengage With North Korea",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/will-trump-and-kim-jong-un-meet-why-us-is-seeking-to-reengage-with-north-korea",
+        "title": "North Korea May Have Up to 120 Nuclear Warheads, Seoul Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/korea-s-lee-hails-trump-s-determination-for-peninsula-peace",
         "source": "Bloomberg",
-        "publishedAt": "2026-08-20T03:08:22Z"
+        "publishedAt": "2026-08-20T00:30:04Z"
       },
       {
-        "title": "Trump says he plans to meet Kim Jong Un later this year",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/i-get-along-with-him-very-well?traffic_source=rss",
-        "source": "Al Jazeera",
-        "publishedAt": "2026-08-19T21:35:34Z"
+        "title": "North Korea says Trump's scale-back of joint military exercises with South Korea 'changes nothing'",
+        "url": "http://www.euronews.com/2026/08/20/north-korea-says-trumps-scale-back-of-joint-military-exercises-with-south-korea-changes-no",
+        "source": "Euronews",
+        "publishedAt": "2026-08-20T04:02:29Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Indonesia",
     "iso2": "ID",
     "headlines": [
-      {
-        "title": "‘Like a miracle’: 84-year-old woman pulled alive from rubble three days after Indonesian quake",
-        "url": "https://www.theguardian.com/world/2026/aug/20/indonesia-earthquake-flores-miracle-rescue-elderly-woman-found-alive-in-rubble",
-        "source": "The Guardian",
-        "publishedAt": "2026-08-20T00:57:42Z"
-      },
       {
         "title": "Indonesian authorities seize 2.6 tonnes of meth in major bust, narcotics official says",
         "url": "http://www.euronews.com/2026/08/19/indonesian-authorities-seize-26-tonnes-of-meth-in-major-bust-narcotics-official-says",
@@ -565,9 +559,15 @@
         "url": "https://abcnews.com/International/wireStory/businesses-reopen-after-eastern-indonesia-earthquake-displaced-thousands-135762693",
         "source": "ABC News",
         "publishedAt": "2026-08-19T06:35:59Z"
+      },
+      {
+        "title": "‘Like a miracle’: 84-year-old woman pulled alive from rubble three days after Indonesian quake",
+        "url": "https://www.theguardian.com/world/2026/aug/20/indonesia-earthquake-flores-miracle-rescue-elderly-woman-found-alive-in-rubble",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T00:57:42Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Myanmar",
@@ -580,19 +580,19 @@
         "publishedAt": null
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Armenia",
     "iso2": "AM",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Azerbaijan",
     "iso2": "AZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Morocco",
@@ -605,31 +605,18 @@
         "publishedAt": "2026-08-15T12:56:25Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Somalia",
     "iso2": "SO",
-    "headlines": [
-      {
-        "title": "Fighting in southwestern Somalia kills dozens of people, including 4 civilians",
-        "url": "https://abcnews.com/International/wireStory/fighting-southwestern-somalia-kills-dozens-people-including-4-135742897",
-        "source": "ABC News",
-        "publishedAt": "2026-08-18T16:03:22Z"
-      }
-    ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "headlines": [],
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Yemen",
     "iso2": "YE",
     "headlines": [
-      {
-        "title": "Yemen risks return to 'full-scale conflict' if Houthi strikes continue, UN rights chief warns",
-        "url": "http://www.euronews.com/2026/08/17/yemen-risks-return-to-full-scale-conflict-if-houthi-strikes-continue-un-rights-chief-warns",
-        "source": "Euronews",
-        "publishedAt": "2026-08-17T12:56:34Z"
-      },
       {
         "title": "Bab el-Mandeb Strait faces growing threat as Houthi attacks raise fears of a second Hormuz",
         "url": "https://www.foxnews.com/world/bab-el-mandeb-strait-faces-growing-threat-houthi-attacks-raise-fears-second-hormuz",
@@ -643,7 +630,7 @@
         "publishedAt": "2026-08-18T17:53:31Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Libya",
@@ -656,37 +643,37 @@
         "publishedAt": "2026-08-18T10:23:20Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Egypt",
     "iso2": "EG",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Algeria",
     "iso2": "DZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Argentina",
     "iso2": "AR",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Chile",
     "iso2": "CL",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Peru",
     "iso2": "PE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Cuba",
@@ -699,7 +686,7 @@
         "publishedAt": "2026-08-19T15:23:14Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Colombia",
@@ -718,12 +705,18 @@
         "publishedAt": "2026-08-19T09:00:12Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Panama",
     "iso2": "PA",
     "headlines": [
+      {
+        "title": "Hong Kong conglomerate seeks $1.5 billion in damages from Panama for takeover of canal ports",
+        "url": "https://abcnews.com/International/wireStory/hong-kong-conglomerate-seeks-15-billion-damages-panama-135795813",
+        "source": "ABC News",
+        "publishedAt": "2026-08-20T04:49:51Z"
+      },
       {
         "title": "Hong Kong’s CK Hutchison seeks HK$11.7b from Panama over takeover of canal ports",
         "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364622/hong-kongs-ck-hutchison-seeks-hk117b-panama-over-canal-ports-dispute",
@@ -737,19 +730,19 @@
         "publishedAt": "2026-08-20T00:24:34Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "El Salvador",
     "iso2": "SV",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Denmark",
     "iso2": "DK",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Sudan",
@@ -774,67 +767,67 @@
         "publishedAt": "2026-08-18T10:56:25Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ukraine",
     "iso2": "UA",
     "headlines": [
       {
-        "title": "Deadly Russian missile attack in Kyiv leaves parts of capital without power",
-        "url": "https://www.cbc.ca/news/world/russian-missiles-attack-kyiv-9.7313497?cmp=rss",
-        "source": "CBC News World",
-        "publishedAt": "2026-08-20T02:38:51Z"
+        "title": "Ukraine-Russia war latest: At least 12 dead and 33 injured as Putin launches ‘massive attack’ on Kyiv",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-drones-missile-attacks-b3036084.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T06:16:01Z"
       },
       {
-        "title": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
-        "url": "https://abcnews.com/International/wireStory/warehouse-burns-moscow-ukraine-drone-crews-prepare-strike-135760980",
-        "source": "ABC News",
-        "publishedAt": "2026-08-20T02:27:27Z"
+        "title": "At least 6 killed in multiple Russian missile strikes across Ukraine",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/at-least-6-killed-in-multiple-russian-missile-strikes-across-ukraine?traffic_source=rss",
+        "source": "Al Jazeera",
+        "publishedAt": "2026-08-20T04:59:22Z"
       },
       {
-        "title": "Russian drone attacks kill five in Ukraine's Kherson, governor says",
-        "url": "https://www.thehindu.com/news/international/russian-drone-attacks-kill-five-in-ukraines-kherson-governor-says/article71366303.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-08-19T16:34:09Z"
+        "title": "Kyiv comes under Russian missile attack, killing at least nine",
+        "url": "https://www.theguardian.com/world/2026/aug/20/ukraine-kyiv-deaths-russian-missile-attack",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T05:25:28Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Australia",
     "iso2": "AU",
     "headlines": [
       {
-        "title": "Missing teen hiker found dead in Australian bush after eight-day search",
-        "url": "https://www.bbc.co.uk/news/articles/c304e2dlv20o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-08-20T03:16:22Z"
+        "title": "Australia ‘outraged’ as Israel clears soldiers over killing of aid worker in Gaza",
+        "url": "https://www.independent.co.uk/news/world/australasia/israel-australia-aid-worker-gaza-zomi-frankcom-penny-wong-b3036086.html",
+        "source": "The Independent",
+        "publishedAt": "2026-08-20T05:34:05Z"
       },
       {
-        "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
-        "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "publishedAt": "2026-08-20T03:12:07Z"
+        "title": "Australia summons Israeli ambassador over Gaza aid worker killing",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/australia-summons-israeli-ambassador-over-gaza-aid-worker-death",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-08-19T21:55:52Z"
       },
       {
-        "title": "Australia’s Higher Unemployment Sees Traders Pare Rate-Hike Bets",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/australia-s-unemployment-climbs-to-4-5-as-economy-sheds-jobs",
-        "source": "Bloomberg Markets",
-        "publishedAt": "2026-08-20T01:33:04Z"
+        "title": "Zomi Frankcom: Penny Wong condemns ‘insulting’ decision to clear IDF over Gaza strikes that killed Australian aid worker",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/20/australia-idf-reaction-gaza-strike-zomi-frankcom-penny-wong-statement-ntwnfb",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T06:11:31Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Singapore",
     "iso2": "SG",
     "headlines": [
       {
-        "title": "Singapore Police Begin Looking Into Trader Radiant World",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/singapore-authorities-begin-looking-into-trader-radiant-world",
-        "source": "Bloomberg Markets",
-        "publishedAt": "2026-08-20T01:59:25Z"
+        "title": "Singapore police look into iron ore trader Radiant World",
+        "url": "https://www.ft.com/content/91e95fcd-00ac-45d0-a4cf-a28a941f8a2c?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "publishedAt": "2026-08-20T04:39:58Z"
       },
       {
         "title": "Singapore plans tax, visa incentives to boost fund industry",
@@ -849,7 +842,7 @@
         "publishedAt": "2026-08-19T05:58:06Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Philippines",
@@ -862,7 +855,7 @@
         "publishedAt": null
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Afghanistan",
@@ -887,13 +880,13 @@
         "publishedAt": "2026-08-18T15:21:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Iraq",
     "iso2": "IQ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Spain",
@@ -918,38 +911,44 @@
         "publishedAt": "2026-08-18T08:17:44Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Italy",
     "iso2": "IT",
     "headlines": [
       {
+        "title": "Bond Investors Choose Italy Over France as Elections Loom",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/bond-investors-choose-italy-over-france-as-elections-loom",
+        "source": "Bloomberg Markets",
+        "publishedAt": "2026-08-20T06:15:00Z"
+      },
+      {
+        "title": "Meloni and Maga: a cautionary tale",
+        "url": "https://www.ft.com/content/41e4528d-0d87-4be3-9c59-46f37cec8136?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "publishedAt": "2026-08-20T04:00:11Z"
+      },
+      {
         "title": "Italian town carries towering Virgin Mary structure through streets",
         "url": "http://www.euronews.com/video/2026/08/18/italian-town-carries-towering-virgin-mary-structure-through-streets",
         "source": "Euronews",
         "publishedAt": "2026-08-18T17:15:48Z"
-      },
-      {
-        "title": "Italy-Spain border feud exposes Europe’s deepening immigration divide",
-        "url": "https://www.foxnews.com/world/italy-spain-border-feud-exposes-europes-deepening-immigration-divide",
-        "source": "Fox News World",
-        "publishedAt": "2026-08-17T18:54:08Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Poland",
     "iso2": "PL",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bolivia",
     "iso2": "BO",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "New Zealand",
@@ -962,19 +961,19 @@
         "publishedAt": "2026-08-19T08:46:14Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Portugal",
     "iso2": "PT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Czech Republic",
     "iso2": "CZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Norway",
@@ -987,7 +986,7 @@
         "publishedAt": "2026-08-17T14:00:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Romania",
@@ -1000,62 +999,62 @@
         "publishedAt": "2026-08-13T21:21:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Sweden",
     "iso2": "SE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Hong Kong",
     "iso2": "HK",
     "headlines": [
       {
+        "title": "Pet owner barred from leaving Hong Kong pending trial over his dog’s fatal attacks",
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364648/hong-kong-pet-owner-barred-leaving-city-pending-trial-over-fatal-dog-attacks",
+        "source": "South China Morning Post",
+        "publishedAt": "2026-08-20T05:09:11Z"
+      },
+      {
+        "title": "Hong Kong conglomerate seeks $1.5 billion in damages from Panama for takeover of canal ports",
+        "url": "https://abcnews.com/International/wireStory/hong-kong-conglomerate-seeks-15-billion-damages-panama-135795813",
+        "source": "ABC News",
+        "publishedAt": "2026-08-20T04:49:51Z"
+      },
+      {
         "title": "Hong Kong’s CK Hutchison seeks HK$11.7b from Panama over takeover of canal ports",
         "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364622/hong-kongs-ck-hutchison-seeks-hk117b-panama-over-canal-ports-dispute",
         "source": "South China Morning Post",
         "publishedAt": "2026-08-20T01:14:55Z"
-      },
-      {
-        "title": "Hong Kong unveils its first dedicated psychiatric facility for under-18s",
-        "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3364597/hong-kong-unveils-its-first-dedicated-psychiatric-facility-under-18s",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T13:30:01Z"
-      },
-      {
-        "title": "Prudential Hong Kong expands headquarters across Swire Properties’ towers",
-        "url": "https://www.scmp.com/business/article/3364575/prudential-hong-kong-expands-headquarters-amid-beijings-intensified-wealth-oversight",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T10:36:02Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Finland",
     "iso2": "FI",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Switzerland",
     "iso2": "CH",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Angola",
     "iso2": "AO",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "South Africa",
     "iso2": "ZA",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Kenya",
@@ -1080,18 +1079,12 @@
         "publishedAt": "2026-08-19T23:17:01Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Oman",
     "iso2": "OM",
     "headlines": [
-      {
-        "title": "Trump threatens to bomb Oman if it ‘gets in the way’ of Iran deal as Kushner meets Netanyahu – as it happened",
-        "url": "https://www.theguardian.com/world/live/2026/aug/17/trump-kushner-netanyahu-hamas-gaza-israel-blair-us-iran-hormuz-oil-latest-news-updates",
-        "source": "The Guardian",
-        "publishedAt": "2026-08-17T16:48:26Z"
-      },
       {
         "title": "Trump threatens to bomb Oman if it impedes US-Iran Strait of Hormuz talks",
         "url": "http://www.euronews.com/2026/08/17/trump-threatens-to-bomb-oman-if-it-impedes-us-iran-strait-of-hormuz-talks",
@@ -1099,18 +1092,12 @@
         "publishedAt": "2026-08-17T13:28:15Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Qatar",
     "iso2": "QA",
     "headlines": [
-      {
-        "title": "Israel's Bennett calls for Qatar, Turkey's exclusion from future role in Gaza",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-bennett-calls-qatar-turkeys-exclusion-future-role-gaza",
-        "source": "Middle East Eye",
-        "publishedAt": "2026-08-20T00:58:27Z"
-      },
       {
         "title": "More than 1,000 Afghan refugees have been stuck at a camp in Qatar since 2021",
         "url": "https://www.npr.org/2026/08/19/nx-s1-5936482/more-than-1-000-afghan-refugees-have-been-stuck-at-a-camp-in-qatar-since-2021",
@@ -1118,13 +1105,19 @@
         "publishedAt": "2026-08-19T21:15:06Z"
       },
       {
-        "title": "Mable Chan uses Qatar Airways cargo office opening to drop Central Asia route reveal",
-        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364580/mable-chan-uses-qatar-airways-cargo-office-opening-drop-central-asia-route-reveal",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T11:10:54Z"
+        "title": "Israel's Bennett calls for Qatar, Turkey's exclusion from future role in Gaza",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-bennett-calls-qatar-turkeys-exclusion-future-role-gaza",
+        "source": "Middle East Eye",
+        "publishedAt": "2026-08-20T00:58:27Z"
+      },
+      {
+        "title": "Qatar says it repatriated body of Iranian pilot and denies claims of holding three others",
+        "url": "http://www.euronews.com/2026/08/18/qatar-returns-iranian-pilots-remains-but-denies-tehrans-claims-of-holding-others",
+        "source": "Euronews",
+        "publishedAt": "2026-08-18T13:05:51Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "DRC",
@@ -1149,13 +1142,13 @@
         "publishedAt": "2026-08-19T17:59:29Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Dominican Republic",
     "iso2": "DO",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Netherlands",
@@ -1168,7 +1161,7 @@
         "publishedAt": "2026-08-19T17:41:38Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Belgium",
@@ -1193,7 +1186,7 @@
         "publishedAt": "2026-08-18T12:38:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Malaysia",
@@ -1206,31 +1199,31 @@
         "publishedAt": "2026-08-19T11:39:22Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Guyana",
     "iso2": "GY",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ireland",
     "iso2": "IE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Austria",
     "iso2": "AT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Belarus",
     "iso2": "BY",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Thailand",
@@ -1241,27 +1234,21 @@
         "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/thailand-hosts-myanmar-military-chief-deepening-bilateral-ties",
         "source": "Nikkei Asia",
         "publishedAt": null
-      },
-      {
-        "title": "Fake residency of foreign children in Thailand spotlights widening corruption",
-        "url": "https://www.scmp.com/week-asia/people/article/3364577/fake-residency-foreign-children-thailand-spotlights-widening-corruption",
-        "source": "South China Morning Post",
-        "publishedAt": "2026-08-19T10:40:10Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Cambodia",
     "iso2": "KH",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Laos",
     "iso2": "LA",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ecuador",
@@ -1286,31 +1273,31 @@
         "publishedAt": "2026-08-19T14:23:36Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Paraguay",
     "iso2": "PY",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Uruguay",
     "iso2": "UY",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Mali",
     "iso2": "ML",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Botswana",
     "iso2": "BW",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Tanzania",
@@ -1323,30 +1310,36 @@
         "publishedAt": "2026-08-14T14:20:52Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Madagascar",
     "iso2": "MG",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Turkmenistan",
     "iso2": "TM",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Kazakhstan",
     "iso2": "KZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Hungary",
     "iso2": "HU",
     "headlines": [
+      {
+        "title": "Melancholy made in Hungary is fuelling bestsellers across the globe – and widely misunderstood",
+        "url": "https://www.theguardian.com/books/2026/aug/20/melancholy-made-in-hungary-is-fuelling-bestsellers-across-the-globe-and-widely-misunderstood",
+        "source": "The Guardian",
+        "publishedAt": "2026-08-20T06:00:44Z"
+      },
       {
         "title": "Romania shuts nuclear plant, Hungary dams dry Danube River",
         "url": "https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-eu-2092-rdf",
@@ -1360,68 +1353,67 @@
         "publishedAt": "2026-08-16T09:47:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Serbia",
     "iso2": "RS",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Albania",
     "iso2": "AL",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bulgaria",
     "iso2": "BG",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Moldova",
     "iso2": "MD",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Greece",
     "iso2": "GR",
-    "headlines": [
-      {
-        "title": "Married British couple on honeymooon killed in Greek helicopter crash",
-        "url": "https://news.sky.com/story/british-couple-killed-in-greek-helicopter-crash-while-on-honeymoon-named-13574179",
-        "source": "Sky News",
-        "publishedAt": "2026-08-17T20:33:00Z"
-      }
-    ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "headlines": [],
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Kosovo",
     "iso2": "XK",
     "headlines": [
       {
-        "title": "Kosovo finds remains of at least 23 people in suspected mass graves",
+        "title": "Kosovo finds remains of 23 people in mass graves search",
         "url": "https://www.aljazeera.com/news/2026/8/19/kosovo-finds-remains-of-at-least-23-people-in-suspected-mass-graves?traffic_source=rss",
         "source": "Al Jazeera",
         "publishedAt": "2026-08-19T23:55:33Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bahamas",
     "iso2": "BS",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bangladesh",
     "iso2": "BD",
     "headlines": [
+      {
+        "title": "Bangladesh lawmakers set to elect Alamgir president",
+        "url": "https://www.dw.com/en/bangladesh-lawmakers-set-to-elect-alamgir-president/a-78438534?maca=en-rss-en-world-4025-rdf",
+        "source": "DW World",
+        "publishedAt": "2026-08-20T05:37:00Z"
+      },
       {
         "title": "Bangladesh to hold presidential election on Thursday",
         "url": "https://www.thehindu.com/news/international/bangladesh-to-hold-presidential-election-on-thursday/article71366368.ece",
@@ -1433,38 +1425,38 @@
         "url": "https://www.scmp.com/week-asia/politics/article/3364601/bangladeshs-energy-crisis-opens-door-india-mend-ties",
         "source": "South China Morning Post",
         "publishedAt": "2026-08-19T14:08:11Z"
-      },
-      {
-        "title": "Can India extradite Sheikh Hasina under the 2013 treaty with Bangladesh? | Explained",
-        "url": "https://www.thehindu.com/news/international/india-bangladesh-extradition-treaty-sheikh-hasina-extradition/article71359241.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-08-18T15:32:47Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Nepal",
     "iso2": "NP",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Sri Lanka",
     "iso2": "LK",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Jordan",
     "iso2": "JO",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Lebanon",
     "iso2": "LB",
     "headlines": [
+      {
+        "title": "Lebanon extradites ex-Assad military general to Syria for trial over alleged crimes committed during civil war",
+        "url": "http://www.euronews.com/2026/08/20/lebanon-extradites-ex-assad-military-general-to-syria-for-trial-over-alleged-crimes-commit",
+        "source": "Euronews",
+        "publishedAt": "2026-08-20T04:51:38Z"
+      },
       {
         "title": "Lebanon hands former Syrian army general to Damascus after arrest warrant",
         "url": "https://www.aljazeera.com/news/2026/8/19/lebanon-hands-former-syrian-army-general-to-damascus-after-arrest-warrant?traffic_source=rss",
@@ -1476,21 +1468,15 @@
         "url": "https://abcnews.com/International/wireStory/canadian-official-condemns-israels-unlawful-invasion-announces-new-135772258",
         "source": "ABC News",
         "publishedAt": "2026-08-19T14:40:14Z"
-      },
-      {
-        "title": "Lebanon is handing over an Assad-era general after war crimes questioning",
-        "url": "https://www.thehindu.com/news/national/lebanon-is-handing-over-an-assad-era-general-after-war-crimes-questioning/article71362047.ece",
-        "source": "The Hindu",
-        "publishedAt": "2026-08-18T17:19:12Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Kuwait",
     "iso2": "KW",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bahrain",
@@ -1503,13 +1489,13 @@
         "publishedAt": "2026-08-19T21:29:13Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Tunisia",
     "iso2": "TN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ethiopia",
@@ -1522,31 +1508,31 @@
         "publishedAt": "2026-08-14T14:41:24Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ghana",
     "iso2": "GH",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Ivory Coast",
     "iso2": "CI",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Senegal",
     "iso2": "SN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Rwanda",
     "iso2": "RW",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Uganda",
@@ -1559,7 +1545,7 @@
         "publishedAt": "2026-08-18T13:18:53Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Zimbabwe",
@@ -1572,12 +1558,18 @@
         "publishedAt": "2026-08-15T19:39:07Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Zambia",
     "iso2": "ZM",
     "headlines": [
+      {
+        "title": "Zambia Ex-Transport Minister Killed In Raid on Politician’s Home",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/zambia-ex-transport-minister-killed-in-raid-on-politician-s-home",
+        "source": "Bloomberg",
+        "publishedAt": "2026-08-20T05:30:53Z"
+      },
       {
         "title": "Zambia President Hichilema re-elected for second term following contentious polls",
         "url": "https://www.thehindu.com/news/international/zambia-president-hichilema-re-elected-for-second-term-following-contentious-polls/article71359521.ece",
@@ -1589,69 +1581,63 @@
         "url": "https://www.rfi.fr/en/africa/20260818-zambia-s-president-hichilema-wins-re-election",
         "source": "RFI English",
         "publishedAt": "2026-08-18T05:21:37Z"
-      },
-      {
-        "title": "Zambia's Hakainde Hichilema wins re-election with 60% of vote, officials say",
-        "url": "http://www.euronews.com/2026/08/18/zambias-hakainde-hichilema-wins-re-election-with-60-of-vote-officials-say",
-        "source": "Euronews",
-        "publishedAt": "2026-08-18T05:00:18Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Cameroon",
     "iso2": "CM",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Mozambique",
     "iso2": "MZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Burkina Faso",
     "iso2": "BF",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Niger",
     "iso2": "NE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Chad",
     "iso2": "TD",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Guinea",
     "iso2": "GN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Uzbekistan",
     "iso2": "UZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Kyrgyzstan",
     "iso2": "KG",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Tajikistan",
     "iso2": "TJ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Croatia",
@@ -1664,67 +1650,61 @@
         "publishedAt": "2026-08-19T16:31:48Z"
       },
       {
-        "title": "Ukrainian diver arrested in Croatia over Nord Stream pipeline bombings",
-        "url": "https://www.theguardian.com/business/2026/aug/19/ukrainian-diver-arrested-in-croatia-over-nord-stream-pipeline-bombings",
-        "source": "The Guardian",
-        "publishedAt": "2026-08-19T14:14:54Z"
-      },
-      {
         "title": "Germany says 2nd suspect in Nord Stream pipeline sabotage arrested in Croatia",
         "url": "https://www.cbc.ca/news/world/nord-stream-pipeline-damage-arrest-9.7312068?cmp=rss",
         "source": "CBC News World",
         "publishedAt": "2026-08-19T11:13:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Slovakia",
     "iso2": "SK",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Slovenia",
     "iso2": "SI",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Lithuania",
     "iso2": "LT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Latvia",
     "iso2": "LV",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Estonia",
     "iso2": "EE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "North Macedonia",
     "iso2": "MK",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bosnia and Herzegovina",
     "iso2": "BA",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Montenegro",
     "iso2": "ME",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Guatemala",
@@ -1737,7 +1717,7 @@
         "publishedAt": "2026-08-18T18:33:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Honduras",
@@ -1750,7 +1730,7 @@
         "publishedAt": "2026-08-18T18:33:00Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Nicaragua",
@@ -1763,13 +1743,13 @@
         "publishedAt": "2026-08-19T23:48:52Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Costa Rica",
     "iso2": "CR",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Haiti",
@@ -1788,19 +1768,19 @@
         "publishedAt": "2026-08-18T20:07:45Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Trinidad and Tobago",
     "iso2": "TT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Jamaica",
     "iso2": "JM",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "South Sudan",
@@ -1813,25 +1793,25 @@
         "publishedAt": "2026-08-19T17:40:09Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Eritrea",
     "iso2": "ER",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Djibouti",
     "iso2": "DJ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Mauritania",
     "iso2": "MR",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Liberia",
@@ -1856,19 +1836,19 @@
         "publishedAt": "2026-08-19T15:44:01Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Sierra Leone",
     "iso2": "SL",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Gabon",
     "iso2": "GA",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Congo",
@@ -1881,25 +1861,25 @@
         "publishedAt": "2026-08-17T14:07:31Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Namibia",
     "iso2": "NA",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Eswatini",
     "iso2": "SZ",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Lesotho",
     "iso2": "LS",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Malawi",
@@ -1912,72 +1892,72 @@
         "publishedAt": "2026-08-14T14:28:57Z"
       }
     ],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Papua New Guinea",
     "iso2": "PG",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Mongolia",
     "iso2": "MN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Brunei",
     "iso2": "BN",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Timor-Leste",
     "iso2": "TL",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Maldives",
     "iso2": "MV",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Bhutan",
     "iso2": "BT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Georgia",
     "iso2": "GE",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Cyprus",
     "iso2": "CY",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Malta",
     "iso2": "MT",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Luxembourg",
     "iso2": "LU",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   },
   {
     "country": "Iceland",
     "iso2": "IS",
     "headlines": [],
-    "lastUpdated": "2026-08-20T03:39:05.178187Z"
+    "lastUpdated": "2026-08-20T06:30:01.035267Z"
   }
 ]
