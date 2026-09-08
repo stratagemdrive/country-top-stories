@@ -5,7 +5,11 @@ Fetches up to 3 prominent headlines per country using RSS feeds only.
 No API key required.  Runs continuously, polling every 3 hours.
 
 Logic:
-- Pulls from 30 major RSS feeds (UK, USA, Canada)
+- Pulls from 150+ RSS feeds (English-language or English-edition outlets,
+  spanning North America, the UK/Ireland, continental Europe, Russia/
+  Ukraine/Caucasus/Central Asia, the Middle East, Africa, Latin America,
+  South Asia, East Asia, Southeast Asia, and Oceania), plus a cluster of
+  international-affairs / defense / policy outlets and UN/humanitarian wires
 - 7-day rolling window; no article older than 7 days is ever surfaced
 - For each country, scans all articles for mentions using name + synonym matching
 - Title-primary matching: article must mention the country in its TITLE to qualify,
@@ -44,6 +48,14 @@ Dependencies (requirements.txt):
   feedparser
   requests
   python-dateutil
+
+Note on sources: state-run / state-affiliated wire services and broadcasters
+(e.g. RT, Sputnik, TASS, RIA Novosti, Xinhua, CGTN, Global Times, Press TV)
+are deliberately excluded. A handful of the newly added feeds are
+"best-effort" — outlets whose CMS makes the exact RSS path hard to verify
+without a live fetch (flagged inline below) — the fetch loop already
+skips/continues past any feed that fails, so a stale URL there degrades
+gracefully rather than breaking the run.
 """
 
 from __future__ import annotations
@@ -104,9 +116,19 @@ RSS_FEEDS: Dict[str, str] = {
     "Politico":            "https://rss.politico.com/politics-news.xml",
     "Foreign Policy":      "https://foreignpolicy.com/feed/",
     "AP World":            "https://rsshub.app/apnews/topics/world-news",
+    "Washington Post World": "http://feeds.washingtonpost.com/rss/world",
+    "New York Times World": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "LA Times World & Nation": "https://www.latimes.com/world-nation/rss2.0.xml",
+    "CNBC International":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "UPI World News":      "https://rss.upi.com/news/tn_int.rss",
     # ── UK ────────────────────────────────────────────────────
     "The Guardian":        "https://www.theguardian.com/world/rss",
     "The Guardian Politics": "https://www.theguardian.com/politics/rss",
+    "The Guardian Africa": "https://www.theguardian.com/world/africa/rss",
+    "The Guardian Middle East": "https://www.theguardian.com/world/middleeast/rss",
+    "The Guardian Asia Pacific": "https://www.theguardian.com/world/asia-pacific/rss",
+    "The Guardian Europe": "https://www.theguardian.com/world/europe-news/rss",
+    "The Guardian Americas": "https://www.theguardian.com/world/americas/rss",
     "The Telegraph":       "https://www.telegraph.co.uk/news/rss.xml",
     "The Independent":     "https://www.independent.co.uk/news/world/rss",
     "Sky News":            "https://feeds.skynews.com/feeds/rss/world.xml",
@@ -116,26 +138,137 @@ RSS_FEEDS: Dict[str, str] = {
     "Al Jazeera":          "https://www.aljazeera.com/xml/rss/all.xml",
     "Reuters World":       "https://feeds.reuters.com/reuters/worldNews",
     "Reuters Business":    "https://feeds.reuters.com/reuters/businessNews",
+    # ── Ireland ───────────────────────────────────────────────
+    "RTE News":            "https://www.rte.ie/feeds/rss/?index=/news/",
+    "Irish Examiner":      "https://www.irishexaminer.com/feed/35-top_news.xml",
+    "BreakingNews.ie":     "https://feeds.breakingnews.ie/bntopstories?format=xml",
     # ── Europe / International ────────────────────────────────
     "DW World":            "https://rss.dw.com/rdf/rss-en-world",
     "DW Europe":           "https://rss.dw.com/rdf/rss-en-eu",
+    "DW Asia":             "https://rss.dw.com/rdf/rss-en-asia",
+    "DW Africa":           "https://rss.dw.com/rdf/rss-en-africa",
     "RFI English":         "https://www.rfi.fr/en/rss",
     "Euronews":            "https://www.euronews.com/rss?level=theme&name=news",
     "POLITICO Europe":     "https://www.politico.eu/feed/",
+    "EUobserver":          "https://euobserver.com/feed/",
+    "Balkan Insight":      "https://balkaninsight.com/feed/",
+    "Euractiv":            "https://www.euractiv.com/feed",
+    "Der Spiegel International": "https://www.spiegel.de/international/index.rss",
+    "Le Monde International (EN)": "https://www.lemonde.fr/en/international/rss_full.xml",
+    "Notes from Poland":   "https://notesfrompoland.com/feed/",
+    "The Local Germany":   "https://feeds.thelocal.com/rss/de",
+    "The Local France":    "https://feeds.thelocal.com/rss/fr",
+    "The Local Sweden":    "https://feeds.thelocal.com/rss/se",
+    "Agencia EFE English": "https://www.efe.com/efe/english/4/rss",
+    # ── Russia (independent) / Ukraine / Caucasus / Central Asia ─
+    "The Moscow Times":    "https://www.themoscowtimes.com/rss/news",
+    "The Kyiv Independent": "https://kyivindependent.com/feed/",         # best-effort
+    "Kyiv Post":           "https://www.kyivpost.com/feed",             # best-effort
+    "Eurasianet":          "https://eurasianet.org/main-rss-feed",
+    "OC Media":            "https://oc-media.org/feed/",                # best-effort
+    "The Astana Times":    "https://astanatimes.com/feed/atom/",
     # ── Asia / Pacific ────────────────────────────────────────
     "South China Morning Post": "https://www.scmp.com/rss/91/feed",
     "The Straits Times":   "https://www.straitstimes.com/global/rss.xml",
     "Nikkei Asia":         "https://asia.nikkei.com/rss/feed/nar",
     "The Hindu":           "https://www.thehindu.com/news/international/?service=rss",
     "Times of India World": "https://timesofindia.indiatimes.com/rss.cms?msid=2963896",
+    "NDTV World":          "https://feeds.feedburner.com/ndtvnews-world-news",
+    "The Hindu World News": "https://www.thehindu.com/news/international/feeder/default.rss",
+    "Firstpost World News": "https://www.firstpost.com/commonfeeds/v1/mfp/rss/world.xml",
+    "ThePrint World":      "https://theprint.in/category/world/feed/",
+    "The Week World News": "https://www.theweek.in/news/world.feeds.rss.xml",
+    "Hindu BusinessLine World": "https://www.thehindubusinessline.com/news/world/feeder/default.rss",
+    "CNBC-TV18 World News": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/world.xml",
+    "Tribune India World News": "https://publish.tribuneindia.com/newscategory/world/feed/",
+    "Indian Express World News": "https://indianexpress.com/section/world/feed/",
+    "Dawn (Pakistan)":     "https://www.dawn.com/feeds/home",
+    "The Express Tribune (Pakistan)": "https://tribune.com.pk/feed/home",
+    "The News International (Pakistan)": "https://www.thenews.com.pk/rss/1/1",
+    "The Daily Star (Bangladesh)": "https://www.thedailystar.net/frontpage/rss.xml",
+    "The Himalayan Times (Nepal)": "https://www.thehimalayantimes.com/rss",
+    "The Korea Herald":    "https://www.koreaherald.com/rss/newsAll",
+    "Yonhap News Agency":  "https://en.yna.co.kr/RSS/news.xml",
+    "The Korea Times":     "https://www.koreatimes.co.kr/rss",
+    "The Daily NK":        "https://www.dailynk.com/english/feed/",
+    "Hankyoreh English":   "https://english.hani.co.kr/rss/english_edition",
+    "Taipei Times":        "https://www.taipeitimes.com/xml/index.rss",
+    "Focus Taiwan (CNA)":  "https://feeds.feedburner.com/rsscna/engnews",
+    "The News Lens (Taiwan)": "https://feeds.feedburner.com/TheNewsLens",
+    "The Japan Times":     "https://www.japantimes.co.jp/feed/topstories/",
+    "Japan Today":         "https://japantoday.com/feed",
+    "Hong Kong Free Press": "https://www.hongkongfp.com/feed/",
+    "The Standard (Hong Kong)": "https://www.thestandard.com.hk/newsfeed/latest/news.xml",
+    "Times of India World Feed": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+    # ── Southeast Asia ────────────────────────────────────────
+    "INQUIRER.net (Philippines)": "https://www.inquirer.net/fullfeed",
+    "Philstar.com (Philippines)": "https://www.philstar.com/rss/headlines",
+    "GMA News Online (Philippines)": "https://data.gmanews.tv/gno/rss/news/feed.xml",
+    "Vietnam+ (English)":  "https://en.vietnamplus.vn/rss/news.rss",
+    "ANTARA News (Indonesia, EN)": "https://en.antaranews.com/rss/news.xml",
+    "The Jakarta Post":    "https://www.thejakartapost.com/rss",        # best-effort
+    "The Irrawaddy (Myanmar)": "https://www.irrawaddy.com/feed",       # best-effort
+    "Myanmar Now":         "https://myanmar-now.org/en/feed/",
     # ── Middle East / Africa ──────────────────────────────────
     "Middle East Eye":     "https://www.middleeasteye.net/rss",
     "African Arguments":   "https://africanarguments.org/feed/",
+    "The Jerusalem Post":  "https://www.jpost.com/Rss/RssFeedsFrontPage.aspx",
+    "Haaretz":             "https://www.haaretz.com/srv/haaretz-latest-headlines",
+    "The Times of Israel": "https://www.timesofisrael.com/feed/",
+    "Globes (Israel)":     "https://en.globes.co.il/WebService/Rss/RssFeeder.asmx/FeederNode?iID=942",
+    "Al Arabiya English":  "https://english.alarabiya.net/tools/mrss",
+    "Arab News":           "https://www.arabnews.com/rss.xml",
+    "Arabian Business (UAE)": "https://www.arabianbusiness.com/gcc/uae/feed",
+    "Morocco World News (Intl)": "https://www.moroccoworldnews.com/international/feed/",
+    "Daily Maverick (South Africa)": "https://www.dailymaverick.co.za/dmrss/",
+    "News24 South Africa":  "http://feeds.news24.com/articles/news24/TopStories/rss",
+    "Global Press Journal": "https://globalpressjournal.com/feed/",
+    "The East African":    "https://www.theeastafrican.co.ke/service/rss/tea/1289142/feed.rss",
+    "Business Daily Africa": "https://www.businessdailyafrica.com/service/rss/bd/1939132/feed.rss",
+    "AllAfrica":           "https://allafrica.com/tools/headlines/rdf/africa/headlines.rdf",
+    "Premium Times (Nigeria)": "https://www.premiumtimesng.com/feed",
+    "The Guardian Nigeria": "https://guardian.ng/feed/",
+    "The New Times (Rwanda)": "https://www.newtimes.co.rw/rss",
+    # ── International Affairs / Defense / Policy analysis ────
+    "Foreign Affairs":     "https://www.foreignaffairs.com/rss.xml",
+    "The Diplomat":        "https://thediplomat.com/feed/",
+    "Responsible Statecraft": "https://responsiblestatecraft.org/feed/",
+    "International Crisis Group": "https://www.crisisgroup.org/rss",
+    "Chatham House":       "https://www.chathamhouse.org/path/whatsnew.xml",
+    "World Politics Review": "https://www.worldpoliticsreview.com/feed/",
+    "War on the Rocks":    "https://warontherocks.com/feed/",
+    "The National Interest": "https://nationalinterest.org/feed",
+    "The Cipher Brief":    "https://www.thecipherbrief.com/feeds/feed.rss",
+    "Long War Journal":    "https://www.longwarjournal.org/feed",
+    "Breaking Defense":    "https://breakingdefense.com/feed/",
+    "The War Zone":        "https://www.twz.com/feed",
+    "Naval News":          "https://www.navalnews.com/feed/",
+    "Military Times":      "https://www.militarytimes.com/arc/outboundfeeds/rss/",
+    # ── UN / Humanitarian ─────────────────────────────────────
+    "UN News":             "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "The New Humanitarian": "http://www.thenewhumanitarian.org/rss/all.xml",
+    # ── Latin America ─────────────────────────────────────────
+    "MercoPress":          "https://en.mercopress.com/rss/",
+    "Buenos Aires Herald": "https://buenosairesherald.com/feed",
+    "Buenos Aires Times":  "https://www.batimes.com.ar/feed",
+    "Mexico News Daily":   "https://mexiconewsdaily.com/feed/",
+    "The Rio Times (Brazil)": "https://riotimesonline.com/feed/",
+    "Colombia Reports":    "https://colombiareports.com/feed/",
+    "Americas Quarterly":  "https://www.americasquarterly.org/feed/",
+    "Latin America Reports": "https://latinamericareports.com/feed",
+    # ── Oceania ───────────────────────────────────────────────
+    "ABC News Australia":  "https://www.abc.net.au/news/feed/1948/rss.xml",
+    "Sydney Morning Herald World": "https://www.smh.com.au/rss/world.xml",
+    "SBS News World (Australia)": "https://www.sbs.com.au/news/topic/world/feed",
+    "The Age World (Australia)": "https://www.theage.com.au/rss/feed.xml",
+    "Asia Times":          "https://asiatimes.com/category/world/feed/",
     # ── Canada ────────────────────────────────────────────────
     "CBC News World":      "https://rss.cbc.ca/lineup/world.xml",
+    "CBC World (arc feed)": "https://www.cbc.ca/webfeed/rss/rss-world",
     "Global News":         "https://globalnews.ca/world/feed/",
     "National Post":       "https://nationalpost.com/feed/",
     "CTV News":            "https://www.ctvnews.ca/rss/ctvnews-ca-world-public-rss-1.822289",
+    "The Globe and Mail World": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/",
 }
 
 # ── Countries to track ─────────────────────────────────────────
